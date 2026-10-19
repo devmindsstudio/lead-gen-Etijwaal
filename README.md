@@ -67,7 +67,7 @@ The skill researches the partner and the market, plans keywords, writes `sites/o
 
 1. Push this repo to GitHub and import it into Vercel. No settings are needed beyond the defaults.
 2. Add each domain under Settings → Domains. Every domain points at the same deployment.
-3. Preview URLs (`*.vercel.app`) show the `DEFAULT_SITE`. Set the `DEFAULT_SITE` env var to preview a different one.
+3. **Testing before the domains are connected:** on any `*.vercel.app` URL, add `?site=<id>` to switch sites, e.g. `https://<project>.vercel.app/?site=saudi-sim`. The choice is remembered while you browse that site, and `?site=dubai-esim` switches back. Preview URLs are sent with `X-Robots-Tag: noindex`, so they never compete with the real domains in Google.
 
 ## Content to verify with eTijwaal before launch
 
