@@ -37,7 +37,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
     domains.set(d, s.id);
   }
   const slugs = s.guides.map((g) => g.slug);
-  for (const reserved of ["about", "robots.txt", "sitemap.xml", "icon", "opengraph-image", s.id])
+  for (const reserved of ["about", "robots.txt", "sitemap.xml", "xml-sitemap", "icon", "opengraph-image", s.id])
     if (slugs.includes(reserved)) err(id, `guide slug "${reserved}" is reserved`);
   if (new Set(slugs).size !== slugs.length) err(id, "duplicate guide slugs");
 

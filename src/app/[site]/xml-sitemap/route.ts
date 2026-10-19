@@ -4,7 +4,7 @@ export async function generateStaticParams() {
   return sites.map((s) => ({ site: s.id }));
 }
 
-export async function GET(_req: Request, { params }: RouteContext<"/[site]/sitemap.xml">) {
+export async function GET(_req: Request, { params }: RouteContext<"/[site]/xml-sitemap">) {
   const site = getSite((await params).site);
   if (!site) return new Response("Not found", { status: 404 });
 

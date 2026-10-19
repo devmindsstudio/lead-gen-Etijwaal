@@ -48,11 +48,17 @@ export function proxy(request: NextRequest) {
   }
 
   const url = request.nextUrl.clone();
-  url.pathname = `${prefix}${pathname === "/" ? "" : pathname}`;
+  url.pathname = `${prefix}${INTERNAL_PATHS[pathname] ?? (pathname === "/" ? "" : pathname)}`;
   return finish(NextResponse.rewrite(url), preview, request, site);
 }
 
 const PREVIEW_COOKIE = "preview-site";
+
+/**
+ * Public URLs served by a differently named route. A folder literally named "sitemap.xml"
+ * collides with Next's metadata-file convention and 404s on Vercel.
+ */
+const INTERNAL_PATHS: Record<string, string> = { "/sitemap.xml": "/xml-sitemap" };
 
 /** Preview hosts must never be indexed (they'd duplicate the real domains). */
 function finish(res: NextResponse, preview: boolean, request: NextRequest, site: string) {
