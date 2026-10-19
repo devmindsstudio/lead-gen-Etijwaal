@@ -1,0 +1,621 @@
+{
+  "id": "oman-esim",
+  "domain": "oman-esim.com",
+  "aliases": [
+    "www.oman-esim.com"
+  ],
+  "locale": "en",
+  "brand": {
+    "name": "Oman eSIM",
+    "tagline": "Mobile data for Oman road trips, from Muscat's corniche to the Hajar peaks, the Sharqiyah dunes and Dhofar's monsoon hills.",
+    "primary": "#12507e",
+    "primaryInk": "#ffffff",
+    "accent": "#f4a261"
+  },
+  "design": "coastal",
+  "partner": {
+    "name": "eTijwaal",
+    "url": "https://etijwaal.com",
+    "supportUrl": "https://etijwaal.com/contactus",
+    "privacyUrl": "https://etijwaal.com/privacypolicy",
+    "termsUrl": "https://etijwaal.com/termsandconditions",
+    "disclosure": "Oman eSIM data plans are sold and supported by"
+  },
+  "copy": {
+    "signalLabel": "4G",
+    "benefitsHeading": "Made for the way people travel in {place}",
+    "howItWorksHeading": "Ready before your car hire desk",
+    "inlineCta": "Driving across {place}? Install your data eSIM before the flight.",
+    "bannerHeading": "Start your {place} road trip already online",
+    "bannerBody": "Choose a data plan, scan one QR code at home and turn it on when you land in Muscat or Salalah.",
+    "deviceRows": [
+      ["eSIM", "Active"],
+      ["Data roaming", "On"],
+      ["Network", "Omani partner"]
+    ]
+  },
+  "market": {
+    "country": "Oman",
+    "countryCode": "OM"
+  },
+  "cta": {
+    "url": "https://etijwaal.com/shop/Oman-esim-travel-packages",
+    "label": "See Oman eSIM plans",
+    "campaign": "oman-esim"
+  },
+  "analytics": {},
+  "seo": {
+    "title": "Oman eSIM for Tourists – Data for Road Trips & Muscat",
+    "description": "Get an Oman eSIM before you fly. Data for Muscat, Nizwa, the mountains, wadis and desert camps, with no SIM counter at MCT. Compare plans and get set up.",
+    "keywords": [
+      "oman esim",
+      "oman sim card for tourists",
+      "esim oman",
+      "muscat esim",
+      "best sim card in oman for tourists",
+      "oman travel data plan",
+      "oman road trip sim",
+      "omantel tourist sim"
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Travel data for the Sultanate of Oman",
+      "h1": "Mobile data for every Omani road, wadi and dune",
+      "subheading": "Oman is a country you explore by car: the corniche in Muscat, the forts of Nizwa, switchbacks up Jebel Akhdar and a night under the stars in Wahiba Sands. Install a travel eSIM at home and switch it on as you land, so your maps and messages work from the first kilometre.",
+      "bullets": [
+        "Install at home, switch on after landing at MCT",
+        "Keep your own number for calls and bank texts",
+        "Share data with passengers on your hotspot",
+        "No passport registration at an airport counter"
+      ],
+      "deviceLabel": "Muscat · Oman"
+    },
+    "stats": [
+      {
+        "value": "3",
+        "label": "Licensed mobile networks"
+      },
+      {
+        "value": "99%",
+        "label": "Population with 4G, per the regulator"
+      },
+      {
+        "value": "4G / 5G",
+        "label": "Depending on plan and area"
+      },
+      {
+        "value": "1",
+        "label": "QR code, scanned before you fly"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "signal",
+        "title": "Built for long drives",
+        "body": "Most visitors cover hundreds of kilometres between Muscat, the Hajar mountains and the Sharqiyah coast. One plan follows you on every highway and into every town on the local partner network."
+      },
+      {
+        "icon": "wifi",
+        "title": "A hotspot for the whole car",
+        "body": "eTijwaal's Oman plan listings show hotspot sharing as allowed, so passengers can run their own maps, music and photo backups from the driver's phone."
+      },
+      {
+        "icon": "plane",
+        "title": "Online in the MCT arrivals hall",
+        "body": "Switch the line on while you wait for bags at Muscat International and you can message the car hire desk or your hotel driver before you reach the exit."
+      },
+      {
+        "icon": "chat",
+        "title": "Your home number keeps working",
+        "body": "The eSIM only carries data. Leave your normal SIM switched on for one-time passcodes and calls from family, with its roaming data turned off."
+      },
+      {
+        "icon": "wallet",
+        "title": "A budget you set before leaving",
+        "body": "Pick an allowance and validity in advance and pay once. There is no daily roaming charge building up while you hike the Balcony Walk."
+      },
+      {
+        "icon": "clock",
+        "title": "Top up mid-trip",
+        "body": "If a week in the desert and the mountains uses more than you planned, eTijwaal says you can add a top-up package to the same eSIM from your account."
+      }
+    ],
+    "howItWorks": [
+      {
+        "title": "Check your phone",
+        "body": "You need an eSIM-capable phone that is not locked to a carrier. Oman has switched off its 3G networks, so the handset should also support 4G, which every current eSIM phone does."
+      },
+      {
+        "title": "Choose an Oman plan",
+        "body": "Pick a fixed allowance or an unlimited plan with a fair usage policy, matched to your itinerary. The plan page lists the Omani network it uses."
+      },
+      {
+        "title": "Install it on home Wi-Fi",
+        "body": "eTijwaal emails the eSIM after purchase. Scan the QR code or use the manual details, then keep the new line switched off until you're in Oman."
+      },
+      {
+        "title": "Turn it on after landing",
+        "body": "Enable the eSIM line, set it as your mobile data line and allow data roaming on it. Your phone joins the Omani partner network and the plan starts."
+      }
+    ],
+    "comparison": {
+      "heading": "Travel eSIM vs an Omani tourist SIM vs home roaming",
+      "intro": "Visitors to Oman usually pick one of three ways to get online. Which suits you depends on trip length and whether you need an Omani phone number.",
+      "columns": [
+        "Travel eSIM",
+        "Tourist SIM (Omantel, Ooredoo, Vodafone)",
+        "Home carrier roaming"
+      ],
+      "rows": [
+        {
+          "label": "Where you set it up",
+          "values": [
+            "At home, before the flight",
+            "Telecom branch in MCT arrivals or a city store",
+            "Usually nothing to do"
+          ]
+        },
+        {
+          "label": "Paperwork",
+          "values": [
+            "None in Oman",
+            "Passport registration at purchase",
+            "None"
+          ]
+        },
+        {
+          "label": "Omani number",
+          "values": [
+            "No, data only",
+            "Yes, with call and SMS bundles",
+            "No, your home number"
+          ]
+        },
+        {
+          "label": "Cost control",
+          "values": [
+            "Prepaid, fixed",
+            "Prepaid, fixed",
+            "Depends on carrier, often daily passes"
+          ]
+        },
+        {
+          "label": "Home number still active",
+          "values": [
+            "Yes, on dual SIM phones",
+            "Only if your phone holds two SIMs",
+            "Yes"
+          ]
+        },
+        {
+          "label": "Best for",
+          "values": [
+            "Road trips, short holidays, stopovers",
+            "Long stays, local OTPs, calling Omani numbers",
+            "A day or two with a generous roaming deal"
+          ]
+        }
+      ]
+    },
+    "networks": {
+      "heading": "Oman's three mobile networks",
+      "intro": "Oman has three licensed mobile operators, and all of them run 4G and 5G now that the country has retired 3G. Independent crowdsourced testing gives each one different strengths. A travel eSIM rides on a local partner network; eTijwaal's Oman listings currently name Vodafone Oman and Ooredoo Oman on fixed-data plans and Omantel on most unlimited plans, so check the plan page before you buy.",
+      "items": [
+        {
+          "name": "Omantel",
+          "note": "The original national operator. Opensignal's January 2026 Oman report gave it the outright win for Coverage Experience and 5G Coverage Experience."
+        },
+        {
+          "name": "Ooredoo Oman",
+          "note": "Legally the Omani Qatari Telecommunications Company. The same report named it the winner for Reliability Experience and Download Speed Experience."
+        },
+        {
+          "name": "Vodafone Oman",
+          "note": "The third and newest operator. It won Upload Speed Experience in that report and shared several other awards, including Time on Network."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Why connectivity matters more on an Oman trip",
+        "paragraphs": [
+          "Oman rewards independent travellers. Public transport between the main sights is limited, so most visitors pick up a hire car in Muscat and plan their days around driving: Nizwa fort in the morning, the climb to Jebel Akhdar in the afternoon, a turn-off to Wadi Bani Khalid on the way to the dunes. Navigation, fuel stops, weather checks and calls to a desert camp to arrange a pick-up all depend on a working data line.",
+          "Coverage in towns and along the main highways is strong, but this is also a country of deep canyons, remote coastal roads and sand seas. The best approach is a reliable mobile plan for most of the trip, backed by offline maps for the stretches where no network reaches."
+        ]
+      },
+      {
+        "heading": "How much data a typical Oman itinerary uses",
+        "paragraphs": [
+          "Driving days use more data than city days, mainly because of navigation, hotspot sharing and the photos you'll want to back up. These rough figures help you choose an allowance:"
+        ],
+        "bullets": [
+          "A Muscat city break or cruise stop of two to four days: 2–4 GB",
+          "A seven-day loop through Nizwa, the mountains, Wahiba Sands and Sur: 5–10 GB",
+          "Ten days or more including Salalah or Musandam, with a hotspot for passengers: 15 GB or an unlimited plan",
+          "Remote work from a Muscat apartment with daily video calls: start at 20 GB"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does an eSIM work in Oman?",
+        "a": "Yes. Omani networks support eSIM and a travel data eSIM connects through a local partner network across the country. Your phone needs to support eSIM and be carrier-unlocked."
+      },
+      {
+        "q": "Which network does the eSIM use in Oman?",
+        "a": "It depends on the plan. eTijwaal's Oman listings currently show Vodafone Oman and Ooredoo Oman for fixed-data plans and Omantel for most unlimited plans. The network is shown on each plan, so check it before you buy."
+      },
+      {
+        "q": "Will I get an Omani phone number?",
+        "a": "No. eTijwaal states that its plans are data-only, with no local number for calls or SMS. You can still call through internet apps, and your home SIM stays reachable on its normal number."
+      },
+      {
+        "q": "Do WhatsApp calls work in Oman?",
+        "a": "Users have reported WhatsApp voice and video calls connecting without a VPN since December 2024, but the regulator has not announced an official change. Messages and voice notes work normally. Have a second calling app ready in case calls fail."
+      },
+      {
+        "q": "Is there signal in the mountains and the desert?",
+        "a": "Mostly, but not everywhere. Towns, highways and the main viewpoints have good coverage, while deep wadis, parts of the Jebel Shams area and the dunes between desert camps can drop out. Download offline maps before each driving day."
+      },
+      {
+        "q": "Can I share data with my travel companions?",
+        "a": "eTijwaal's Oman plan data lists tethering and hotspot as allowed. Turn on Personal Hotspot on iPhone, or Hotspot and tethering on Android, and passengers can connect to your phone."
+      },
+      {
+        "q": "Does the Oman plan cover Musandam?",
+        "a": "Musandam is part of Oman, so an Oman plan works on Omani networks there. The road from the UAE crosses Emirati territory, though, where an Oman-only plan won't connect. See our Musandam guide for a simple setup."
+      },
+      {
+        "q": "When does the plan start?",
+        "a": "According to eTijwaal, the eSIM activates when it first connects to a supported network in the destination country, so the validity begins in Oman, not when you install it at home."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "oman-road-trip-coverage-offline-maps",
+      "title": "Oman Road Trip Coverage: Mountains, Wadis and Desert Data",
+      "description": "Where mobile signal fades on an Oman road trip, from Jebel Shams to Wahiba Sands and Wadi Shab, and how to set up offline maps and data before you drive.",
+      "h1": "Phone signal on an Oman road trip, and how to plan for the gaps",
+      "navLabel": "Road trip coverage",
+      "intro": "Short answer: you'll have mobile data for most of an Oman road trip, because the networks cover nearly all populated areas and the main highways. The exceptions are predictable, namely deep canyons, the high mountain tracks and the open sand between desert camps. Know where they are, prepare offline maps, and the gaps become a non-issue.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "The big picture on coverage",
+          "paragraphs": [
+            "Oman's Telecommunications Regulatory Authority completed the switch-off of 3G in 2025 and reused those frequencies for newer technology. Trade reports quoting the regulator put 4G coverage at around 99 percent of the population and 5G at about 90 percent. Notice that these figures count people, not land area. Oman is large and lightly populated outside its towns, so a road can be well served at both ends and silent in the middle.",
+            "In practice, the corridors most visitors drive, such as Muscat to Nizwa, Nizwa to Ibra and the coastal highway to Sur, keep a signal almost all the way."
+          ]
+        },
+        {
+          "heading": "Mountain drives: Jebel Akhdar and Jebel Shams",
+          "paragraphs": [
+            "The road up to Jebel Akhdar starts near Birkat al Mouz and passes a Royal Oman Police checkpoint where, according to many travel reports, only four-wheel-drive vehicles are allowed to continue. The paved climb and the Saiq plateau resorts generally have good reception. Drop down into the terraced villages on foot and you may lose it for stretches.",
+            "Jebel Shams, reached via Al Hamra, is more variable. The final section towards the canyon rim above Wadi Ghul includes gravel, and travellers describe a signal that comes and goes as you wind uphill. Camps and lodges near the rim usually have some coverage, but don't count on it on the Balcony Walk itself."
+          ]
+        },
+        {
+          "heading": "Wadis: Shab, Bani Khalid and the canyon effect",
+          "paragraphs": [
+            "Wadis are steep-walled valleys, and rock walls block signal. Expect reasonable reception in the car park at Wadi Shab, near the Tiwi bridge, and weaker or no signal once you're swimming up the gorge. Wadi Bani Khalid has a village and a visitor area near the main pools, where coverage tends to be better than in narrow wadis further from settlements.",
+            "This matters for safety more than for social media. Agree a turnaround time with your group before you hike in, and tell someone at your hotel which wadi you're visiting."
+          ]
+        },
+        {
+          "heading": "Wahiba Sands and desert camps",
+          "paragraphs": [
+            "Most camps in Wahiba Sands (also called Sharqiyah Sands) sit within reach of the network, and many guests report a usable 4G signal around the main tents. Between the camps, among the high dunes, the signal disappears quickly. Many camps ask you to leave a two-wheel-drive car at a meeting point in Al Wasil or Bidiyah and ride in with their driver; make sure you have the camp's phone number and pin location saved before you lose coverage."
+          ]
+        },
+        {
+          "heading": "Offline maps and backups to set up",
+          "paragraphs": [
+            "Do this on hotel Wi-Fi the night before each long drive:"
+          ],
+          "bullets": [
+            "Download offline areas in Google Maps covering Muscat, the Hajar range, the Sharqiyah region and any wadi on your list",
+            "Add an offline-first app such as Maps.me or Organic Maps as a second source for tracks and trailheads",
+            "Screenshot camp, lodge and car hire confirmations, plus the breakdown number from your rental agreement",
+            "Save 9999, Oman's emergency number, and share your live location with someone not on the trip"
+          ]
+        },
+        {
+          "heading": "Data habits that save your allowance",
+          "paragraphs": [
+            "Set photo backups to Wi-Fi only, so a day of canyon shots doesn't drain the plan on the drive home. Turn off auto-play for videos in social apps. If you're sharing a hotspot, ask passengers to pause app updates. On long dead stretches, putting the phone in airplane mode while navigating offline saves battery that would otherwise be spent hunting for a mast."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is there mobile signal on the Jebel Akhdar road?",
+          "a": "Yes, generally. The main paved road and the Saiq plateau have good coverage. Signal can drop in the terraced villages and on hiking paths below the road."
+        },
+        {
+          "q": "Will my phone work at a Wahiba Sands camp?",
+          "a": "Usually, at least around the main camp area. Coverage disappears among the dunes between camps, so save the camp's location and phone number before driving in."
+        },
+        {
+          "q": "Which network is best for remote areas of Oman?",
+          "a": "Opensignal's January 2026 report gave Omantel the top Coverage Experience score, but all three operators cover the main tourist routes. Your eSIM's network is listed on the plan page."
+        }
+      ]
+    },
+    {
+      "slug": "musandam-esim-from-uae",
+      "title": "Musandam Trip from the UAE: One eSIM Across the Border",
+      "description": "Driving to Khasab and the Musandam fjords from Dubai or Ras Al Khaimah? How phone networks change at the border and which eSIM setup keeps you online.",
+      "h1": "Keeping your data working on the way to Musandam",
+      "navLabel": "Musandam trips",
+      "intro": "Musandam is an exclave: the peninsula belongs to Oman but is separated from the rest of the country by the UAE. That's why most visitors reach Khasab and the fjords by road from Dubai or Ras Al Khaimah, crossing two borders in the process. An Oman-only data plan covers Musandam itself but not the Emirati roads leading to it, so it pays to plan your connectivity before you set off.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "How visitors get to Musandam",
+          "paragraphs": [
+            "The classic route runs north from Ras Al Khaimah through the Al Darah border post (often written Al Daara, with Tibat on the Omani side), then along the coastal road to Khasab. On the east coast, the Royal Oman Police announced that the Dibba border crossing began operating in February 2025, which serves visitors heading for Dibba and the resorts nearby.",
+            "From mainland Oman, the practical option is to fly. Oman Air operates flights between Muscat and Khasab, and the flight takes around an hour. Check current schedules, because the route has been suspended and resumed in the past."
+          ]
+        },
+        {
+          "heading": "What happens to your phone at the border",
+          "paragraphs": [
+            "Your phone connects to whichever network your active plan allows. On the UAE side, that means an Emirati operator; once you're through Omani immigration, it switches to an Omani one. Close to the border the two countries' masts overlap, and phones sometimes cling to a foreign signal for a few kilometres.",
+            "If you hold only an Oman plan, you'll have no data until you reach Omani coverage. If you hold only a UAE plan, data stops when the phone moves onto an Omani network, or roaming charges start if it's your home UAE line."
+          ]
+        },
+        {
+          "heading": "Three setups that work",
+          "paragraphs": [
+            "Pick the one that matches your trip:"
+          ],
+          "bullets": [
+            "UAE residents driving up for a weekend: keep your UAE line for the Emirati leg, then switch mobile data to an Oman eSIM after the Omani border post, with your UAE line's roaming turned off",
+            "Visitors combining Dubai and Musandam: install a UAE eSIM and an Oman eSIM before the trip, and swap the data line at the border",
+            "Travellers touring several Gulf countries: eTijwaal also lists a GCC regional plan covering six countries; confirm on the plan page that both the UAE and Oman are included"
+          ]
+        },
+        {
+          "heading": "Coverage around Khasab and the fjords",
+          "paragraphs": [
+            "Khasab town, its port and the main coastal road have mobile coverage. On a dhow cruise into Khor Ash Sham, signal fades among the high cliffs and returns near the villages and open water. The mountain road up towards Jebel Harim climbs into areas with patchier reception, and tours there usually run in four-wheel drives with local drivers.",
+            "If your phone shows a UAE network name while you're in Musandam, open the network settings, turn off automatic selection and choose an Omani network manually."
+          ]
+        },
+        {
+          "heading": "Border paperwork to have ready",
+          "paragraphs": [
+            "Entry rules depend on your nationality and residency, and fees change, so check with the Royal Oman Police or an Omani embassy before you go. Carry your passport, any visa you need for re-entering the UAE, and insurance that covers your car in Oman. Fees at these crossings are usually paid by card, so don't rely on having cash."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does an Oman eSIM work in Khasab?",
+          "a": "Yes. Khasab and the rest of Musandam are Omani territory and served by Omani networks, so an Oman plan works there wherever the partner network has coverage."
+        },
+        {
+          "q": "Can one eSIM cover both Dubai and Musandam?",
+          "a": "Only a multi-country plan that includes both the UAE and Oman. An Oman-only or UAE-only plan covers one side of the border. Check the country list on a regional plan before buying."
+        },
+        {
+          "q": "Is there signal on a Musandam dhow cruise?",
+          "a": "Partly. Expect signal near Khasab and the fjord villages, and gaps between steep cliffs. Download maps and anything you want to read before boarding."
+        }
+      ]
+    },
+    {
+      "slug": "salalah-khareef-connectivity",
+      "title": "Salalah in Khareef Season: Mobile Data and Road Tips",
+      "description": "Visiting Salalah for the khareef monsoon? How to stay connected across Dhofar's misty hills, beaches and festival venues, and what to know for the long drive.",
+      "h1": "Staying online in Salalah during the khareef",
+      "navLabel": "Salalah khareef",
+      "intro": "Each summer the khareef, a monsoon drizzle off the Arabian Sea, turns the hills around Salalah green while the rest of the Gulf bakes. It draws huge numbers of visitors from Oman and neighbouring countries. Coverage in Salalah and along Dhofar's main roads is good, but fog, crowds and a long desert drive from Muscat call for a little planning.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "When the season runs",
+          "paragraphs": [
+            "Dhofar Municipality set the 2026 Khareef Dhofar programme to run from 21 June to 21 September, with 125 cultural, sporting and entertainment events. Venues included Itin Square and the Itin plain, as well as sites in Taqah, Mirbat, Sadah, Samharam and Al Mughsail. The season normally follows a similar window each year, but the official dates and event list are announced closer to summer, so check before you book.",
+            "Outside the khareef, Salalah is a warm, sunny winter beach destination, and connectivity needs are much the same as anywhere else in Oman."
+          ]
+        },
+        {
+          "heading": "Coverage across Dhofar",
+          "paragraphs": [
+            "Salalah city, the airport (SLL), the coastal road to Mirbat and the beach hotels all have strong coverage. The hill country is more mixed. Popular spots such as Ain Razat, Wadi Darbat and the viewpoints on Jebel Samhan's approach roads generally have signal, but reception can weaken in valleys and on the twisting road west towards Al Mughsail and the border region. Fog itself does not block mobile signal, but it does make you far more dependent on navigation."
+          ]
+        },
+        {
+          "heading": "Driving in the khareef fog",
+          "paragraphs": [
+            "The Royal Oman Police urged extra caution on Dhofar's mountain roads during the 2026 season, after fatal crashes on routes linking the governorate with the rest of the country. Visitors describe visibility dropping to a few metres and wet, slippery surfaces on steep descents. A phone mount, live traffic in your navigation app and a passenger handling messages make a real difference.",
+            "Keep the phone on charge in the car. Navigation with the screen on, plus constant network searching in valleys, drains a battery quickly."
+          ]
+        },
+        {
+          "heading": "The long road from Muscat",
+          "paragraphs": [
+            "Many residents drive the roughly 1,000 km from Muscat to Salalah, mostly across the Al Wusta desert. Fuel stations and rest stops break up the route, and coverage is generally available near them, but there are long, empty sections in between. Before setting off:"
+          ],
+          "bullets": [
+            "Download offline maps for the whole route and for Dhofar",
+            "Tell someone your departure time and planned stops",
+            "Start with a full tank and refuel at every major station",
+            "Share a live location with family, which will update whenever you regain signal"
+          ]
+        },
+        {
+          "heading": "Busy networks at festival venues",
+          "paragraphs": [
+            "Evening events at Itin can draw large crowds, and that means many phones sharing a few masts. Load tickets and event maps before you arrive, send heavy videos later from your hotel, and choose a meeting point in case your group gets separated. If the trip includes a lot of video sharing, an unlimited plan with a fair usage policy, or an allowance with room for a top-up, avoids running out halfway through."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "When is the khareef season in Salalah?",
+          "a": "In 2026, Dhofar Municipality ran the Khareef Dhofar season from 21 June to 21 September. Future dates are announced by the authorities each year."
+        },
+        {
+          "q": "Can I fly into Salalah and use the eSIM there?",
+          "a": "Yes. An Oman plan covers the whole country, so switch it on when you land at Salalah airport just as you would in Muscat."
+        },
+        {
+          "q": "Is there signal at Wadi Darbat and Ain Razat?",
+          "a": "Visitors generally find coverage at these popular sites, though it can dip in lower parts of the valleys. Save directions offline in case fog and weak signal coincide."
+        }
+      ]
+    },
+    {
+      "slug": "omantel-vs-ooredoo-vs-vodafone-oman",
+      "title": "Omantel vs Ooredoo vs Vodafone: Oman Networks Compared",
+      "description": "Which Omani mobile network is best for tourists? Compare Omantel, Ooredoo and Vodafone Oman on coverage, speed and reliability, and see what an eSIM uses.",
+      "h1": "Choosing between Oman's three mobile networks",
+      "navLabel": "Oman networks",
+      "intro": "There's no single best network in Oman. Omantel leads on coverage, Ooredoo on reliability and download speed, and Vodafone Oman on upload speed, according to the most recent independent crowdsourced report. For a typical tourist itinerary, all three handle the main cities and highways well. What matters more is whether your plan covers the specific places you're going.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Who the operators are",
+          "paragraphs": [
+            "Omantel is the long-established national operator and the largest. Ooredoo Oman, which appears in some network lists under its legal name, the Omani Qatari Telecommunications Company, has been the second operator for many years. Vodafone Oman is the newest, licensed by royal decree as the third mobile network and run through a partnership with Oman Future Telecommunications.",
+            "All three retired their 3G networks during the nationwide switch-off completed in 2025, so service today runs on 4G and 5G."
+          ]
+        },
+        {
+          "heading": "What the independent testing says",
+          "paragraphs": [
+            "Opensignal's Oman report published in January 2026, based on user measurements from October to December 2025, split the awards:"
+          ],
+          "bullets": [
+            "Omantel: outright winner for Coverage Experience, 5G Coverage Experience and Consistent Quality",
+            "Ooredoo Oman: winner for Reliability Experience, Download Speed Experience and 5G Upload Speed",
+            "Vodafone Oman: winner for Upload Speed Experience, sharing Games and Time on Network awards with Ooredoo",
+            "Earlier Opensignal reports, in 2024, showed Vodafone and Omantel leading more categories, so rankings shift from year to year"
+          ]
+        },
+        {
+          "heading": "What these scores mean on a trip",
+          "paragraphs": [
+            "Coverage Experience reflects how well a network reaches the places its users actually go, which is useful if you plan mountain villages or remote coastal roads. Reliability and download speed matter more for video calls, streaming and big uploads from a Muscat hotel. Upload speed helps if you post a lot of video. For maps, messaging and ride-hailing in Muscat, any of the three is more than enough."
+          ]
+        },
+        {
+          "heading": "Which network a travel eSIM uses",
+          "paragraphs": [
+            "A travel eSIM doesn't let you pick a network freely; it connects through the partners its provider has agreements with. eTijwaal's Oman plan data currently lists Vodafone Oman (LTE) and Ooredoo Oman (4G and 5G) for its fixed-data plans, and Omantel for its unlimited plans, with LTE listed on most of those. The network is shown on each plan, and partner agreements can change, so check the listing before you buy.",
+            "If your route is heavy on remote mountain driving, you may prefer a plan on Omantel. If you're mostly in Muscat and Nizwa and want speed, an Ooredoo-backed plan is a sound choice."
+          ]
+        },
+        {
+          "heading": "Tourist SIMs from the operators",
+          "paragraphs": [
+            "All three operators sell prepaid packs to visitors, including Omantel's Hayyak range, at their branches and at Muscat International Airport. Buying one requires your passport for registration, and it gives you an Omani number with local minutes and texts, which suits long stays and anyone who needs to receive SMS codes from Omani services. Package contents and prices change often, so compare them on each operator's website."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Which network has the best coverage in Oman?",
+          "a": "Opensignal's January 2026 report gave Omantel the top Coverage Experience score. All three operators cover the main tourist routes, so the gap mainly shows in remote areas."
+        },
+        {
+          "q": "Does 5G work for tourists in Oman?",
+          "a": "5G is widespread in Omani cities. Whether you get it depends on your phone, your plan and the partner network; eTijwaal lists 5G on its Ooredoo-backed Oman plans."
+        },
+        {
+          "q": "Is Vodafone Oman the same as Vodafone in my country?",
+          "a": "It carries the Vodafone brand through a partnership, but it is a separate Omani operator. Check your own carrier's roaming terms rather than assuming Vodafone pricing applies."
+        }
+      ]
+    },
+    {
+      "slug": "muscat-airport-sim-or-esim",
+      "title": "Muscat Airport SIM Card or eSIM? Arriving at MCT Connected",
+      "description": "Buying a tourist SIM at Muscat International Airport or installing an eSIM at home? Compare the arrivals counters, passport checks and what you need at MCT.",
+      "h1": "Tourist SIM at Muscat airport, or an eSIM set up at home?",
+      "navLabel": "Airport SIM vs eSIM",
+      "intro": "Muscat International Airport (MCT) makes buying a local SIM easy: the airport says three telecom companies have branches in the arrivals hall. So why bother with an eSIM? Mainly time and convenience. With an eSIM you're online before baggage reclaim and can head straight to the car hire desk, while a counter purchase involves a queue, passport registration and swapping cards.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "What's in MCT arrivals",
+          "paragraphs": [
+            "Muscat airport's official FAQ points travellers to the telecom branches in the arrivals hall for new lines and top-ups. Omantel, Ooredoo and Vodafone Oman all sell visitor packs, which typically combine data with local minutes and texts. Some reviewers report the desks serving late arrivals too, but opening hours aren't published, so don't rely on them for a 3 a.m. landing.",
+            "If you land at Salalah or Khasab instead, expect fewer options at the airport and plan to buy in town."
+          ]
+        },
+        {
+          "heading": "The steps at a counter",
+          "paragraphs": [
+            "Every local line in Oman is registered to a named person, so staff will ask for your passport. Expect to:"
+          ],
+          "bullets": [
+            "Queue behind other passengers from your flight, often with luggage trolleys",
+            "Hand over your passport for registration and choose a package",
+            "Pay by card or in Omani rials",
+            "Remove your home SIM and keep it safe, unless your phone has a second slot",
+            "Wait for the new line to activate before leaving the hall"
+          ]
+        },
+        {
+          "heading": "How arrival looks with an eSIM",
+          "paragraphs": [
+            "With an eSIM installed at home, everything happens in your phone's settings: switch the eSIM line on, set it for mobile data and allow data roaming on it. eTijwaal says roaming must be enabled on the line for its eSIM to connect. You can do this while taxiing to the gate.",
+            "That frees you to message your hotel, open the car hire company's app or book a ride straight away. Your home SIM stays in the phone, still receiving calls and texts on your usual number."
+          ]
+        },
+        {
+          "heading": "Getting from MCT into Muscat",
+          "paragraphs": [
+            "Most visitors either collect a hire car or take an airport taxi or ride-hailing car to their hotel. Muscat's main hotel areas, such as Qurum, Al Khuwair and Muttrah, are spread along the coast, so having live maps helps you check the route and the fare before setting off. If you're collecting a rental car, the first drive out of the airport onto the expressways is far easier with navigation already running."
+          ]
+        },
+        {
+          "heading": "When a local SIM is the better choice",
+          "paragraphs": [
+            "Choose an Omani tourist SIM if any of these apply:"
+          ],
+          "bullets": [
+            "Your phone doesn't support eSIM, or it's locked to your home carrier",
+            "You'll be in Oman for months and want an Omani number",
+            "You need to receive text-message codes from Omani banks or delivery apps",
+            "You plan to make many calls to Omani landlines or mobiles"
+          ]
+        },
+        {
+          "heading": "Doing both",
+          "paragraphs": [
+            "Some longer-stay visitors land with an eSIM so they're connected from the jet bridge, then pick up a local SIM later at an operator store in a Muscat mall, when there's no queue and no jet lag."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I buy a SIM card at Muscat airport?",
+          "a": "Yes. The airport says three telecom companies have branches in the arrivals hall. Bring your passport, since every Omani line must be registered."
+        },
+        {
+          "q": "Is there free Wi-Fi at Muscat airport?",
+          "a": "The terminal offers Wi-Fi, but it ends at the doors. Mobile data matters most once you're outside looking for your driver or your hire car."
+        },
+        {
+          "q": "Do I need to register an eSIM with my passport in Oman?",
+          "a": "Local Omani SIMs and eSIMs bought from Omani operators require passport registration. A travel data eSIM from an international provider is bought online through that provider, without an Omani counter visit."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "heading": "About Oman eSIM",
+    "description": "Oman eSIM is an independent guide to mobile data for road-trippers, hikers and holidaymakers in Oman. Featured eSIM plans are sold and supported by eTijwaal.",
+    "paragraphs": [
+      "Oman eSIM helps visitors work out how to stay connected across the Sultanate, from a Muscat city break to a week of mountain roads, wadi hikes and desert camps, a khareef trip to Salalah or a boat into the Musandam fjords. We focus on the questions that come up on Omani roads: where coverage drops, which networks to expect and how to handle the border on the way to Musandam.",
+      "The Oman eSIM data plans featured on this site are sold, delivered and supported by eTijwaal, a travel eSIM provider. When you choose a plan, you complete your purchase on etijwaal.com, and eTijwaal's support team handles any questions about orders, installation, top-ups or refunds.",
+      "Network partners, border rules, calling-app access and festival dates in Oman can change. We review our guides regularly, but please check your plan details and the latest official guidance before you travel."
+    ]
+  }
+}

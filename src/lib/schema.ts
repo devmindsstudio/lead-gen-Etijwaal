@@ -83,9 +83,9 @@ export const siteSchema = z.object({
   /**
    * Visual design language. Each one has its own typography, layout, hero and section styles:
    * skyline (dark luxury city), geometric (sand + star patterns, editorial), boarding (airline / boarding pass),
-   * arch (calm, centred, arch motifs).
+   * arch (calm, centred, arch motifs), coastal (sea & mountains, postcard), network (multi-country route map).
    */
-  design: z.enum(["skyline", "geometric", "boarding", "arch"]).default("skyline"),
+  design: z.enum(["skyline", "geometric", "boarding", "arch", "coastal", "network"]).default("skyline"),
   /** The business the site generates leads for. */
   partner: z.object({
     name: z.string(),
@@ -101,6 +101,8 @@ export const siteSchema = z.object({
     country: z.string(),
     countryCode: z.string().length(2),
     city: z.string().optional(),
+    /** Places covered, shown by some designs (e.g. the countries on a multi-country route map). */
+    places: z.array(z.string().max(16)).max(8).optional(),
   }),
   cta: z.object({
     url: z.url(),

@@ -107,3 +107,75 @@ export function ArchLines({ className = "" }: { className?: string }) {
     </svg>
   );
 }
+
+/** Layered mountain ridges (Hajar-style), two tones. */
+export function Mountains({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 1440 260" preserveAspectRatio="none" className={className} aria-hidden="true">
+      <path fill="currentColor" opacity="0.55" d="M0 260V150l90-48 70 30 110-92 90 64 70-26 120 88 100-70 90 40 130-104 110 82 90-30 120 70 90-46 70 30v122z" />
+      <path fill="currentColor" d="M0 260V196l120-52 80 36 120-70 100 58 90-22 140 64 110-50 120 44 100-62 130 54 110-28 120 46v86z" />
+    </svg>
+  );
+}
+
+/** Soft double wave, used as a section divider and seascape. */
+export function Waves({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className={className} aria-hidden="true">
+      <path fill="currentColor" opacity="0.5" d="M0 60c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v60H0z" />
+      <path fill="currentColor" d="M0 84c120-24 240-24 360 0s240 24 360 0 240-24 360 0 240 24 360 0v36H0z" />
+    </svg>
+  );
+}
+
+// Rough relative positions so a Gulf route reads geographically; unknown places fall back to slots.
+const PLACE_XY: Record<string, [number, number]> = {
+  kuwait: [150, 46],
+  "saudi arabia": [112, 168],
+  ksa: [112, 168],
+  bahrain: [214, 118],
+  qatar: [248, 146],
+  uae: [306, 176],
+  "united arab emirates": [306, 176],
+  oman: [348, 236],
+};
+// Labels default to the upper right of a node; these sit elsewhere to keep clear of the route.
+const LABEL_AT: Record<string, { dx: number; dy: number; anchor: "start" | "end" }> = {
+  "saudi arabia": { dx: -12, dy: 22, anchor: "end" },
+  ksa: { dx: -12, dy: 22, anchor: "end" },
+  oman: { dx: -10, dy: 26, anchor: "end" },
+};
+const SLOTS: [number, number][] = [[70, 60], [160, 110], [250, 70], [330, 120], [90, 220], [200, 200], [290, 250], [360, 50]];
+
+/** Multi-country route map: nodes for each place joined by a flowing dashed route. */
+export function RouteMap({ places, className = "", dark = false }: { places: string[]; className?: string; dark?: boolean }) {
+  let slot = 0;
+  const nodes = places.map((p) => ({ name: p, xy: PLACE_XY[p.toLowerCase()] ?? SLOTS[slot++ % SLOTS.length] }));
+  // Visit nodes north-to-south-east so the route doesn't zig-zag.
+  const ordered = [...nodes].sort((a, b) => a.xy[1] + a.xy[0] * 0.3 - (b.xy[1] + b.xy[0] * 0.3));
+  const d = ordered.map((n, i) => `${i ? "L" : "M"}${n.xy[0]} ${n.xy[1]}`).join(" ");
+  const label = dark ? "#fff" : "var(--ink)";
+  return (
+    <svg viewBox="0 0 420 290" className={className} aria-hidden="true">
+      <path d={d} fill="none" stroke="var(--brand)" strokeOpacity="0.25" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
+      <path d={d} fill="none" stroke="var(--brand)" strokeWidth="2" strokeDasharray="6 7" strokeLinecap="round" className="dash-flow" />
+      {nodes.map((n) => (
+        <g key={n.name} transform={`translate(${n.xy[0]} ${n.xy[1]})`}>
+          <circle r="14" fill="var(--brand)" opacity="0.12" />
+          <circle r="6" fill="var(--brand)" />
+          <circle r="2.2" fill="var(--accent)" />
+          <text
+            x={LABEL_AT[n.name.toLowerCase()]?.dx ?? 12}
+            y={LABEL_AT[n.name.toLowerCase()]?.dy ?? -10}
+            textAnchor={LABEL_AT[n.name.toLowerCase()]?.anchor ?? "start"}
+            fontSize="12"
+            fontFamily="var(--font-jetbrains), monospace"
+            fill={label}
+          >
+            {n.name}
+          </text>
+        </g>
+      ))}
+    </svg>
+  );
+}

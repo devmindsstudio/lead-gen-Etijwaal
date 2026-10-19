@@ -1,6 +1,8 @@
 import type { Site } from "@/lib/schema";
 import { CtaButton } from "../CtaButton";
 import { ArchLines, Barcode, BigStar, Skyline, StarPattern, Stars } from "./Decor";
+import { CoastalHero } from "./Coastal";
+import { NetworkHero } from "./Network";
 
 const Check = ({ className = "" }: { className?: string }) => (
   <svg viewBox="0 0 20 20" className={`h-5 w-5 shrink-0 ${className}`} fill="currentColor" aria-hidden="true">
@@ -347,6 +349,10 @@ export function Hero({ site }: { site: Site }) {
       return <BoardingHero site={site} />;
     case "arch":
       return <ArchHero site={site} />;
+    case "coastal":
+      return <CoastalHero site={site} />;
+    case "network":
+      return <NetworkHero site={site} />;
     default:
       return <SkylineHero site={site} />;
   }

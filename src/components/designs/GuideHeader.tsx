@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Guide, Site } from "@/lib/schema";
 import { ArchLines, Skyline, StarPattern } from "./Decor";
+import { CoastalGuideHeader } from "./Coastal";
+import { NetworkGuideHeader } from "./Network";
 
 type Props = { site: Site; guide: Guide; minutes: number; updated: string };
 
@@ -28,6 +30,9 @@ function Meta({ site, minutes, updated, guide, dark = false, center = false }: P
 
 export function GuideHeader(props: Props) {
   const { site, guide } = props;
+
+  if (site.design === "coastal") return <CoastalGuideHeader guide={guide} meta={<Meta {...props} />} />;
+  if (site.design === "network") return <NetworkGuideHeader guide={guide} meta={<Meta {...props} />} />;
 
   if (site.design === "skyline") {
     return (

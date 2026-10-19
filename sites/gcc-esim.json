@@ -1,0 +1,659 @@
+{
+  "id": "gcc-esim",
+  "domain": "gcc-esim.com",
+  "aliases": [
+    "www.gcc-esim.com"
+  ],
+  "locale": "en",
+  "brand": {
+    "name": "GCC eSIM",
+    "tagline": "One data eSIM for trips that cross the Gulf: UAE, Saudi Arabia, Qatar, Oman, Kuwait and Bahrain.",
+    "primary": "#4338ca",
+    "primaryInk": "#ffffff",
+    "accent": "#22d3ee"
+  },
+  "design": "network",
+  "partner": {
+    "name": "eTijwaal",
+    "url": "https://etijwaal.com",
+    "supportUrl": "https://etijwaal.com/contactus",
+    "privacyUrl": "https://etijwaal.com/privacypolicy",
+    "termsUrl": "https://etijwaal.com/termsandconditions",
+    "disclosure": "GCC regional eSIM plans are sold and supported by"
+  },
+  "copy": {
+    "headerCta": "See GCC plans",
+    "benefitsEyebrow": "Why one regional eSIM",
+    "benefitsHeading": "One plan for every stop in {place}",
+    "howItWorksHeading": "Set up once, use it in six countries",
+    "inlineCta": "Crossing more than one Gulf border? One GCC eSIM covers the whole route.",
+    "bannerHeading": "Six countries, one eSIM, no swapping at the border",
+    "bannerBody": "Install a GCC data plan before you leave home and keep it on from Dubai to Doha, Muscat, Manama and beyond.",
+    "deviceRows": [
+      ["Coverage", "6 countries"],
+      ["Data roaming", "On"],
+      ["Network", "Auto per country"]
+    ]
+  },
+  "market": {
+    "country": "the GCC",
+    "countryCode": "GC",
+    "places": ["UAE", "Saudi Arabia", "Qatar", "Oman", "Kuwait", "Bahrain"]
+  },
+  "cta": {
+    "url": "https://etijwaal.com/region/GCC-esim-travel-packages",
+    "label": "View GCC eSIM plans",
+    "campaign": "gcc-esim"
+  },
+  "analytics": {},
+  "seo": {
+    "title": "GCC eSIM: One Data Plan for UAE, Saudi, Qatar & More",
+    "description": "One GCC eSIM for multi-country Gulf trips: data in the UAE, Saudi Arabia, Qatar, Oman, Kuwait and Bahrain without swapping SIMs. Compare plans before you go.",
+    "keywords": [
+      "gcc esim",
+      "gulf esim",
+      "gcc regional esim",
+      "esim for gulf countries",
+      "middle east multi country esim",
+      "esim uae and oman",
+      "gulf cruise esim",
+      "esim saudi and bahrain"
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Regional eSIM for the Gulf",
+      "h1": "One eSIM for every border on your Gulf itinerary",
+      "subheading": "Flying into Dubai, driving to Muscat, taking the causeway to Bahrain or hopping between cruise ports? A GCC regional data plan follows you across all six Gulf states, so your phone stays online without a new SIM at each stop.",
+      "bullets": [
+        "Covers the UAE, Saudi Arabia, Qatar, Oman, Kuwait and Bahrain",
+        "Joins a local partner network automatically in each country",
+        "Keep your home number on the same phone for SMS codes",
+        "Hotspot allowed and top-ups available, per the plan details"
+      ],
+      "deviceLabel": "GCC · 6 countries"
+    },
+    "stats": [
+      {
+        "value": "6",
+        "label": "Gulf states on one plan"
+      },
+      {
+        "value": "1",
+        "label": "QR code to install"
+      },
+      {
+        "value": "4G / 5G",
+        "label": "On most partner networks"
+      },
+      {
+        "value": "7–60",
+        "label": "Days of validity to choose from"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "globe",
+        "title": "Built for routes, not single cities",
+        "body": "A week that starts in Abu Dhabi, takes in Doha and ends in Manama would normally mean three local SIMs or three separate eSIMs. A regional plan treats the whole Gulf as one trip."
+      },
+      {
+        "icon": "signal",
+        "title": "No dead zone after the border post",
+        "body": "When you pass from the UAE into Oman or cross the King Fahd Causeway, the phone simply re-registers on the partner network in the next country. There is nothing to buy or scan on the other side."
+      },
+      {
+        "icon": "wallet",
+        "title": "One allowance across the region",
+        "body": "Your data is a single pool shared by every covered country. You don't have to guess how much you'll use in Kuwait versus Qatar and leave unused megabytes stranded on a plan you no longer need."
+      },
+      {
+        "icon": "plane",
+        "title": "Handy for cruises and short hops",
+        "body": "Gulf cruises often call at three or four countries in a week, and regional flights between Gulf capitals are short. A plan that already covers every port and airport saves you buying data on the dock."
+      },
+      {
+        "icon": "phone",
+        "title": "Your own number stays with you",
+        "body": "The regional eSIM is a second, data-only line. Your home SIM stays in the phone, so bank one-time passwords and messages to your usual number still reach you."
+      },
+      {
+        "icon": "wifi",
+        "title": "Share data with the car or the team",
+        "body": "The plan details on the partner's site list hotspot as allowed, so one phone can keep a laptop or a travelling companion online on a road trip between emirates and Oman."
+      }
+    ],
+    "howItWorks": [
+      {
+        "title": "Check the phone takes an eSIM",
+        "body": "Dial *#06#. If an EID appears and the handset isn't locked to your home carrier, it can hold a travel eSIM alongside your normal SIM."
+      },
+      {
+        "title": "Pick a GCC plan for the whole trip",
+        "body": "Choose the allowance and validity that cover your longest stretch, from the first country you land in to the last one you leave."
+      },
+      {
+        "title": "Install it at home on Wi-Fi",
+        "body": "Scan the QR code from the confirmation email, label the line something like \"GCC\" and leave it switched off until you arrive."
+      },
+      {
+        "title": "Switch on when you land",
+        "body": "Enable the eSIM, set it as the mobile data line and turn on data roaming for that line only. It reconnects by itself in each new country."
+      }
+    ],
+    "comparison": {
+      "heading": "Regional eSIM, a stack of country eSIMs, or roaming?",
+      "intro": "How the three usual approaches compare when a trip crosses two or more Gulf borders.",
+      "columns": [
+        "GCC regional eSIM",
+        "One eSIM per country",
+        "Home carrier roaming"
+      ],
+      "rows": [
+        {
+          "label": "Installs needed",
+          "values": [
+            "One, before you leave",
+            "One per country",
+            "None"
+          ]
+        },
+        {
+          "label": "At each border",
+          "values": [
+            "Reconnects automatically",
+            "Switch the active data line by hand",
+            "Reconnects, may start a new daily charge"
+          ]
+        },
+        {
+          "label": "Data allowance",
+          "values": [
+            "One shared pool",
+            "Split across separate plans",
+            "Set by your carrier's roaming pass"
+          ]
+        },
+        {
+          "label": "Cost control",
+          "values": [
+            "Prepaid, fixed upfront",
+            "Prepaid per plan",
+            "Varies by carrier and country"
+          ]
+        },
+        {
+          "label": "Local phone number",
+          "values": [
+            "No, data only",
+            "Usually no, data only",
+            "Your own number"
+          ]
+        },
+        {
+          "label": "Best fit",
+          "values": [
+            "Two or more Gulf countries",
+            "A long stay in one country",
+            "A day or two on an expensed trip"
+          ]
+        }
+      ]
+    },
+    "networks": {
+      "heading": "Which network you join in each country",
+      "intro": "A regional eSIM borrows local operators' networks through roaming agreements. These are the partners listed in the GCC plan details on the partner's site at the time of writing; check the plan page before you buy, as partners can change.",
+      "items": [
+        {
+          "name": "UAE: Etisalat UAE (e&)",
+          "note": "Listed with 4G and 5G. The country's largest operator, with strong coverage in Dubai, Abu Dhabi and along the main highways."
+        },
+        {
+          "name": "Saudi Arabia: Etisalat Saudi Arabia",
+          "note": "Listed with 4G and 5G. This is the network of Etihad Etisalat, the company that trades as Mobily, so the phone may show either name."
+        },
+        {
+          "name": "Qatar: Ooredoo and Vodafone",
+          "note": "Both Qatari operators are listed with 4G and 5G, so the phone can use whichever has the better signal."
+        },
+        {
+          "name": "Oman: Ooredoo and Vodafone Oman",
+          "note": "Ooredoo is listed with 4G and 5G and Vodafone Oman with LTE. Omantel, the third operator, is not on the list."
+        },
+        {
+          "name": "Kuwait: Zain and stc",
+          "note": "Both listed with 4G and 5G. Ooredoo Kuwait is the country's third operator and is not listed."
+        },
+        {
+          "name": "Bahrain: Zain Bahrain",
+          "note": "Listed with 4G and 5G. Batelco and stc Bahrain are the other two local operators."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Who a GCC eSIM is for",
+        "paragraphs": [
+          "The regional plan earns its keep when your phone will see more than one Gulf flag. Typical trips that fit it well:"
+        ],
+        "bullets": [
+          "Multi-stop holidays, such as Dubai and Abu Dhabi followed by Muscat or a Doha extension",
+          "Regional sales or project work that moves between Riyadh, Kuwait City, Manama and Dubai in the same month",
+          "Winter cruises that call at UAE, Qatari, Bahraini and Omani ports on one sailing",
+          "Self-drive trips from the UAE into Oman, or from the Eastern Province of Saudi Arabia across the causeway to Bahrain",
+          "Long-haul travellers who stop over in one Gulf hub and then continue to another"
+        ]
+      },
+      {
+        "heading": "Sizing your data for a multi-country trip",
+        "paragraphs": [
+          "Because the allowance is shared, estimate for the whole journey rather than per country. Navigation, ride-hailing and messaging are light; video calls, streaming and hotspotting a laptop are what use it up quickly.",
+          "As a rough guide, a week of sightseeing across two or three countries uses a few gigabytes, while a working trip with daily video meetings can need 10 GB or more. If you run low, the partner says you can add a top-up to the same eSIM from its app or website, so you don't have to buy the biggest plan up front."
+        ]
+      },
+      {
+        "heading": "Before you cross a border",
+        "paragraphs": [
+          "Keep data roaming switched off on your home SIM for the entire trip. Otherwise, a phone that briefly picks up the home line at a border can trigger a roaming charge from your own carrier. Leave the GCC line as the only one allowed to use data, and download offline maps for any desert or mountain stretch between towns."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which countries does the GCC eSIM cover?",
+        "a": "The fixed-allowance GCC plans list all six Gulf Cooperation Council states: the United Arab Emirates, Saudi Arabia, Qatar, Oman, Kuwait and Bahrain. One shorter unlimited option lists only five countries and leaves out Kuwait, so check the country list on the plan you pick."
+      },
+      {
+        "q": "Do I need to do anything when I cross from one Gulf country to another?",
+        "a": "Usually not. With data roaming enabled on the eSIM line, the phone re-registers on the partner network in the new country within a few minutes. If it doesn't, toggle airplane mode on and off or choose the network manually in settings."
+      },
+      {
+        "q": "Is a regional plan better than buying an eSIM for each country?",
+        "a": "For two or more countries it is usually simpler, because you install once and use one data pool. For a long stay in a single country with only a brief side trip, a single-country plan may suit you better. Our comparison guide walks through the trip shapes."
+      },
+      {
+        "q": "When does the plan's validity start?",
+        "a": "eTijwaal says most of its eSIMs activate when they first connect to a supported network at the destination, and that some can activate at installation. Install before you travel, keep the line off, and turn it on after landing in your first Gulf country."
+      },
+      {
+        "q": "Does the GCC eSIM include a phone number or calls?",
+        "a": "No. eTijwaal describes its plans as data-only, without voice minutes or SMS. Internet calling apps run over the data connection, but which ones connect differs by country, so read our business travel guide before relying on one."
+      },
+      {
+        "q": "Will it work on a Gulf cruise ship?",
+        "a": "It works when the ship is in port or close enough to shore to pick up a land network in a covered country. At sea, phones may connect to the ship's own maritime network, which is not part of the plan and can be billed to your home SIM at high rates."
+      },
+      {
+        "q": "Can I use the eSIM as a hotspot?",
+        "a": "The GCC plan details on the partner's site list hotspot and tethering as allowed. Sharing data with a laptop uses an allowance much faster than a phone alone, so size the plan with that in mind."
+      },
+      {
+        "q": "Is there a single GCC tourist visa I can use with this trip?",
+        "a": "GCC governments have announced a unified tourist visa, sometimes called the GCC Grand Tours visa, but as of October 2026 it has not been rolled out for general use. Check each country's official visa portal for the rules that apply to your passport."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "regional-vs-single-country-esim",
+      "title": "GCC Regional eSIM or Single-Country eSIMs? Choosing by Trip",
+      "description": "Should you buy one GCC regional eSIM or a separate plan for each Gulf country? How the shape of your itinerary decides which is simpler and better value.",
+      "h1": "Regional or single-country: matching an eSIM to your Gulf route",
+      "navLabel": "Regional vs country",
+      "intro": "The short answer: if your phone will be used in two or more Gulf states, a regional GCC plan is almost always the simpler choice, and often the better value. If nearly all your days are in one country, a plan for that country alone can make more sense. The deciding factor isn't the destination list, it's how your days and data are split between them.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "How a regional plan differs",
+          "paragraphs": [
+            "A single-country eSIM only works on networks inside that one country. A regional plan has roaming agreements with partner networks in several countries and draws every megabyte from the same allowance, wherever you are. On the GCC plans we looked at, that means one network partner or more in each of the UAE, Saudi Arabia, Qatar, Oman, Kuwait and Bahrain.",
+            "In practice you install a single profile, and the phone handles the change of network when you cross a border. With country plans you hold several profiles and must remember to switch the active data line each time you arrive somewhere new."
+          ]
+        },
+        {
+          "heading": "Trip shapes where regional wins",
+          "paragraphs": [
+            "Think about your itinerary as a line on a map rather than a list of countries. A regional plan tends to come out ahead when:"
+          ],
+          "bullets": [
+            "You split your time fairly evenly, for example four nights in Dubai, three in Muscat and two in Doha",
+            "You'll cross a land border by car or bus, where you want data on both sides of the checkpoint without stopping",
+            "You're on a cruise calling at three or four countries in a week, often for less than a day each",
+            "Your work trip has a loose schedule and could add a country at short notice",
+            "You don't know in advance how much data you'll need in each place, so one shared pool avoids leftovers"
+          ]
+        },
+        {
+          "heading": "Trip shapes where a country plan may suit you",
+          "paragraphs": [
+            "A single-country plan is worth comparing when one country takes up nearly the whole trip. Ten days in Saudi Arabia with one afternoon in Bahrain is a different problem from a week split across three capitals. Country plans sometimes offer larger allowances or longer validity for that one destination, because they don't have to cover several networks.",
+            "The catch is that a side trip outside the covered country leaves you without data unless you buy a second plan or rely on Wi-Fi. If the side trip is short and you'll be in a hotel or office the whole time, that might be acceptable. If you'll be driving or navigating, it usually isn't."
+          ]
+        },
+        {
+          "heading": "Comparing without getting lost in prices",
+          "paragraphs": [
+            "Prices change, so compare structure rather than a figure you saw last month. Add up the total allowance and validity you would need from two or three country plans, then look at a regional plan with the same total. Factor in the time and hassle of extra installs, and the risk of buying too much in one country and too little in another.",
+            "Also check which networks each option uses. A regional plan may list one partner per country while a country plan lists two, which matters if you'll spend time in remote areas where one operator is noticeably stronger."
+          ]
+        },
+        {
+          "heading": "Read the country list on the exact plan",
+          "paragraphs": [
+            "Not every plan labelled GCC covers the same set of countries. On the partner's site, the fixed-data GCC packages list all six states, while the one-day unlimited option lists five and leaves out Kuwait. Before paying, open the plan details and confirm every country on your route appears. If one doesn't, choose a different package rather than hoping the phone will connect anyway."
+          ]
+        },
+        {
+          "heading": "A quick way to decide",
+          "paragraphs": [
+            "Count the days on which you'll need data outside your main country. If that number is two or more, or if any of those days involve driving, a regional eSIM is the safer pick. If it's zero or one and you'll be on Wi-Fi, a single-country plan may be enough."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I add a single-country eSIM later if I need more data in one place?",
+          "a": "Yes. Most phones can store several eSIM profiles. You choose which one carries mobile data in settings, so you can add a second plan mid-trip without removing the regional one."
+        },
+        {
+          "q": "Is regional data slower than a country plan?",
+          "a": "Not inherently. Speed depends on the partner network, the technology listed for it (4G or 5G) and local congestion. Compare the networks named on each plan rather than assuming one type is faster."
+        },
+        {
+          "q": "Does an unused regional allowance carry over to my next trip?",
+          "a": "A plan ends when its validity period runs out, even if data is left. Choose a validity that covers the full trip, and buy a fresh plan for the next one."
+        }
+      ]
+    },
+    {
+      "slug": "crossing-gulf-borders-mobile-data",
+      "title": "Crossing Gulf Borders: What Happens to Your Mobile Data",
+      "description": "Driving from the UAE into Oman or over the King Fahd Causeway to Bahrain? How your phone switches networks at Gulf borders and how to avoid surprise roaming bills.",
+      "h1": "What your phone does at a Gulf border crossing",
+      "navLabel": "Border crossings",
+      "intro": "When you cross a land border in the Gulf, your phone drops the network of the country you're leaving and looks for one in the country you're entering. With a regional eSIM that covers both, it should reconnect on its own within minutes. The trouble spots are the grey zones near the frontier, where the phone may cling to the wrong country's signal, and a home SIM that is quietly allowed to roam.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "The handover, step by step",
+          "paragraphs": [
+            "Every mobile network has a country code built into its identity. As you approach a border, the phone keeps using the strongest signal it can hear, which may still be from the country behind you. Once that signal fades, it searches, finds a partner network on the other side and registers on it. Your status bar shows the new network name, and data resumes.",
+            "On a regional plan this is the same line and the same allowance throughout. Nothing about your eSIM changes; only the network it's borrowing does."
+          ]
+        },
+        {
+          "heading": "UAE to Oman by road",
+          "paragraphs": [
+            "Many visitors drive from Dubai or Abu Dhabi into Oman, whether through the Hatta area, around Al Ain and Buraimi, or north from Ras Al Khaimah into the Musandam peninsula. The UAE and Oman share long, winding borders here, and in places you pass in and out of each country within a few kilometres.",
+            "That geography means your phone can show a UAE network while you're physically in Oman, or the reverse. With a GCC plan covering both, that's harmless. With a UAE-only eSIM, data may stop the moment the phone finally switches to an Omani network, and Musandam's mountain roads are a bad place to find out. Download offline maps for the full route before you leave the hotel.",
+            "Check that your rental agreement allows the car into Oman and that you hold the right insurance, as border staff can ask for proof. Officials have also been building a railway between Sohar and Abu Dhabi, called Hafeet Rail, but Oman's transport minister has pointed to trial operations no earlier than late 2027, so don't plan around it yet."
+          ]
+        },
+        {
+          "heading": "Saudi Arabia to Bahrain over the King Fahd Causeway",
+          "paragraphs": [
+            "The causeway links the Khobar area of Saudi Arabia's Eastern Province with Bahrain across roughly 25 km of bridges and embankments. Passport and customs checks for both countries sit on an artificial island partway across. Weekend traffic in both directions can mean long waits at the island, and that is exactly when you'll want maps, messages and a way to tell people you're running late.",
+            "Expect the phone to switch from a Saudi network to a Bahraini one somewhere around the middle of the crossing. If you're on the GCC plan, it moves from the listed Saudi partner to Zain Bahrain. A brief gap while it searches is normal."
+          ]
+        },
+        {
+          "heading": "Other land borders",
+          "paragraphs": [
+            "The same rules apply at the Saudi border posts with the UAE, Qatar and Kuwait, such as the Salwa and Abu Samra crossing between Saudi Arabia and Qatar. These routes can involve long desert drives with sparse settlements, so treat signal as likely to be patchy between towns rather than continuous."
+          ]
+        },
+        {
+          "heading": "Keep your home SIM from roaming",
+          "paragraphs": [
+            "The most common surprise bill at a Gulf border comes from the home line, not the travel eSIM. If data roaming is enabled on your normal SIM, a phone that loses the eSIM's signal for a moment may fall back to it. Before your first crossing:"
+          ],
+          "bullets": [
+            "Set the GCC eSIM as the line for mobile data",
+            "Turn off data roaming on your home SIM, and switch off automatic data switching between lines if your phone offers it",
+            "Leave the home line on for calls and texts only if you're happy with your carrier's roaming rates for those",
+            "Save the border crossing on an offline map so navigation survives a gap"
+          ]
+        },
+        {
+          "heading": "If the phone won't reconnect",
+          "paragraphs": [
+            "Give it a few minutes after the checkpoint. If there's still no data, toggle airplane mode on and off. Next, check that data roaming is on for the eSIM line. If it's still stuck, open the network settings, turn off automatic selection and choose one of the partner networks listed for that country. Once you're connected, switch back to automatic."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do I need a different eSIM for each side of the border?",
+          "a": "Not if your plan covers both countries. A GCC regional plan that lists both the country you're leaving and the one you're entering keeps working on the same line after the crossing."
+        },
+        {
+          "q": "Why does my phone show a UAE network while I'm in Oman?",
+          "a": "Signals don't stop at the border line. Near the frontier the strongest tower may be in the neighbouring country, and the phone will use it until a local one becomes stronger."
+        },
+        {
+          "q": "Is there mobile signal on the King Fahd Causeway?",
+          "a": "The causeway is a busy, populated route and travellers generally report coverage across it, but expect a short gap as the phone moves from a Saudi network to a Bahraini one."
+        }
+      ]
+    },
+    {
+      "slug": "gulf-cruise-esim",
+      "title": "Gulf Cruise eSIM: Ship Wi-Fi vs Data in Each Port",
+      "description": "Sailing from Dubai, Abu Dhabi or Doha? When to use ship Wi-Fi, how to avoid maritime roaming charges, and how one GCC eSIM covers every port of call.",
+      "h1": "Staying online on an Arabian Gulf cruise",
+      "navLabel": "Gulf cruises",
+      "intro": "On a Gulf cruise, use the ship's Wi-Fi package while at sea if you need to be online, and use a regional eSIM for the hours you're ashore. The big risk is the ship's own mobile network: if your home SIM connects to it, you can be billed at maritime roaming rates that are far higher than normal roaming.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Why Gulf itineraries suit a regional plan",
+          "paragraphs": [
+            "Winter cruise seasons in the Arabian Gulf usually run from late in the year to spring, with ships based in Dubai, Abu Dhabi or Doha. A single week can call at several countries. Recent itineraries from lines such as MSC and Celestyal have combined Dubai, Abu Dhabi and Sir Bani Yas Island in the UAE with Doha, Bahrain, Muscat and Khasab in Oman's Musandam peninsula.",
+            "Buying a local SIM in each port isn't realistic when you're ashore for a few hours. A GCC eSIM that covers the UAE, Qatar, Bahrain and Oman lets you step off the gangway and open maps straight away in every one of them."
+          ]
+        },
+        {
+          "heading": "Three ways your phone can connect on board",
+          "paragraphs": [
+            "It helps to know what your phone may be seeing on a ship:"
+          ],
+          "bullets": [
+            "Ship Wi-Fi: a paid package from the cruise line, delivered by satellite. Works anywhere at sea, usually priced per day or per voyage",
+            "The ship's cellular network: many ships run an onboard mobile network that your home SIM can roam onto. It is billed by your carrier at maritime rates and is rarely covered by normal roaming bundles",
+            "Land networks: near ports and along the coast, the phone can reach networks onshore. This is where a regional eSIM works"
+          ]
+        },
+        {
+          "heading": "Settings to change before you board",
+          "paragraphs": [
+            "Do this on the day you embark, ideally while still in the terminal:"
+          ],
+          "bullets": [
+            "Install and switch on the GCC eSIM, and set it as your mobile data line",
+            "Turn off data roaming on your home SIM, or disable that line completely while at sea",
+            "Consider airplane mode with Wi-Fi turned back on whenever the ship is out of sight of land",
+            "Ask your home carrier about a spending cap that blocks maritime charges, if it offers one"
+          ]
+        },
+        {
+          "heading": "In port: what to expect",
+          "paragraphs": [
+            "Ships calling at Dubai, Abu Dhabi, Doha, Bahrain and Muscat dock at city cruise terminals with strong land coverage, so a regional eSIM should connect as you walk ashore. Allow a minute or two for the phone to register on the local partner network after a day at sea, especially if it was in airplane mode.",
+            "Smaller calls can be different. Sir Bani Yas is a nature island off the Abu Dhabi coast, and Khasab sits among the fjord-like inlets of Musandam, where mountains block signals in places. Download offline maps and any tour tickets before arrival, and agree a meeting point with your group in case messages are slow."
+          ]
+        },
+        {
+          "heading": "How much data a cruise week uses",
+          "paragraphs": [
+            "Because you're online mostly in port, cruise passengers often use less mobile data than land travellers. A week with four or five calls typically needs a few gigabytes for maps, ride-hailing, messaging and photo uploads. Families who share one hotspot ashore, or anyone who wants to back up photos over mobile data, should size up. Leave large uploads for the ship's Wi-Fi or your hotel after disembarking."
+          ]
+        },
+        {
+          "heading": "Embarking and disembarking",
+          "paragraphs": [
+            "Many passengers add a hotel night before or after the sailing in the home port. Switching the eSIM on as you land at the airport covers the transfer to the ship, and if your plan's validity runs long enough, it will also cover a post-cruise stay. Check the validity period against your full dates, from the flight in to the flight home."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will a GCC eSIM work at sea between ports?",
+          "a": "Only when the ship is close enough to shore to reach a land network in a covered country. Further out, there's no land signal, and any connection your phone finds is likely to be the ship's maritime network, which the plan doesn't cover."
+        },
+        {
+          "q": "Does every Gulf cruise stop count as a covered country?",
+          "a": "The usual Gulf ports are in the UAE, Qatar, Bahrain and Oman, all of which are on the six-country GCC plans. If your itinerary adds a port outside the GCC, check coverage for that country separately."
+        },
+        {
+          "q": "Is ship Wi-Fi or an eSIM better for video calls home?",
+          "a": "At sea, ship Wi-Fi is your only realistic option. In port, mobile data is usually faster and more private, though which calling apps connect depends on the country you're in."
+        }
+      ]
+    },
+    {
+      "slug": "gcc-business-travel-calling-apps",
+      "title": "GCC Business Travel: Data and Calling Apps by Country",
+      "description": "Working across Riyadh, Dubai, Doha, Kuwait and Manama? How internet calling rules differ between Gulf states and how to keep meetings running on one eSIM.",
+      "h1": "Calls and data for business trips across the Gulf",
+      "navLabel": "Business travel",
+      "intro": "The data side of a Gulf business trip is easy: one regional eSIM keeps email, documents and maps working in all six countries. Calling is harder, because each state sets its own rules for internet voice and video apps. The safest plan is to use the work platforms your company already uses, test them in each country, and keep your home number active for anything that must get through.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Why rules differ from one capital to the next",
+          "paragraphs": [
+            "Telecom regulators in the Gulf decide which internet calling services can run on local networks, and they have not all made the same decisions. A travel eSIM uses local partner networks, so it is subject to the same rules as a local SIM in each country. An app that rings fine in Kuwait may not connect a voice call in Abu Dhabi.",
+            "The positions below reflect public reporting at the time of writing. They change, sometimes without announcement, so test before an important call."
+          ]
+        },
+        {
+          "heading": "Country by country",
+          "paragraphs": [
+            "A summary of how internet calling has been reported in each state:"
+          ],
+          "bullets": [
+            "UAE: voice and video calls on consumer apps such as WhatsApp and FaceTime have long been reported as restricted. Business platforms including Microsoft Teams, Zoom and Google Meet have been permitted since 2020",
+            "Saudi Arabia: the regulator lifted its ban on internet calling apps that meet its requirements in 2017. Most recent traveller reports describe common apps as working, but check on arrival",
+            "Qatar: reports are mixed, with some voice and video calls on consumer apps failing and others connecting",
+            "Oman: work platforms were allowed during 2020, and later reports said WhatsApp calls had started to connect, though the regulator hadn't publicly confirmed a change",
+            "Kuwait and Bahrain: internet calling apps are generally reported to work, though experiences vary between networks"
+          ]
+        },
+        {
+          "heading": "Set up a calling toolkit before you fly",
+          "paragraphs": [
+            "Rather than hoping one app works everywhere, prepare a few options:"
+          ],
+          "bullets": [
+            "Install and sign in to your company's meeting platform, plus a backup such as Zoom or Google Meet",
+            "Ask colleagues in each country which tools they use for calls with visitors",
+            "Keep your home SIM active for SMS and normal calls, and know your carrier's roaming call rates",
+            "Share a dial-in number in meeting invites so external participants can join by phone if an app is blocked",
+            "Don't plan to use a VPN to get around restrictions. Rules on VPN use vary across the region, and misuse can breach local law"
+          ]
+        },
+        {
+          "heading": "Data for laptops and hotspots",
+          "paragraphs": [
+            "The GCC plan details on the partner's site list tethering as allowed, so you can share the phone's connection with a laptop in a taxi or between meetings. Laptops use far more data than phones: software updates, cloud sync and video meetings can burn through several gigabytes in a day. Pause automatic syncing while on the hotspot and use hotel or office Wi-Fi for heavy downloads.",
+            "Shared Wi-Fi in hotels, airport lounges and conference venues is convenient but public. For banking, signing contracts or accessing client systems, a mobile data connection is the more private option, alongside any company VPN that your employer requires and that is lawful where you are."
+          ]
+        },
+        {
+          "heading": "Planning data for a regional itinerary",
+          "paragraphs": [
+            "A typical week visiting offices in three Gulf cities, with daily video meetings and a laptop on the hotspot, can need 10 GB or more. If your trip is open-ended, start with a mid-sized plan and top up rather than buying the largest allowance. Keep an eye on the remaining balance in the partner's app before a long day of calls."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I make normal phone calls on the GCC eSIM?",
+          "a": "No. The plans are data-only. For calls to local mobile numbers, use your home SIM on roaming or an internet calling service that works in the country you're in."
+        },
+        {
+          "q": "Will Microsoft Teams work across the Gulf?",
+          "a": "Teams has been among the work platforms permitted in the UAE and is widely used by companies across the region. Network conditions and rules can change, so run a quick test call on arrival."
+        },
+        {
+          "q": "Does a travel eSIM bypass local calling restrictions?",
+          "a": "No. A travel eSIM connects through local partner networks, so local rules on internet calling apply to it in the same way as to a local SIM."
+        }
+      ]
+    },
+    {
+      "slug": "kuwait-bahrain-esim",
+      "title": "Kuwait and Bahrain eSIM: Networks and Tips for Visitors",
+      "description": "Visiting Kuwait or Bahrain as part of a Gulf trip? Local operators, which networks a GCC eSIM uses, Grand Prix and causeway tips, and the plan detail to check.",
+      "h1": "Getting online in Kuwait and Bahrain",
+      "navLabel": "Kuwait & Bahrain",
+      "intro": "Kuwait and Bahrain are the two Gulf states visitors most often add to a longer trip, by a short flight, by road from Saudi Arabia, or on a cruise. Both have three mobile operators and mature 4G and 5G networks. A GCC eSIM covers both, but one plan option leaves Kuwait out, so check the country list before you buy.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Kuwait's mobile networks",
+          "paragraphs": [
+            "Kuwait has three operators: Zain, which began as MTC; Ooredoo, formerly known as Wataniya; and stc Kuwait, which traded as Viva until its rebrand. All three run 4G and 5G. In Opensignal's analysis of the second quarter of 2026, Zain took the most network experience awards in the country.",
+            "On the partner's GCC plans, the listed networks in Kuwait are Zain and stc, both with 4G and 5G. Having two partners gives the phone a fallback if one is weak in a particular building or district."
+          ]
+        },
+        {
+          "heading": "Bahrain's mobile networks",
+          "paragraphs": [
+            "Bahrain also has three operators: Batelco, the former incumbent; Zain Bahrain, which entered the market as MTC Vodafone; and stc Bahrain, previously Viva. All three have launched commercial 5G, and they are regulated by Bahrain's Telecommunications Regulatory Authority.",
+            "The GCC plans list Zain Bahrain as the partner network, with 4G and 5G. Bahrain is compact and densely built, so coverage in Manama, Muharraq, Seef and the area around the airport is generally strong."
+          ]
+        },
+        {
+          "heading": "Check the plan includes Kuwait",
+          "paragraphs": [
+            "This is the most important detail for anyone heading to Kuwait. On the partner's site, the fixed-data GCC packages list all six Gulf states, including Kuwait. The one-day unlimited option lists only five countries and does not include Kuwait. If Kuwait City is on your route, choose a package that names it."
+          ]
+        },
+        {
+          "heading": "Arriving in Kuwait",
+          "paragraphs": [
+            "Most visitors fly into Kuwait International Airport, a short drive south of the city centre. With the eSIM installed at home, switch it on after landing and you'll have data for a ride-hailing app or your hotel's directions before you reach the exit. Sights such as Kuwait Towers, the Souq Al Mubarakiya and the waterfront along the Arabian Gulf Road are spread out, so most people get around by taxi or car.",
+            "Business travellers often pair Kuwait with Riyadh, Dubai or Doha in the same week. With one regional line, you don't need to sort out data again each time you land somewhere new."
+          ]
+        },
+        {
+          "heading": "Bahrain by causeway, plane or ship",
+          "paragraphs": [
+            "Bahrain is reached by air into Bahrain International Airport on Muharraq, by road over the King Fahd Causeway from Saudi Arabia, or by cruise ship. Road arrivals are especially common at weekends, when traffic from Saudi Arabia's Eastern Province can make the border queue on the causeway long.",
+            "Big events change the picture. During the Formula 1 Bahrain Grand Prix at the Bahrain International Circuit in Sakhir, tens of thousands of people share the networks around the track. Expect slower speeds at peak moments, keep tickets saved offline, and agree a meeting point with your group rather than relying on live location."
+          ]
+        },
+        {
+          "heading": "Calling and practical tips",
+          "paragraphs": [
+            "Internet calling apps are generally reported to work in both countries, though it is worth testing on arrival. Wi-Fi is widely available in malls, hotels and cafés. Summer heat drains phone batteries quickly, so carry a power bank if you'll be outdoors, whether at the Bahrain Fort or on a walk along the Kuwaiti waterfront."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Which network will my GCC eSIM use in Kuwait?",
+          "a": "The partner's GCC plan details list Zain Kuwait and stc Kuwait, both with 4G and 5G. Ooredoo Kuwait, the third operator, isn't listed."
+        },
+        {
+          "q": "Does the GCC eSIM work in Bahrain?",
+          "a": "Yes. Bahrain is on every GCC plan the partner currently lists, with Zain Bahrain named as the network partner."
+        },
+        {
+          "q": "Can I use the same eSIM driving from Saudi Arabia into Bahrain?",
+          "a": "Yes, if your plan covers both countries, which the six-country GCC packages do. The phone switches from the Saudi partner network to Zain Bahrain as you cross the causeway."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "heading": "About GCC eSIM",
+    "description": "GCC eSIM is an independent guide to staying connected on multi-country Gulf trips. Regional data plans are sold and supported by our partner, eTijwaal.",
+    "paragraphs": [
+      "GCC eSIM is an independent site for travellers whose plans cross more than one Gulf border, whether by road, cruise ship or a string of short flights. We write practical guides on regional data, border crossings, calling apps and the local networks in each country.",
+      "We don't sell eSIMs ourselves. The regional plans we link to are sold and supported by eTijwaal, a travel eSIM provider. You complete your purchase with eTijwaal on etijwaal.com or in its app, and eTijwaal handles activation, top-ups and customer support under its own terms and privacy policy.",
+      "Plan details such as covered countries, partner networks and hotspot support are checked against eTijwaal's published plan information at the time of writing. Rules on calling apps, visas and border crossings are set by each government and can change, so confirm anything important with official sources before you travel."
+    ]
+  }
+}

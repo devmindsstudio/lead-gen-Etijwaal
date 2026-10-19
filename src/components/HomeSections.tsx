@@ -4,6 +4,8 @@ import { copy } from "@/lib/sites";
 import { Icon } from "./Icon";
 import { CtaButton } from "./CtaButton";
 import { ArchLines, BigStar, Skyline, StarPattern } from "./designs/Decor";
+import { CoastalBanner, CoastalBenefits, CoastalSteps } from "./designs/Coastal";
+import { NetworkBanner, NetworkBenefits, NetworkSteps } from "./designs/Network";
 
 export function SectionHeading({
   site,
@@ -32,6 +34,10 @@ export function SectionHeading({
           }`}
         >
           {site.design === "geometric" && <span className="h-2.5 w-2.5 bg-accent" />}
+          {site.design === "network" && <span className="font-mono normal-case tracking-normal">{"//"}</span>}
+          {site.design === "coastal" && (
+            <svg viewBox="0 0 24 12" className="h-3 w-6" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M1 6c3-4 5-4 8 0s5 4 8 0 4-4 6-2" strokeLinecap="round" /></svg>
+          )}
           {site.design === "arch" && <span className="h-px w-6 bg-accent" />}
           {eyebrow}
           {site.design === "arch" && <span className="h-px w-6 bg-accent" />}
@@ -50,6 +56,9 @@ export function Benefits({ site }: { site: Site }) {
   const heading = (
     <SectionHeading site={site} eyebrow={copy(site, "benefitsEyebrow")} title={copy(site, "benefitsHeading")} />
   );
+
+  if (site.design === "coastal") return <CoastalBenefits site={site} heading={heading} />;
+  if (site.design === "network") return <NetworkBenefits site={site} heading={heading} />;
 
   if (site.design === "geometric") {
     return (
@@ -154,6 +163,11 @@ export function Benefits({ site }: { site: Site }) {
 export function HowItWorks({ site }: { site: Site }) {
   const steps = site.home.howItWorks;
   const title = copy(site, "howItWorksHeading");
+
+  if (site.design === "coastal" || site.design === "network") {
+    const heading = <SectionHeading site={site} eyebrow="How it works" title={title} tone="dark" />;
+    return site.design === "coastal" ? <CoastalSteps site={site} heading={heading} /> : <NetworkSteps site={site} heading={heading} />;
+  }
 
   if (site.design === "boarding") {
     return (
@@ -393,6 +407,9 @@ export function readingMinutes(g: Site["guides"][number]): number {
 export function CtaBanner({ site, placement }: { site: Site; placement: string }) {
   const heading = copy(site, "bannerHeading");
   const body = copy(site, "bannerBody");
+
+  if (site.design === "coastal") return <CoastalBanner site={site} placement={placement} />;
+  if (site.design === "network") return <NetworkBanner site={site} placement={placement} />;
 
   if (site.design === "geometric") {
     return (

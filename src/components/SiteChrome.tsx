@@ -28,6 +28,23 @@ function LogoMark({ site }: { site: Site }) {
       );
     case "arch":
       return <span className="arch-top grid h-10 w-8 place-items-center bg-brand pt-1.5 text-accent">{bars}</span>;
+    case "coastal":
+      return (
+        <span className="grid h-9 w-9 place-items-center rounded-full bg-linear-to-b from-accent to-brand text-white">
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+            <path d="M3 15l5-6 4 4 3-3 6 5M2 19c2.5-2 4.5-2 7 0s4.5 2 7 0 3.5-1.5 6-.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </span>
+      );
+    case "network":
+      return (
+        <span className="grid h-9 w-9 place-items-center rounded-lg bg-brand text-brand-ink">
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={1.8} aria-hidden="true">
+            <circle cx="5" cy="6" r="2" /><circle cx="19" cy="8" r="2" /><circle cx="9" cy="18" r="2" /><circle cx="18" cy="18" r="1.5" fill="currentColor" />
+            <path d="M7 6.5 17 8M6 8l2.4 8M11 18h5.5M18.6 10l-.5 6.5" />
+          </svg>
+        </span>
+      );
     default:
       return (
         <span className="grid h-9 w-9 place-items-center rounded-xl bg-linear-to-br from-brand to-accent text-white shadow-lg shadow-brand/30">

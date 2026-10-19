@@ -61,6 +61,8 @@ Rules the schema can't enforce:
   - `geometric`: desert sand, 8-point star patterns, bold editorial type, sharp corners (Saudi)
   - `boarding`: airline and boarding-pass styling, serif display type, itinerary timeline (Qatar and transit hubs)
   - `arch`: calm, centred layout with arch motifs and soft serif type (pilgrimage and heritage)
+  - `coastal`: sea and mountain motifs, postcard-and-stamp hero, airy rounded cards (coastlines, nature and adventure destinations)
+  - `network`: route map linking several places, grid background, monospace data labels (multi-country and regional plans). Fill `market.places` with the covered countries
 
   Each design changes typography, the hero, section layouts, buttons, header and footer. Content stays the same.
 - **Brand:** pick a `primary` colour distinct from the sibling sites (it drives the favicon, OG image and buttons). `primaryInk` must have ≥ 4.5:1 contrast on `primary` (white on a dark primary). `accent` is used for small highlights on dark backgrounds.
