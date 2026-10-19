@@ -1,0 +1,704 @@
+{
+  "id": "umrah-esim",
+  "domain": "umrah-esim.com",
+  "aliases": [
+    "www.umrah-esim.com"
+  ],
+  "locale": "en",
+  "brand": {
+    "name": "Umrah eSIM",
+    "tagline": "Mobile data for pilgrims in Makkah and Madinah, set up at home before you travel.",
+    "primary": "#1f2a5c",
+    "primaryInk": "#ffffff",
+    "accent": "#d4a64a"
+  },
+  "partner": {
+    "name": "eTijwaal",
+    "url": "https://etijwaal.com",
+    "supportUrl": "https://etijwaal.com/contactus",
+    "privacyUrl": "https://etijwaal.com/privacypolicy",
+    "termsUrl": "https://etijwaal.com/termsandconditions",
+    "disclosure": "Umrah and Hajj eSIM plans are sold and supported by"
+  },
+  "copy": {
+    "headerCta": "Get Umrah eSIM",
+    "benefitsEyebrow": "Why pilgrims use an eSIM",
+    "benefitsHeading": "Built for pilgrims to {place}",
+    "howItWorksHeading": "Prepare at home, connected when you arrive",
+    "inlineCta": "Travelling for Umrah? Set up your data in {place} before you leave home.",
+    "bannerHeading": "Arrive in {place} ready to stay in touch",
+    "bannerBody": "Choose an Umrah data plan, install it before your flight, and keep your attention on your worship instead of a SIM counter.",
+    "deviceRows": [
+      [
+        "Umrah eSIM",
+        "Active"
+      ],
+      [
+        "Data roaming",
+        "On"
+      ],
+      [
+        "Network",
+        "Saudi 4G"
+      ]
+    ],
+    "signalLabel": "4G"
+  },
+  "market": {
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "city": "Makkah and Madinah"
+  },
+  "cta": {
+    "url": "https://etijwaal.com/region/UMRAH-esim-travel-packages",
+    "label": "See Umrah eSIM plans",
+    "campaign": "umrah-esim"
+  },
+  "analytics": {},
+  "seo": {
+    "title": "Umrah eSIM for Pilgrims – Data for Makkah & Madinah",
+    "description": "Stay in touch with family during Umrah. Install a Saudi data eSIM at home, use Nusuk and maps in Makkah and Madinah, and skip the airport SIM queue.",
+    "keywords": [
+      "umrah esim",
+      "esim for umrah",
+      "sim card for umrah",
+      "umrah sim card",
+      "makkah esim",
+      "madinah esim",
+      "hajj esim",
+      "internet in makkah for pilgrims"
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Data eSIM for Umrah and Hajj pilgrims",
+      "h1": "Umrah eSIM: stay connected from Jeddah to the Haram",
+      "subheading": "Install a Saudi data plan on your phone before you leave home. When you land in Jeddah or Madinah, switch it on and you can open Nusuk, message your family and find your hotel without searching for a SIM shop.",
+      "bullets": [
+        "Install at home by QR code",
+        "Your home number stays on WhatsApp",
+        "Works in Makkah, Madinah and across Saudi Arabia",
+        "Share data with family by hotspot"
+      ],
+      "deviceLabel": "Makkah · Madinah"
+    },
+    "stats": [
+      {
+        "value": "2",
+        "label": "Holy cities, one plan"
+      },
+      {
+        "value": "7–30",
+        "label": "Days of validity on offer"
+      },
+      {
+        "value": "~5 min",
+        "label": "To install at home"
+      },
+      {
+        "value": "0",
+        "label": "Airport SIM queues"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "plane",
+        "title": "Online the moment you land",
+        "body": "Arrival halls at Jeddah and Madinah are busy after a long flight. With the eSIM already installed, you can tell your family you've arrived and contact your group leader while you wait for your bags."
+      },
+      {
+        "icon": "chat",
+        "title": "Family back home can still reach you",
+        "body": "Your usual SIM stays in your phone, so WhatsApp keeps your normal number. Relatives in Lahore, Hyderabad, Birmingham or Jakarta message you exactly as they always do."
+      },
+      {
+        "icon": "globe",
+        "title": "Nusuk, maps and transport apps",
+        "body": "Permits, Rawdah bookings, the Haramain train, ride-hailing and hotel directions all live on your phone. Mobile data keeps them working between the hotel and the mosque."
+      },
+      {
+        "icon": "wifi",
+        "title": "One plan for the whole family",
+        "body": "Plans listed by eTijwaal allow hotspot sharing, so one phone can keep an elderly parent's phone or a child's tablet online when you are together."
+      },
+      {
+        "icon": "wallet",
+        "title": "A fixed cost, decided in advance",
+        "body": "You pick the data allowance and number of days before you travel. There is no roaming bill waiting for you when you return from your pilgrimage."
+      },
+      {
+        "icon": "clock",
+        "title": "Top up without a shop visit",
+        "body": "If you extend your stay in Madinah or use more data than expected, you can add data from the app instead of finding a mobile store near the Haram."
+      }
+    ],
+    "howItWorks": [
+      {
+        "title": "Confirm your phone supports eSIM",
+        "body": "Dial *#06#. If an EID number appears, the phone has an eSIM chip. It also needs to be unlocked from your home carrier."
+      },
+      {
+        "title": "Choose an Umrah plan",
+        "body": "Match the plan to the length of your trip, from a short visit to a month that includes time in both Makkah and Madinah."
+      },
+      {
+        "title": "Install before departure",
+        "body": "Scan the QR code from your email or the eTijwaal app while you're on home Wi-Fi. Leave the new line switched off until you land."
+      },
+      {
+        "title": "Switch on in Saudi Arabia",
+        "body": "After landing, turn on the eSIM line, select it for mobile data and enable data roaming on that line only."
+      }
+    ],
+    "comparison": {
+      "heading": "Umrah eSIM vs airport SIM vs home roaming",
+      "intro": "Pilgrims usually choose between three ways of getting online in the Kingdom. Each has trade-offs worth knowing before you fly.",
+      "columns": [
+        "Umrah data eSIM",
+        "Saudi SIM bought on arrival",
+        "Roaming on your home SIM"
+      ],
+      "rows": [
+        {
+          "label": "Setup",
+          "values": [
+            "At home, before the flight",
+            "At an operator counter after landing",
+            "Nothing to install"
+          ]
+        },
+        {
+          "label": "Identity checks",
+          "values": [
+            "None at a counter",
+            "Passport, visa details and usually fingerprints",
+            "None"
+          ]
+        },
+        {
+          "label": "Your home number",
+          "values": [
+            "Stays active alongside the eSIM",
+            "Only if your phone takes two SIMs",
+            "Stays active"
+          ]
+        },
+        {
+          "label": "Saudi phone number",
+          "values": [
+            "No, data only",
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "label": "Cost control",
+          "values": [
+            "Prepaid, fixed price",
+            "Prepaid, fixed price",
+            "Can be expensive per day or per MB"
+          ]
+        },
+        {
+          "label": "Best suited to",
+          "values": [
+            "Most Umrah trips of one to four weeks",
+            "Long stays or anyone needing a local number",
+            "Very short trips with a generous home plan"
+          ]
+        }
+      ]
+    },
+    "networks": {
+      "heading": "Mobile networks in Makkah and Madinah",
+      "intro": "Saudi Arabia has three national mobile operators, and each expands capacity around the two Holy Mosques for peak seasons. A travel eSIM connects through one of these local networks.",
+      "items": [
+        {
+          "name": "Mobily",
+          "note": "The network eTijwaal lists for its Umrah plans. Mobily offers 4G and 5G service in Makkah, Madinah and Jeddah."
+        },
+        {
+          "name": "stc",
+          "note": "The largest operator in the Kingdom, which adds temporary sites and Wi-Fi around the holy sites each Hajj season."
+        },
+        {
+          "name": "Zain KSA",
+          "note": "The third national operator, which says it runs 5G across the holy sites during Hajj."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Why mobile data matters on Umrah",
+        "paragraphs": [
+          "Much of the practical side of Umrah is now done on a phone. The Nusuk app from the Ministry of Hajj and Umrah handles Umrah permits and Rawdah appointments in Madinah. Train tickets between Makkah, Jeddah and Madinah are booked online, and group leaders often share timings and hotel details through WhatsApp groups.",
+          "Hotel Wi-Fi helps, but it ends at the lobby door. Between the hotel, the Haram, the bus stop and the train station you need your own connection, especially if you are travelling with parents or children and need to find each other again after prayer."
+        ]
+      },
+      {
+        "heading": "Planning your data for the journey",
+        "paragraphs": [
+          "Messages, maps and Nusuk use very little data. Video calls home, sharing videos with family and streaming lectures use the most. A rough starting point:"
+        ],
+        "bullets": [
+          "Short Umrah of about a week, mostly messaging: 1–3 GB",
+          "Two weeks across Makkah and Madinah with regular video calls: 5–10 GB",
+          "A month, or one plan shared by hotspot with family: 10 GB or more, or an unlimited plan"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does an eSIM work in Makkah and Madinah?",
+        "a": "Yes. Saudi Arabia's mobile networks support eSIM, and a travel data eSIM connects to a local network in both cities, in Jeddah and along the roads between them. Your phone must support eSIM and be unlocked."
+      },
+      {
+        "q": "Which countries does the eTijwaal Umrah eSIM cover?",
+        "a": "At the time of writing, eTijwaal's Umrah plans cover Saudi Arabia only, which includes Makkah, Madinah, Jeddah and Taif. If your trip includes a stopover elsewhere in the Gulf, check the plan details or consider a regional plan."
+      },
+      {
+        "q": "Will I get a Saudi phone number with an Umrah eSIM?",
+        "a": "No. These plans are data-only, so there is no local number for ordinary calls or SMS. Your home SIM keeps your normal number, and you can call family over WhatsApp or other internet calling apps."
+      },
+      {
+        "q": "Can I use the Nusuk app with a travel eSIM?",
+        "a": "Yes. Nusuk works over any mobile data connection. The Ministry of Hajj and Umrah has also arranged for Nusuk to be used without data charges on local stc, Mobily and Zain SIM cards. That arrangement is described for local SIMs, so on a travel eSIM you should expect Nusuk to use a small amount of your plan's data."
+      },
+      {
+        "q": "When should I install the eSIM?",
+        "a": "A day or two before your flight, at home on Wi-Fi. Keep the line turned off while you travel, then switch it on and enable data roaming for it once you land in Jeddah or Madinah."
+      },
+      {
+        "q": "Can my whole family share one plan?",
+        "a": "Often, yes. eTijwaal's Umrah plan listings indicate that hotspot sharing is allowed, so one phone can share data with others nearby. Because family members are frequently apart inside the Haram, it is usually better for each adult to have their own data."
+      },
+      {
+        "q": "What if my data runs out before I go home?",
+        "a": "You can add data or buy another plan in the eTijwaal app, using hotel Wi-Fi if you've already run out. There is no need to reinstall the eSIM."
+      },
+      {
+        "q": "Is there an eSIM for Hajj as well?",
+        "a": "eTijwaal also lists Hajj eSIM packages with longer validity to cover the Hajj days. These can be seasonal, so check what is available closer to your departure. Our Hajj guide covers connectivity in Mina and Arafat."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "apps-for-umrah-pilgrims",
+      "title": "Nusuk and the Other Apps Every Umrah Pilgrim Should Install",
+      "description": "The apps pilgrims rely on in Makkah and Madinah: Nusuk for permits and Rawdah, Tawakkalna, the Haramain train, maps and ride-hailing, and what needs data.",
+      "h1": "Essential apps for Umrah, and how much data they use",
+      "navLabel": "Apps for Umrah",
+      "intro": "Install a handful of apps before you leave home and most of the practical tasks of Umrah, from permits to train tickets, can be handled from your phone. Here is what to install, what each app is for, and how connectivity affects them.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Nusuk: the official pilgrimage platform",
+          "paragraphs": [
+            "Nusuk is the official platform of Saudi Arabia's Ministry of Hajj and Umrah. Pilgrims use it to request an Umrah permit with a time slot, and to book a visit to the Rawdah at the Prophet's Mosque in Madinah. Rawdah permits are free and are issued by capacity, and the app now offers instant booking with a waitlist when slots are full. The ministry has also listed Nusuk maps, Haramain train booking and an AI assistant among its services.",
+            "Register and sign in to Nusuk at home, where you have reliable internet and time to fix any problem with your account. Check that your passport details are correct. If a QR code or permit is issued, take a screenshot so you can still show it if your connection drops in a crowd."
+          ]
+        },
+        {
+          "heading": "Tawakkalna and the digital Nusuk card",
+          "paragraphs": [
+            "Tawakkalna is the Saudi government services app. Nusuk has used it to check eligibility for permits, and during Hajj the digital version of the Nusuk card can be shown through Nusuk and Tawakkalna. Rules and integrations change from season to season, so follow the instructions your travel agent or Hajj mission gives you for the current year."
+          ]
+        },
+        {
+          "heading": "Getting between the cities and the hotel",
+          "paragraphs": [
+            "The Haramain High Speed Railway links Makkah, Jeddah, King Abdulaziz International Airport and Madinah. Tickets can be bought in its official app or through Nusuk, and you will need your passport details at booking. For shorter trips, ride-hailing apps such as Careem and Uber operate in both cities, and a maps app helps you find your hotel from the nearest gate of the Haram."
+          ],
+          "bullets": [
+            "Nusuk: Umrah permits, Rawdah booking, maps",
+            "Tawakkalna: government services and the digital Nusuk card during Hajj",
+            "HHR Train (Haramain): train tickets between the cities and the airport",
+            "Careem or Uber: rides between your hotel, the station and the Haram",
+            "Google Maps or Apple Maps: save your hotel and gate number as favourites",
+            "WhatsApp: group updates from your Umrah operator and calls home"
+          ]
+        },
+        {
+          "heading": "Which apps need mobile data",
+          "paragraphs": [
+            "Almost everything above needs an internet connection at the moment you use it. Booking a Rawdah slot, checking a train time or ordering a car while standing outside the hotel all depend on mobile data. The good news is that these apps are light: a day of permits, maps and rides uses far less than a single long video call.",
+            "The ministry announced in 2025 that Nusuk can be used without data charges on local stc, Mobily and Zain SIM cards. If you use a travel eSIM instead, Nusuk simply draws a little from your data allowance, which is rarely noticeable."
+          ]
+        },
+        {
+          "heading": "A pre-departure checklist for your phone",
+          "paragraphs": [
+            "Spend an evening preparing your phone before the journey:"
+          ],
+          "bullets": [
+            "Update your phone's operating system and every app above",
+            "Sign in to Nusuk and confirm your profile details match your passport",
+            "Download offline maps for Makkah, Madinah and Jeddah",
+            "Save your hotel address in English and Arabic",
+            "Join your group's WhatsApp group and save the group leader's number",
+            "Install your data eSIM on Wi-Fi and leave it switched off until you land"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is the Nusuk app free?",
+          "a": "Yes, the app is free to download, and the ministry states that Rawdah permits are free. Be cautious of anyone who charges you just to book a Rawdah slot."
+        },
+        {
+          "q": "Do I need a Saudi number to use Nusuk?",
+          "a": "International visitors can register with their passport and visa details. Some steps may send a verification code by SMS or email, so keep your home SIM active for receiving messages."
+        },
+        {
+          "q": "Can I use these apps on hotel Wi-Fi only?",
+          "a": "You can, but you will lose access the moment you leave the hotel. Permits, train times and ride-hailing are often needed on the street, which is why most pilgrims carry mobile data."
+        }
+      ]
+    },
+    {
+      "slug": "phone-signal-in-masjid-al-haram",
+      "title": "Phone Signal in Masjid al-Haram: Staying Connected in Crowds",
+      "description": "Why mobile data slows in the Haram after prayer, how Saudi operators add capacity, and practical ways to stay reachable in Makkah and Madinah crowds.",
+      "h1": "Staying connected in the Haram and other crowded areas",
+      "navLabel": "Signal in the Haram",
+      "intro": "Coverage around the Two Holy Mosques is strong, but hundreds of thousands of phones in one place can still slow things down. Understanding when and why that happens helps you plan, so a weak signal never leaves you stranded.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "How good is coverage around the Haram?",
+          "paragraphs": [
+            "Saudi Arabia invests heavily in mobile networks around Makkah and Madinah. Ahead of Hajj 2025, the Saudi communications minister reported 4G and 5G coverage of 99 percent across Makkah, Madinah and the holy sites, along with more than 10,500 Wi-Fi access points. stc, Mobily and Zain each add temporary sites and mobile units for the busiest periods.",
+            "In everyday terms, you can expect a good signal in the courtyards, on the streets around the mosques and in the hotel towers nearby. Indoors, on lower floors and in the basement levels, it can be weaker."
+          ]
+        },
+        {
+          "heading": "Why your data slows after prayer",
+          "paragraphs": [
+            "Network capacity is shared. When a prayer ends and a huge crowd starts messaging, calling and searching for each other at the same time, every phone competes for the same cell sites. Messages may take longer to send and video calls may freeze for a few minutes. This affects every network and every type of SIM, local or travel eSIM, and it usually eases as the crowd disperses.",
+            "Friday prayers, the last ten nights of Ramadan and the Hajj days are the busiest times. Plan for slower data then rather than relying on a call to find someone."
+          ]
+        },
+        {
+          "heading": "Practical habits that help",
+          "paragraphs": [
+            "A few simple habits make a weak signal much less of a problem:"
+          ],
+          "bullets": [
+            "Send a text or voice note instead of making a call. Small messages get through when calls fail.",
+            "Agree on a meeting point and time before you enter, not after you come out.",
+            "Note the number of the gate you used. Gates at Masjid al-Haram are numbered, such as King Abdulaziz Gate (1) and King Fahd Gate (79).",
+            "Take screenshots of permits, hotel details and train tickets so they open without a connection.",
+            "Keep video calls home for the hotel or for quieter times of day."
+          ]
+        },
+        {
+          "heading": "Battery matters as much as signal",
+          "paragraphs": [
+            "Long hours at the mosque, searching for signal and bright screens drain batteries quickly. Carry a small power bank and a short cable, lower the screen brightness and turn off background video autoplay in social apps. If your phone dies, the best eSIM in the world can't help you find your family, so put your hotel name and a relative's number on a card in your pocket as well."
+          ]
+        },
+        {
+          "heading": "Should you rely on public Wi-Fi?",
+          "paragraphs": [
+            "Free Wi-Fi is available in many areas around the holy sites and in hotels. It is useful for large downloads and video calls, but it can be slow when crowded, and it may require you to sign in with a phone number. Use mobile data for payments, and avoid entering banking passwords on open networks."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is there mobile signal inside Masjid al-Haram?",
+          "a": "Yes. Coverage reaches the mosque and its courtyards. It can slow down at very busy times, such as straight after prayer, when many people use their phones at once."
+        },
+        {
+          "q": "Is a travel eSIM slower than a local SIM in the Haram?",
+          "a": "A travel eSIM connects to the same local towers as local SIMs, so crowd congestion affects both. Exact speeds depend on the network the plan uses and how busy it is."
+        },
+        {
+          "q": "What should I do if I lose my group and can't call?",
+          "a": "Go to the meeting point you agreed in advance and send a text message, which is more likely to get through than a call. Inside the mosque, look for the guidance points for lost persons or ask staff for help."
+        }
+      ]
+    },
+    {
+      "slug": "umrah-family-location-sharing",
+      "title": "Keeping Your Umrah Family Together: Location Sharing Guide",
+      "description": "How families and groups coordinate during Umrah: live location on WhatsApp and Google Maps, meeting points, elderly parents, children and data sharing.",
+      "h1": "Coordinating your family and group during Umrah",
+      "navLabel": "Family tracking",
+      "intro": "Many pilgrims travel with elderly parents, young children or a large group from their mosque. Live location sharing and a few agreed routines make it much easier to find each other again in Makkah and Madinah.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Agree a plan before you travel",
+          "paragraphs": [
+            "Technology works best alongside a simple plan everyone understands. Before departure, sit down with your family or group and agree on the basics: who carries which phone, which gate you will use, where you meet if separated, and what time you will regroup after each prayer. Write the hotel name and address, in Arabic as well as English, on a card for each person, especially older relatives who may not use smartphones confidently."
+          ]
+        },
+        {
+          "heading": "Sharing live location",
+          "paragraphs": [
+            "Live location lets a family member see where you are on a map in real time. It only works while both phones have mobile data, which is the main reason each adult should have their own connection."
+          ],
+          "bullets": [
+            "WhatsApp: open a chat, tap the attachment icon, choose Location and then Share live location for up to eight hours",
+            "Google Maps: tap your profile picture, choose Location sharing and pick the people and duration",
+            "iPhone: use the Find My app to share your location with family members",
+            "Android: Google's Find Hub (formerly Find My Device) can help locate a phone that has been lost"
+          ]
+        },
+        {
+          "heading": "Elderly parents and grandparents",
+          "paragraphs": [
+            "Set up their phone for them before the journey. Turn on location sharing, add your number as a favourite and enlarge the text size. Show them how to send a voice note in WhatsApp, which is often easier than typing. If they are not comfortable with an eSIM or their phone does not support one, keep their phone online through your hotspot when you are together, and make sure they have a printed card with your number when you are apart.",
+            "If a relative does go missing, go to your agreed meeting point first, then inform staff at the mosque. Many countries also station their own officials near the Two Holy Mosques during busy seasons to help reunite elderly pilgrims with their groups."
+          ]
+        },
+        {
+          "heading": "Children and teenagers",
+          "paragraphs": [
+            "A teenager with their own phone and data can share their live location just like an adult. For younger children, a wristband or card with your phone number and hotel name is more reliable than any app. Agree that they always stay with a named adult when the crowd is moving."
+          ]
+        },
+        {
+          "heading": "One plan or several?",
+          "paragraphs": [
+            "eTijwaal lists its Umrah plans as supporting hotspot sharing, which is useful when the family is together in the hotel or on a coach. But hotspot only reaches a few metres. Inside the Haram, men and women often pray in different areas, so each adult who might be apart from the others should have their own data line. Smaller allowances per person usually work better than one large shared plan."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does live location sharing work inside the Haram?",
+          "a": "It works wherever the phone has mobile data. At very crowded times updates can be delayed, so treat the map as a guide and still agree on a fixed meeting point."
+        },
+        {
+          "q": "How much data does location sharing use?",
+          "a": "Very little. Live location in WhatsApp or Google Maps uses a small amount of data compared with photos or video, though it does use more battery."
+        },
+        {
+          "q": "Can I share my eSIM data with my parents' phones?",
+          "a": "If your plan allows hotspot use, you can share data with phones close to you. eTijwaal's Umrah plan listings indicate hotspot is supported, but check the plan details before you buy."
+        }
+      ]
+    },
+    {
+      "slug": "umrah-sim-card-airport-or-esim",
+      "title": "Umrah SIM Card: Buy One on Arrival or Bring an eSIM?",
+      "description": "Should pilgrims buy a Saudi SIM at Jeddah or Madinah airport or install an eSIM before travelling? Registration, fingerprints, queues and Nusuk compared.",
+      "h1": "Choosing a SIM for Umrah: airport counter or eSIM from home",
+      "navLabel": "Umrah SIM card",
+      "intro": "Most international pilgrims arrive at King Abdulaziz International Airport in Jeddah or Prince Mohammad bin Abdulaziz Airport in Madinah. You can buy a Saudi SIM there, or arrive with a data eSIM already installed. Both work, and the better choice depends on your trip.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Buying a Saudi SIM on arrival",
+          "paragraphs": [
+            "stc, Mobily and Zain sell prepaid SIM cards for visitors at the main airports and in their shops. Registration is required by Saudi rules: expect to show your passport and visa, and the operator records your entry details. Biometric verification, usually fingerprints, has traditionally been part of activation for new lines.",
+            "Saudi authorities have introduced remote options too. In 2025 the Communications, Space and Technology Commission, with the Ministry of Interior and the operators, launched a service for international Hajj pilgrims to request and activate an eSIM in an operator's app, verified through the Absher platform. Availability for Umrah visitors and the exact steps can differ, so check with the operator."
+          ]
+        },
+        {
+          "heading": "What a local SIM does well",
+          "paragraphs": [
+            "A local SIM gives you a Saudi phone number, which helps if you will receive calls from local drivers or hotels, or if you are staying for many weeks. The Ministry of Hajj and Umrah also announced that Nusuk can be used without data charges on local stc, Mobily and Zain SIM cards."
+          ]
+        },
+        {
+          "heading": "Where an eSIM is easier",
+          "paragraphs": [
+            "Arriving pilgrims are often tired, travelling in a group that is waiting for its coach, and in Ihram if they are heading straight to Makkah. Queueing at a counter, handing over documents and giving fingerprints is one more task at the worst moment. With a data eSIM installed before departure, you switch on mobile data as the plane lands and you are already online.",
+            "Your home SIM also stays in the phone, so WhatsApp keeps your usual number and your bank can still send verification codes. For relatives at home, nothing changes."
+          ]
+        },
+        {
+          "heading": "Side-by-side for a typical pilgrim",
+          "paragraphs": [
+            "Here is how the two options compare on the points pilgrims ask about most:"
+          ],
+          "bullets": [
+            "Setup: eSIM at home before the flight; local SIM at a counter after landing",
+            "Documents: none at a counter for the eSIM; passport, visa and biometrics for a local SIM",
+            "Phone number: data only with the eSIM; a Saudi number with a local SIM",
+            "WhatsApp: keeps your home number with either, as long as you don't change accounts",
+            "Nusuk data: uses a little of your allowance on an eSIM; announced as free of data charges on local SIMs",
+            "Long stays: a local SIM can be better value if you stay for months"
+          ]
+        },
+        {
+          "heading": "Which should you choose?",
+          "paragraphs": [
+            "For a typical Umrah of one to four weeks, a data eSIM is the simplest option, especially in a group or with elderly relatives. Choose a local SIM if you specifically need a Saudi number, are staying a long time, or your phone does not support eSIM. Some pilgrims do both: an eSIM for arrival day, then a local SIM later if they find they need a number."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I buy a SIM card at Jeddah airport for Umrah?",
+          "a": "Yes. Saudi operators sell visitor SIMs at King Abdulaziz International Airport. Bring your passport and visa, and expect identity checks that usually include biometrics. Queues can be long when several flights arrive together."
+        },
+        {
+          "q": "Do I need fingerprints for an eSIM bought online?",
+          "a": "A travel data eSIM bought online before you travel is installed by QR code, with no counter visit. Local Saudi SIMs and local eSIMs are registered to your identity under Saudi rules."
+        },
+        {
+          "q": "Will my phone work in Saudi Arabia without changing SIM?",
+          "a": "Yes, through roaming on your home plan, but roaming charges can be high. Turn off data roaming on your home SIM if you use an eSIM for data."
+        }
+      ]
+    },
+    {
+      "slug": "how-much-data-for-umrah",
+      "title": "How Much Data Do You Need for a Two-Week Umrah?",
+      "description": "Estimate the mobile data you need for Umrah: daily use for Nusuk, maps, WhatsApp and video calls home, with sample plans for 7, 14 and 30 days.",
+      "h1": "How much mobile data does an Umrah trip use?",
+      "navLabel": "How much data",
+      "intro": "Most pilgrims need less data than they expect. Permits, maps and messages are light. What adds up is video calls home and sharing videos with family. Use the estimates below to size your plan.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "What uses data on Umrah",
+          "paragraphs": [
+            "Daily use on a pilgrimage is different from a holiday. You spend long hours in worship, and much of the rest is walking, eating and resting. The figures below are approximate and vary by app settings and video quality:"
+          ],
+          "bullets": [
+            "WhatsApp messages and voice notes: a few MB a day for most people",
+            "Nusuk, train bookings and ride-hailing: small, a few MB per use",
+            "Maps and live location sharing: low, typically under 50 MB a day",
+            "Sending photos: about 1–3 MB per photo",
+            "WhatsApp video calls: several hundred MB per hour",
+            "Watching or uploading video: the biggest use, often 1 GB or more per hour"
+          ]
+        },
+        {
+          "heading": "Sample plans by trip length",
+          "paragraphs": [
+            "Think about how often you'll video call home. That one habit usually decides your plan size."
+          ],
+          "bullets": [
+            "One week, messages and a short call each day: about 1–3 GB",
+            "Two weeks, split between Makkah and Madinah, with daily video calls: about 5–10 GB",
+            "Two weeks while sharing hotspot with a parent or spouse: about 10 GB",
+            "A month or a long Ramadan stay: 10 GB or more, or an unlimited plan with a fair-usage policy"
+          ]
+        },
+        {
+          "heading": "A two-week Umrah, day by day",
+          "paragraphs": [
+            "Picture a common itinerary: arrival in Jeddah, a week in Makkah, the train to Madinah and a week near the Prophet's Mosque. On arrival day you message family, contact the group leader and open maps, which uses perhaps 100 MB. On a normal day you send voice notes, check Nusuk, share live location after prayers and post a few photos to the family group, around 150 to 300 MB. A 20-minute video call home in the evening adds a few hundred more.",
+            "Across 14 days that adds up to roughly 5 to 8 GB for most people. If you're likely to stream lectures or make long daily calls, choose a larger plan or one with unlimited data."
+          ]
+        },
+        {
+          "heading": "How to stretch your allowance",
+          "paragraphs": [
+            "A few settings make a big difference:"
+          ],
+          "bullets": [
+            "Turn off video autoplay in Facebook, Instagram and TikTok",
+            "Set WhatsApp to download media only on Wi-Fi",
+            "Make longer video calls on hotel Wi-Fi",
+            "Download offline maps before you leave home",
+            "Pause automatic photo backup until you return"
+          ]
+        },
+        {
+          "heading": "Fixed data or unlimited?",
+          "paragraphs": [
+            "At the time of writing, eTijwaal lists both fixed-data Umrah plans and unlimited plans with a fair-usage policy. A fixed allowance suits pilgrims who mainly message and use maps. Unlimited suits heavy video callers or anyone sharing data with family. With unlimited plans, check the fair-usage terms, since speeds may be reduced after heavy use. If you run low on a fixed plan, eTijwaal says you can top up in its app."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is 5 GB enough for two weeks of Umrah?",
+          "a": "For most pilgrims who message, use maps and make a few short video calls, yes. If you video call every day for long periods or share data with family, consider 10 GB or an unlimited plan."
+        },
+        {
+          "q": "Does the Nusuk app use a lot of data?",
+          "a": "No. Booking permits and checking details uses very little. On local Saudi SIM cards the ministry has arranged for Nusuk to work without data charges."
+        },
+        {
+          "q": "Can I add more data if I extend my stay?",
+          "a": "Yes. eTijwaal states that its Umrah plans can be topped up in the app, so you don't need to install a new eSIM if you stay longer."
+        }
+      ]
+    },
+    {
+      "slug": "hajj-esim-connectivity-tips",
+      "title": "Hajj eSIM and Phone Tips for Mina, Arafat and Muzdalifah",
+      "description": "Staying connected during Hajj: network capacity in Mina and Arafat, the Nusuk card, battery planning, data needs for a longer stay and Hajj eSIM options.",
+      "h1": "Connectivity tips for Hajj pilgrims",
+      "navLabel": "Hajj tips",
+      "intro": "Hajj brings well over a million pilgrims to the same few square kilometres on the same days. Saudi operators prepare for it every year, but your own preparation still matters. Here is how to keep your phone useful through Mina, Arafat and Muzdalifah.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "How networks prepare for Hajj",
+          "paragraphs": [
+            "Each season the communications ministry and operators add temporary towers, mobile network units and Wi-Fi across the holy sites. For Hajj 2025, stc reported new and upgraded 5G and 4G sites and mobile units for crowded areas, and Zain said it covered the holy sites with 5G. Even so, demand peaks are extreme, especially on the Day of Arafat and during movements between sites, so expect slower data at those moments."
+          ]
+        },
+        {
+          "heading": "The Nusuk card and official apps",
+          "paragraphs": [
+            "Registered Hajj pilgrims receive a Nusuk card from the Ministry of Hajj and Umrah. It is needed to enter the holy sites, links to your accommodation and group details, and helps officials reunite pilgrims who become separated. A digital version is available in the Nusuk and Tawakkalna apps, but keep the physical card with you at all times, because a phone battery or signal can fail."
+          ]
+        },
+        {
+          "heading": "Your data needs for Hajj",
+          "paragraphs": [
+            "Hajj journeys are usually longer than Umrah trips, often three to six weeks including time in Madinah. During the core Hajj days you will use your phone less for entertainment and more for coordination. Messages, location sharing and short calls home matter most."
+          ],
+          "bullets": [
+            "Choose validity that covers your whole stay, not just the Hajj days",
+            "Light users can manage with a few GB over several weeks",
+            "Daily video callers should plan for 10–20 GB over a month",
+            "Top up from the app rather than visiting a shop in a crowded area"
+          ]
+        },
+        {
+          "heading": "Battery planning for the camps",
+          "paragraphs": [
+            "Charging points in tents can be crowded. Bring a fully charged power bank of at least 10,000 mAh, a short cable, and a plug adapter for Saudi sockets, which commonly use the UK-style three-pin type. Turn on low-power mode on the Day of Arafat and keep your phone for essential messages so it lasts until you reach Muzdalifah."
+          ]
+        },
+        {
+          "heading": "Hajj eSIM plans from eTijwaal",
+          "paragraphs": [
+            "Alongside its Umrah range, eTijwaal lists dedicated Hajj eSIM packages with longer validity periods, intended to cover a full Hajj journey in Saudi Arabia. These packages appear to be offered seasonally, so check availability as your departure approaches. If Hajj plans aren't listed yet, an Umrah plan with enough validity, plus top-ups, can cover the same trip."
+          ]
+        },
+        {
+          "heading": "Staying in touch with home",
+          "paragraphs": [
+            "Families at home naturally want news, especially on the Day of Arafat. Agree in advance that you will send a short message at set times rather than call, since messages get through more reliably in crowds. Ask relatives to contact your group operator or your country's Hajj mission if they can't reach you, rather than worrying when a call goes unanswered."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is there mobile signal in Mina and Arafat?",
+          "a": "Yes. Saudi operators deploy extra capacity at the holy sites every Hajj season. Data can still slow at peak times because of the size of the crowd."
+        },
+        {
+          "q": "Should I buy a Hajj eSIM or an Umrah eSIM?",
+          "a": "If a Hajj package is available, its longer validity is designed for the Hajj journey. If not, choose an Umrah plan that covers your dates and top up if needed. Both cover Saudi Arabia."
+        },
+        {
+          "q": "Can I rely on the digital Nusuk card alone?",
+          "a": "Keep the physical card with you. The digital version in Nusuk and Tawakkalna is a useful backup, but it depends on a working phone."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "heading": "About Umrah eSIM",
+    "description": "Umrah eSIM is a connectivity guide for pilgrims to Makkah and Madinah. The Umrah and Hajj data plans featured on this site are provided by eTijwaal.",
+    "paragraphs": [
+      "Umrah eSIM is an independent guide to staying connected during Umrah and Hajj. We explain the apps pilgrims rely on, how mobile coverage behaves around the Two Holy Mosques, and how a data eSIM compares with buying a Saudi SIM on arrival.",
+      "The Umrah and Hajj eSIM plans featured on this site are sold, delivered and supported by eTijwaal, a travel eSIM provider. When you click through to buy, you complete your purchase on etijwaal.com or in the eTijwaal app, and eTijwaal handles any support questions.",
+      "Pilgrimage rules, Nusuk features and network arrangements in Saudi Arabia change from season to season. We update our guides regularly, but please confirm current requirements with the Ministry of Hajj and Umrah, your travel agent or Hajj mission, and check your plan details before you travel."
+    ]
+  }
+}

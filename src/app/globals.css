@@ -1,26 +1,75 @@
 @import "tailwindcss";
 
+/* Per-site colours are injected on <html> by the root layout (see [site]/layout.tsx). */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --brand: #0f766e;
+  --brand-ink: #ffffff;
+  --accent: #f59e0b;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-accent: var(--accent);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+/* In a layer so utility classes can still override these. */
+@layer components {
+  .prose-site p {
+    margin-top: 1rem;
+    line-height: 1.75;
+    color: var(--muted);
+  }
+  .prose-site ul {
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+    list-style: disc;
+    color: var(--muted);
+  }
+  .prose-site li {
+    margin-top: 0.5rem;
+    line-height: 1.7;
+  }
+  .prose-site h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-chevron {
+  transform: rotate(180deg);
+}
+
+/* No extra gap above the first heading of an article body. */
+.prose-site > :first-child > h2:first-child {
+  margin-top: 0;
 }

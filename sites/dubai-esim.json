@@ -1,0 +1,578 @@
+{
+  "id": "dubai-esim",
+  "domain": "dubai-esim.com",
+  "aliases": [
+    "www.dubai-esim.com"
+  ],
+  "locale": "en",
+  "brand": {
+    "name": "Dubai eSIM",
+    "tagline": "Travel data for Dubai and the UAE. Install before your flight and connect as soon as you land.",
+    "primary": "#0b6e75",
+    "primaryInk": "#ffffff",
+    "accent": "#f2b33d"
+  },
+  "partner": {
+    "name": "eTijwaal",
+    "url": "https://etijwaal.com",
+    "supportUrl": "https://etijwaal.com/contactus",
+    "privacyUrl": "https://etijwaal.com/privacypolicy",
+    "termsUrl": "https://etijwaal.com/termsandconditions",
+    "disclosure": "eSIM plans are sold and supported by"
+  },
+  "market": {
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Dubai"
+  },
+  "cta": {
+    "url": "https://etijwaal.com/shop/United-Arab-Emirates-esim-travel-packages",
+    "label": "See Dubai eSIM plans",
+    "campaign": "dubai-esim"
+  },
+  "analytics": {},
+  "seo": {
+    "title": "Dubai eSIM for Tourists – Instant UAE Data Plans",
+    "description": "Get a Dubai eSIM before you fly. Instant QR activation, 4G/5G data on UAE networks, no airport SIM queues and no roaming bills. Plans from eTijwaal.",
+    "keywords": [
+      "dubai esim",
+      "esim dubai",
+      "uae esim",
+      "esim for dubai tourists",
+      "dubai sim card for tourists",
+      "best esim for dubai",
+      "prepaid data dubai"
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Travel eSIM for the United Arab Emirates",
+      "h1": "Dubai eSIM: mobile data the moment you land",
+      "subheading": "Skip the airport SIM counter and expensive roaming. Buy a UAE data plan online, scan a QR code at home, and your phone connects to a local 4G/5G network when you arrive at DXB.",
+      "bullets": [
+        "Activates in minutes by QR code",
+        "Keep your WhatsApp number",
+        "Works across all seven emirates",
+        "No passport registration at a kiosk"
+      ],
+      "deviceLabel": "Dubai · UAE"
+    },
+    "stats": [
+      {
+        "value": "7",
+        "label": "Emirates covered"
+      },
+      {
+        "value": "4G / 5G",
+        "label": "Network speeds"
+      },
+      {
+        "value": "~5 min",
+        "label": "Typical setup time"
+      },
+      {
+        "value": "0",
+        "label": "Plastic SIMs to swap"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "bolt",
+        "title": "Connected on arrival",
+        "body": "Install the eSIM before you leave home and switch it on when you land. You can order a Careem or Uber and open maps while you're still at baggage claim."
+      },
+      {
+        "icon": "wallet",
+        "title": "No roaming bill shock",
+        "body": "A prepaid data plan has a fixed price. Turn off roaming on your home SIM and there are no surprise per-MB charges when you get back."
+      },
+      {
+        "icon": "chat",
+        "title": "Keep your own number",
+        "body": "Your home SIM stays in the phone. WhatsApp, iMessage and your banking OTPs keep working on your usual number while the eSIM handles data."
+      },
+      {
+        "icon": "signal",
+        "title": "Strong UAE coverage",
+        "body": "Connects through local partner networks, so you get the same 4G/5G coverage as residents in Downtown, the Marina, the desert and Abu Dhabi."
+      },
+      {
+        "icon": "shield",
+        "title": "Safer than public Wi-Fi",
+        "body": "Mall, hotel and metro Wi-Fi is convenient but open. Mobile data gives you a private connection for payments, bookings and work."
+      },
+      {
+        "icon": "plane",
+        "title": "Ideal for layovers",
+        "body": "Transiting through DXB or DWC? A short-validity plan covers a stopover, so you're not paying for a full tourist SIM."
+      }
+    ],
+    "howItWorks": [
+      {
+        "title": "Check your phone",
+        "body": "Most iPhones from the XR/XS onwards, Google Pixel 3 and newer, and recent Samsung Galaxy S, Z and A models support eSIM. Your phone must be carrier-unlocked."
+      },
+      {
+        "title": "Choose a UAE plan",
+        "body": "Pick a data allowance and validity that fit your trip, whether that's a weekend stopover or a two-week holiday."
+      },
+      {
+        "title": "Scan the QR code",
+        "body": "You'll get a QR code by email and in the eTijwaal app. Scan it on Wi-Fi at home. Installation takes a couple of minutes."
+      },
+      {
+        "title": "Land and connect",
+        "body": "When you arrive in Dubai, switch on the eSIM line and enable data roaming for it. You're online."
+      }
+    ],
+    "comparison": {
+      "heading": "eSIM vs roaming vs a local SIM in Dubai",
+      "intro": "Three ways to get online in the UAE. Here's how they compare for a typical tourist trip.",
+      "columns": [
+        "Travel eSIM",
+        "Home roaming",
+        "Local tourist SIM"
+      ],
+      "rows": [
+        {
+          "label": "When you can set it up",
+          "values": [
+            "Before you fly",
+            "Automatic",
+            "After landing, at a kiosk or shop"
+          ]
+        },
+        {
+          "label": "Cost control",
+          "values": [
+            "Fixed prepaid price",
+            "Often charged per day or per MB",
+            "Fixed prepaid price"
+          ]
+        },
+        {
+          "label": "Keeps your home number",
+          "values": [
+            "Yes, dual SIM",
+            "Yes",
+            "Only if your phone has dual SIM"
+          ]
+        },
+        {
+          "label": "Paperwork",
+          "values": [
+            "None at a counter",
+            "None",
+            "Passport registration"
+          ]
+        },
+        {
+          "label": "Top-ups",
+          "values": [
+            "In the app",
+            "Not needed",
+            "In store or carrier app"
+          ]
+        },
+        {
+          "label": "Best for",
+          "values": [
+            "Most tourists and transit",
+            "Very short, expensed trips",
+            "Long stays needing a UAE number"
+          ]
+        }
+      ]
+    },
+    "networks": {
+      "heading": "Which networks does a Dubai eSIM use?",
+      "intro": "The UAE has two main mobile operators and both run 4G and 5G networks across the country. A travel eSIM connects through a local partner, so your coverage is the same as a resident's.",
+      "items": [
+        {
+          "name": "e& (formerly Etisalat)",
+          "note": "The UAE's largest operator, with wide 4G/5G coverage in cities, on highways and in most desert camps."
+        },
+        {
+          "name": "du",
+          "note": "The second national operator, with strong coverage across Dubai and the northern emirates. Virgin Mobile UAE also runs on du's network."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Do you need a SIM card for Dubai?",
+        "paragraphs": [
+          "Most of Dubai runs on your phone: ride-hailing, metro and tram planning, restaurant bookings, attraction tickets and paying by QR code. Hotels and malls have Wi-Fi, but you'll lose it the moment you step outside, which is exactly when you need maps or a taxi.",
+          "A Dubai eSIM gives you mobile data everywhere: Dubai Marina, Jumeirah Beach, a desert safari, the drive to Abu Dhabi. Your home SIM stays in your phone for calls and texts. Because you set it up before you travel, you avoid queueing at an airport counter after a long flight."
+        ]
+      },
+      {
+        "heading": "How much data do you need in Dubai?",
+        "paragraphs": [
+          "Maps, messaging and ride-hailing use relatively little data. Most of it goes on video calls, social media video and streaming. As a rough guide:"
+        ],
+        "bullets": [
+          "Stopover or 2–3 days of light use: 1–3 GB",
+          "One-week holiday with maps, socials and some video calls: 5–10 GB",
+          "Two weeks or more, or heavy streaming and hotspot use: 15 GB+ or an unlimited plan"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does eSIM work in Dubai?",
+        "a": "Yes. The UAE's mobile networks fully support eSIM, and travel eSIMs connect through local partner networks on 4G and 5G. You need an eSIM-compatible, carrier-unlocked phone."
+      },
+      {
+        "q": "Can I install my Dubai eSIM before I travel?",
+        "a": "Yes, and that's the recommended approach. Install it at home on Wi-Fi, keep the line switched off, then turn it on and enable data roaming for the eSIM when you land in the UAE."
+      },
+      {
+        "q": "Will I get a UAE phone number?",
+        "a": "Travel eSIMs are generally data-only, so you don't get a local number for normal calls or SMS. You keep your home number on your physical SIM, and you can still call over the internet with apps that work in the UAE."
+      },
+      {
+        "q": "Do WhatsApp calls work with a Dubai eSIM?",
+        "a": "WhatsApp messaging works across the UAE. Voice and video calls on some apps have historically been restricted on local UAE SIM cards. eTijwaal advertises its UAE eSIM as a way to keep WhatsApp calls working. See our WhatsApp calls guide for the details."
+      },
+      {
+        "q": "Can I use the eSIM in Abu Dhabi and the other emirates?",
+        "a": "Yes. A UAE eSIM covers the whole country, including Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain."
+      },
+      {
+        "q": "What happens if I run out of data?",
+        "a": "You can top up or buy another plan in the eTijwaal app without reinstalling anything, as long as you have the app and an internet connection, such as hotel Wi-Fi."
+      },
+      {
+        "q": "Is my phone eSIM compatible?",
+        "a": "Most iPhones from the XR/XS onwards, Google Pixel 3 and newer, and recent Samsung Galaxy S, Z Flip/Fold and many A-series models support eSIM. To check, dial *#06#. If you see an EID number, your phone supports eSIM."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "whatsapp-calls-in-dubai",
+      "title": "Do WhatsApp Calls Work in Dubai? (2026 Traveller Guide)",
+      "description": "Can you make WhatsApp voice and video calls in Dubai? What works on UAE networks, what doesn't, and how travellers stay reachable with a data eSIM.",
+      "h1": "WhatsApp calls in Dubai: what works and what doesn't",
+      "navLabel": "WhatsApp calls",
+      "intro": "WhatsApp messages work as normal in the UAE. Voice and video calls are more complicated. Here's what travellers should know before they fly.",
+      "updated": "2026-10-19",
+      "sections": [
+        {
+          "heading": "The short answer",
+          "paragraphs": [
+            "Text messages, voice notes, photos and documents on WhatsApp work normally anywhere in Dubai. Voice-over-internet calling on several popular apps, including WhatsApp calls and FaceTime audio, has historically been restricted on local UAE networks, though the rules have shifted over the years. Licensed calling apps such as Botim, and business tools such as Microsoft Teams and Zoom, work on local networks."
+          ]
+        },
+        {
+          "heading": "Why your connection type matters",
+          "paragraphs": [
+            "Restrictions apply to how traffic is handled on UAE networks, so how you connect affects your experience. Travel eSIMs connect through international roaming arrangements rather than as a standard local SIM.",
+            "eTijwaal markets its UAE data eSIM as a way for visitors to keep making WhatsApp calls to family and friends back home. If calling is essential on your trip, check the plan details on eTijwaal before you buy."
+          ]
+        },
+        {
+          "heading": "What works on every connection",
+          "paragraphs": [
+            "Whichever SIM or eSIM you use, most of what you need day to day works normally in the UAE:"
+          ],
+          "bullets": [
+            "WhatsApp, Telegram and iMessage text messages, voice notes, photos and file sharing",
+            "Ride-hailing (Careem, Uber), maps, food delivery, banking and airline apps",
+            "Streaming, social media and email",
+            "Video meetings on Microsoft Teams, Zoom and Google Meet"
+          ]
+        },
+        {
+          "heading": "A practical setup for staying in touch",
+          "paragraphs": [
+            "Most travellers settle on a simple routine. Put a data eSIM on the phone as the data line and keep the home SIM active as the line for calls and SMS, with its roaming data turned off. Messaging and social apps then use the eSIM's prepaid data. Your bank can still reach you by SMS, and family can call your normal number in an emergency.",
+            "Before you fly, tell the people you speak to most which apps you'll be using. Make a quick test call on your first day on Wi-Fi, then again on mobile data, so you know what works for you."
+          ]
+        },
+        {
+          "heading": "Other ways to stay reachable",
+          "paragraphs": [
+            "If an app doesn't connect on a particular network, you still have options:"
+          ],
+          "bullets": [
+            "Keep your home SIM active for incoming calls and SMS, including bank OTPs. Check your home carrier's roaming rates first.",
+            "Use voice notes and messages on WhatsApp, which work everywhere.",
+            "Use Botim, Microsoft Teams, Zoom or Google Meet for calls.",
+            "Use hotel Wi-Fi for longer video calls, if the hotel's network allows it."
+          ]
+        },
+        {
+          "heading": "Should you use a VPN?",
+          "paragraphs": [
+            "UAE law regulates the use of VPNs to access restricted services, and the rules are strict. We don't recommend using a VPN to get around calling restrictions. Use permitted apps or a connection that supports the calls you need."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Are WhatsApp messages blocked in Dubai?",
+          "a": "No. WhatsApp messaging, voice notes, photos and file sharing all work normally in Dubai and across the UAE."
+        },
+        {
+          "q": "Which calling apps work in the UAE?",
+          "a": "Botim is widely used in the UAE. Business platforms such as Microsoft Teams, Zoom and Google Meet also work on local networks."
+        },
+        {
+          "q": "Can I receive normal phone calls in Dubai with a data eSIM?",
+          "a": "A data eSIM doesn't come with a phone number. To receive normal calls and SMS on your usual number, keep your home SIM switched on alongside the eSIM. Your home carrier may charge roaming fees for calls."
+        }
+      ]
+    },
+    {
+      "slug": "how-to-install-esim-for-dubai",
+      "title": "How to Install and Activate a Dubai eSIM (iPhone & Android)",
+      "description": "Step-by-step: install your UAE eSIM on iPhone or Android before you fly, which settings to change on landing, and how to fix common activation problems.",
+      "h1": "How to install a Dubai eSIM on iPhone and Android",
+      "navLabel": "Setup guide",
+      "intro": "Setting up a travel eSIM takes about five minutes. Do it at home on Wi-Fi the day before your flight, then flip a couple of settings when you land in Dubai.",
+      "updated": "2026-10-19",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "paragraphs": [
+            "Make sure you have these in place:"
+          ],
+          "bullets": [
+            "An eSIM-compatible phone that is carrier-unlocked",
+            "A stable Wi-Fi connection",
+            "Your eSIM QR code, from your email or the eTijwaal app",
+            "A second screen or a printout to show the QR code, if you're scanning it with the same phone"
+          ]
+        },
+        {
+          "heading": "Install on iPhone",
+          "paragraphs": [
+            "Open Settings > Mobile Data (Cellular) > Add eSIM, choose 'Use QR Code' and scan your code. Give the new line a label such as 'Dubai'. When asked, keep your home SIM as the default line for calls and SMS, and choose the Dubai eSIM for mobile data, but only once you've landed.",
+            "On iOS 17.4 and later you may also be able to install by tapping an installation link instead of scanning."
+          ]
+        },
+        {
+          "heading": "Install on Android (Samsung, Pixel)",
+          "paragraphs": [
+            "On Samsung, go to Settings > Connections > SIM manager > Add eSIM > Scan QR code. On Google Pixel, go to Settings > Network & internet > SIMs > Add SIM > Download a SIM instead. Scan the code and follow the prompts. Menu names vary slightly between Android versions."
+          ]
+        },
+        {
+          "heading": "When you land in Dubai",
+          "paragraphs": [
+            "Change three settings:"
+          ],
+          "bullets": [
+            "Turn on the Dubai eSIM line",
+            "Set it as your mobile data line",
+            "Turn on Data Roaming for the eSIM line, and turn off roaming on your home SIM to avoid charges"
+          ]
+        },
+        {
+          "heading": "Troubleshooting",
+          "paragraphs": [
+            "If you have no data after landing, try these in order:"
+          ],
+          "bullets": [
+            "Check that data roaming is enabled on the eSIM line. This is the most common cause.",
+            "Toggle airplane mode on and off.",
+            "Choose a network manually: open network selection, turn off 'Automatic' and pick e& or du.",
+            "Restart your phone.",
+            "Still stuck? Contact eTijwaal support from the app."
+          ]
+        },
+        {
+          "heading": "Which line should do what?",
+          "paragraphs": [
+            "With dual SIM, your phone treats the eSIM and your home SIM as two separate lines. The safest setup in Dubai looks like this:"
+          ],
+          "bullets": [
+            "Mobile data: Dubai eSIM, with Data Roaming on",
+            "Default voice line and iMessage/FaceTime: your home number",
+            "Your home SIM: switched on for calls and SMS, but with Data Roaming off, so it never uses expensive roaming data",
+            "On iPhone, turn off 'Allow Mobile Data Switching' so the phone doesn't fall back to your home SIM's data when signal dips"
+          ]
+        },
+        {
+          "heading": "Checking your data usage",
+          "paragraphs": [
+            "Your remaining balance is shown in the eTijwaal app. Your phone also tracks usage for each line: on iPhone under Settings > Mobile Data, and on Android under the SIM's data-usage screen. Reset the phone's counter when you land so the numbers line up with your plan. If you're running low, you can usually top up in the app without installing a new eSIM."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I reuse the QR code if I delete the eSIM?",
+          "a": "Usually not. Most eSIM QR codes can be installed only once, so don't delete the eSIM from your phone until your trip is over."
+        },
+        {
+          "q": "Does the eSIM start counting days when I install it?",
+          "a": "That depends on the plan. Many plans start their validity when they first connect to a network in the destination. Check the activation policy on your plan before you buy."
+        },
+        {
+          "q": "Do I need to remove my physical SIM?",
+          "a": "No. Leave your home SIM in the phone. The eSIM is added as a second line, and you choose which line handles mobile data."
+        }
+      ]
+    },
+    {
+      "slug": "dubai-sim-card-for-tourists",
+      "title": "Dubai SIM Card for Tourists: eSIM vs Local SIM vs Roaming",
+      "description": "Should you buy a tourist SIM at Dubai airport, use roaming, or get an eSIM? An honest comparison of cost, setup, and convenience for UAE visitors.",
+      "h1": "Dubai SIM card for tourists: which option is best?",
+      "navLabel": "SIM vs eSIM",
+      "intro": "Visitors to Dubai have three ways to get online: a local tourist SIM, their home carrier's roaming, or a travel eSIM. Each suits a different kind of trip.",
+      "updated": "2026-10-19",
+      "sections": [
+        {
+          "heading": "Option 1: a local tourist SIM",
+          "paragraphs": [
+            "Both UAE operators sell prepaid tourist SIMs at the airport, in malls and in their stores. You'll need your passport for registration, and you'll swap out your home SIM unless your phone has dual SIM. A local SIM makes sense if you're staying for weeks and need a UAE phone number, for example to receive local deliveries or set up local accounts."
+          ]
+        },
+        {
+          "heading": "Option 2: roaming with your home carrier",
+          "paragraphs": [
+            "Roaming is the least effort: you land and your phone simply works. It's also usually the most expensive, especially if your carrier charges a daily fee or by the megabyte. Check whether the UAE is included in your plan before relying on it."
+          ]
+        },
+        {
+          "heading": "Option 3: a travel eSIM",
+          "paragraphs": [
+            "A travel eSIM combines the best of both. Like a local SIM, you get prepaid local-network data at a fixed price. Like roaming, it's ready the moment you land, and your home number stays active. There's no counter, no registration queue and no tiny SIM tray to lose."
+          ]
+        },
+        {
+          "heading": "Quick decision guide",
+          "paragraphs": [
+            "Match your trip to the option that fits it best:"
+          ],
+          "bullets": [
+            "Stopover of up to 48 hours: a short-validity data eSIM, or airport Wi-Fi if you're staying airside",
+            "City break or holiday of 3–14 days: a data eSIM sized to your usage",
+            "Business trip with lots of calls: a data eSIM for data, plus your home SIM for important calls",
+            "Stays of a month or more, or if you need a UAE number for deliveries or apps: a local prepaid SIM",
+            "A multi-country trip across the Gulf: a regional GCC eSIM that covers several countries in one plan"
+          ]
+        },
+        {
+          "heading": "Hidden costs to watch for",
+          "paragraphs": [
+            "Whichever option you choose, check what happens when your allowance runs out. Some roaming plans keep charging by the megabyte once your daily pass ends. Some prepaid plans simply stop until you top up. Also check whether the plan includes hotspot use if you'll be sharing data with a laptop or a travel companion. If you're keeping your home SIM switched on, make sure roaming data is off on that line."
+          ]
+        },
+        {
+          "heading": "Our recommendation",
+          "paragraphs": [
+            "For most tourists, business travellers and transit passengers, a data eSIM is the simplest and most cost-predictable choice. Choose a local SIM only if you specifically need a UAE number. Use roaming only for very short trips where your employer covers the bill."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I buy a SIM card at Dubai airport?",
+          "a": "Yes. UAE operators sell tourist SIMs at Dubai International (DXB) arrivals. You'll need your passport, and at busy times there can be a queue."
+        },
+        {
+          "q": "Is an eSIM cheaper than roaming in Dubai?",
+          "a": "In most cases, yes. A prepaid travel eSIM has a fixed price per data allowance. Roaming is often charged by the day or by usage."
+        },
+        {
+          "q": "Can I use one eSIM for Dubai and other Gulf countries?",
+          "a": "Yes. Regional GCC eSIM plans cover several Gulf countries, such as the UAE, Saudi Arabia, Qatar, Oman, Bahrain and Kuwait, in one plan. Check which countries are included before you buy."
+        }
+      ]
+    },
+    {
+      "slug": "esim-compatible-phones",
+      "title": "Is My Phone eSIM Compatible? Quick Check for UAE Travel",
+      "description": "Find out if your phone supports eSIM before your Dubai trip. Supported iPhone, Samsung and Pixel models, the *#06# EID test, and the unlocked-phone rule.",
+      "h1": "Is my phone eSIM compatible?",
+      "navLabel": "Compatible phones",
+      "intro": "Before you buy a Dubai eSIM, take 30 seconds to confirm your phone supports eSIM and isn't locked to your home carrier.",
+      "updated": "2026-10-19",
+      "sections": [
+        {
+          "heading": "The 30-second test",
+          "paragraphs": [
+            "Open your phone's dialler and type *#06#. If an EID number appears alongside your IMEI, your phone has an eSIM chip. You can also look in Settings for an 'Add eSIM' or 'Add mobile plan' option."
+          ]
+        },
+        {
+          "heading": "Popular compatible models",
+          "paragraphs": [
+            "This isn't a complete list, but it covers most travellers' phones:"
+          ],
+          "bullets": [
+            "Apple: iPhone XR, XS and every newer iPhone, including the SE (2nd gen and later). US iPhone 14 models and newer are eSIM-only.",
+            "Samsung: Galaxy S20 and newer, Z Flip and Z Fold series, and selected A-series models",
+            "Google: Pixel 3 and newer",
+            "Others: many recent Motorola, OnePlus, Xiaomi, Oppo and Huawei models. Check your exact model and region."
+          ]
+        },
+        {
+          "heading": "The unlocked-phone rule",
+          "paragraphs": [
+            "Even a compatible phone won't accept another provider's eSIM if your carrier has locked it. Phones bought outright are usually unlocked. Phones on a contract may not be. Ask your carrier to unlock it before you travel."
+          ]
+        },
+        {
+          "heading": "Watch out for regional models",
+          "paragraphs": [
+            "Some phones sold in mainland China, Hong Kong and Macau have dual physical SIM slots instead of eSIM. The same model may support eSIM elsewhere, so check the regional variant you have."
+          ]
+        },
+        {
+          "heading": "How to check if your phone is unlocked",
+          "paragraphs": [
+            "On iPhone, go to Settings > General > About and look for 'Carrier Lock' or 'Network Provider Lock'. It should say 'No SIM restrictions'. On Android there's no single setting. The simplest test is to insert a SIM from a different carrier: if it shows signal, your phone is unlocked. If in doubt, ask your carrier, which can confirm the lock status or unlock the phone for you, usually free once the contract is paid off."
+          ]
+        },
+        {
+          "heading": "What if my phone doesn't support eSIM?",
+          "paragraphs": [
+            "You still have options for Dubai. You can buy a local prepaid SIM on arrival, use your home carrier's roaming, or carry an inexpensive eSIM-compatible spare phone or mobile hotspot to use while you're away. Many travellers keep an older unlocked phone as a dedicated travel device for exactly this reason."
+          ]
+        },
+        {
+          "heading": "Before you buy: a final checklist",
+          "paragraphs": [
+            "Run through these quick checks before you purchase a plan:"
+          ],
+          "bullets": [
+            "Dial *#06# and confirm an EID is shown",
+            "Confirm the phone is carrier-unlocked",
+            "Update to the latest iOS or Android version",
+            "Make sure you'll have Wi-Fi when you install the eSIM",
+            "Keep the QR code somewhere safe until your trip is over"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I have an eSIM and a physical SIM at the same time?",
+          "a": "Yes. Most eSIM phones support dual SIM, so your home SIM can stay active for calls and SMS while the eSIM provides data in Dubai."
+        },
+        {
+          "q": "Do all iPhone 13, 14, 15 and 16 models support eSIM?",
+          "a": "Yes. Every iPhone from the XR and XS onwards supports eSIM. Some versions, such as US models of the iPhone 14 and later, are eSIM-only and have no physical SIM tray."
+        },
+        {
+          "q": "Does a smartwatch or iPad work with a Dubai eSIM?",
+          "a": "Cellular iPads with eSIM support can usually install a travel data eSIM just like a phone. Smartwatch eSIMs are different: they normally share your phone carrier's number and generally can't use a separate travel data plan."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "heading": "About Dubai eSIM",
+    "description": "Dubai eSIM is a travel connectivity guide for visitors to the UAE. The eSIM data plans featured on this site are provided by eTijwaal.",
+    "paragraphs": [
+      "Dubai eSIM is a travel connectivity guide for visitors to the United Arab Emirates. We explain how eSIMs work in the UAE, how they compare with local SIMs and roaming, and how to get set up before your trip.",
+      "eSIM data plans featured on this site are sold, delivered and supported by eTijwaal, a global travel eSIM provider. When you click through to buy a plan, you'll complete your purchase on etijwaal.com or in the eTijwaal app.",
+      "We review our guides regularly, but network policies and app availability in the UAE can change. Always check the details of your plan before you travel."
+    ]
+  }
+}

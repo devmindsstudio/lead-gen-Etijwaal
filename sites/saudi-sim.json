@@ -1,0 +1,610 @@
+{
+  "id": "saudi-sim",
+  "domain": "saudi-sim.com",
+  "aliases": [
+    "www.saudi-sim.com"
+  ],
+  "locale": "en",
+  "brand": {
+    "name": "Saudi SIM",
+    "tagline": "Mobile data for visitors to Saudi Arabia, from Riyadh and Jeddah to AlUla and the Red Sea coast.",
+    "primary": "#006c35",
+    "primaryInk": "#ffffff",
+    "accent": "#e3b95b"
+  },
+  "partner": {
+    "name": "eTijwaal",
+    "url": "https://etijwaal.com",
+    "supportUrl": "https://etijwaal.com/contactus",
+    "privacyUrl": "https://etijwaal.com/privacypolicy",
+    "termsUrl": "https://etijwaal.com/termsandconditions",
+    "disclosure": "Saudi Arabia eSIM plans are sold and supported by"
+  },
+  "market": {
+    "country": "Saudi Arabia",
+    "countryCode": "SA"
+  },
+  "cta": {
+    "url": "https://etijwaal.com/shop/Saudi-Arabia-esim-travel-packages",
+    "label": "See Saudi Arabia eSIM plans",
+    "campaign": "saudi-sim"
+  },
+  "analytics": {},
+  "seo": {
+    "title": "Saudi Arabia eSIM & SIM for Tourists – Data on Arrival",
+    "description": "Need a SIM card for Saudi Arabia? Compare a travel eSIM with STC, Mobily and Zain tourist SIMs, skip the airport counter and get online the moment you land.",
+    "keywords": [
+      "saudi arabia esim",
+      "sim card saudi arabia tourist",
+      "saudi sim card for visitors",
+      "esim ksa",
+      "riyadh esim",
+      "jeddah sim card",
+      "best sim for saudi arabia",
+      "prepaid data saudi arabia"
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Travel data for the Kingdom of Saudi Arabia",
+      "h1": "A Saudi SIM without the airport queue",
+      "subheading": "Whether you're flying into Riyadh for meetings, Jeddah for the Corniche or AlUla for Hegra, a travel eSIM gives you Saudi mobile data from the arrivals hall. Buy online, install it at home and switch it on after you land.",
+      "bullets": [
+        "Set up before you board, online in minutes",
+        "Your home number stays on your phone",
+        "One plan for Riyadh, Jeddah, AlUla and the coast",
+        "No kiosk visit after a long flight"
+      ],
+      "deviceLabel": "Riyadh · KSA"
+    },
+    "stats": [
+      {
+        "value": "3",
+        "label": "National mobile operators"
+      },
+      {
+        "value": "4G / 5G",
+        "label": "Where the network allows"
+      },
+      {
+        "value": "1",
+        "label": "QR code to scan"
+      },
+      {
+        "value": "0",
+        "label": "SIM trays to open"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "plane",
+        "title": "Online at RUH, JED or ULH",
+        "body": "Land at King Khalid in Riyadh, King Abdulaziz in Jeddah or AlUla's small airport and your data line is already on the phone. Book a Careem or Uber before you reach the taxi rank."
+      },
+      {
+        "icon": "wallet",
+        "title": "A fixed price, paid upfront",
+        "body": "You choose the allowance and validity before the trip. Switch off roaming on your home line and there is no daily pass ticking away in the background."
+      },
+      {
+        "icon": "chat",
+        "title": "Your usual number, still reachable",
+        "body": "Leave your home SIM in place for bank codes and texts from family. The eSIM only carries the data, so nothing changes about how people contact you."
+      },
+      {
+        "icon": "signal",
+        "title": "Built for long distances",
+        "body": "Saudi Arabia is big. The same plan follows you from a Riyadh boardroom to a Red Sea resort or the drive into AlUla's canyons, wherever local coverage reaches."
+      },
+      {
+        "icon": "clock",
+        "title": "Made for short business trips",
+        "body": "Flying in for two days of meetings in the King Abdullah Financial District? A short plan covers maps, email and ride-hailing without a trip to a phone shop."
+      },
+      {
+        "icon": "shield",
+        "title": "Less reliance on public Wi-Fi",
+        "body": "Event venues, malls and cafés offer Wi-Fi, but a private mobile connection is the safer choice for paying, checking in to flights and opening work files."
+      }
+    ],
+    "howItWorks": [
+      {
+        "title": "Confirm your phone supports eSIM",
+        "body": "Recent iPhones, Google Pixels and most current Samsung Galaxy flagships support eSIM. The phone also needs to be unlocked, so ask your carrier if you bought it on contract."
+      },
+      {
+        "title": "Pick a Saudi Arabia plan",
+        "body": "Choose a data allowance and validity that match your itinerary, from a two-day Riyadh stopover to a fortnight touring the west coast."
+      },
+      {
+        "title": "Install it before you fly",
+        "body": "eTijwaal sends the eSIM details after purchase. Add it to your phone over home Wi-Fi and leave the new line switched off until you land."
+      },
+      {
+        "title": "Turn it on in the Kingdom",
+        "body": "After landing, switch on the eSIM line, select it for mobile data and allow data roaming on it. Your phone joins a local network and you're connected."
+      }
+    ],
+    "comparison": {
+      "heading": "Travel eSIM vs local Saudi SIM vs roaming",
+      "intro": "Visitors to Saudi Arabia usually choose between three options. The right one depends on how long you're staying and whether you need a Saudi number.",
+      "columns": [
+        "Travel eSIM",
+        "Local SIM (STC, Mobily, Zain)",
+        "Home carrier roaming"
+      ],
+      "rows": [
+        {
+          "label": "Set up",
+          "values": [
+            "At home, before departure",
+            "In the Kingdom, at a store, kiosk or via an operator app",
+            "Nothing to do"
+          ]
+        },
+        {
+          "label": "ID checks",
+          "values": [
+            "None at a Saudi counter",
+            "Passport, with identity verification",
+            "None"
+          ]
+        },
+        {
+          "label": "Saudi phone number",
+          "values": [
+            "No, data only",
+            "Yes",
+            "No, your home number"
+          ]
+        },
+        {
+          "label": "Price predictability",
+          "values": [
+            "Fixed, prepaid",
+            "Fixed, prepaid",
+            "Varies by carrier, often daily fees"
+          ]
+        },
+        {
+          "label": "Home number active",
+          "values": [
+            "Yes, on dual SIM phones",
+            "Only if your phone takes two SIMs",
+            "Yes"
+          ]
+        },
+        {
+          "label": "Good fit for",
+          "values": [
+            "Holidays, business trips, events",
+            "Long stays, local OTPs and deliveries",
+            "Very short trips on an expense account"
+          ]
+        }
+      ]
+    },
+    "networks": {
+      "heading": "Saudi Arabia's mobile networks",
+      "intro": "Three national operators run mobile networks in the Kingdom, all with 4G and growing 5G in the main cities. Independent crowdsourced reports rank them differently depending on what they measure, so none is the outright best everywhere. A travel eSIM connects through a local partner network; the plan page shows the details.",
+      "items": [
+        {
+          "name": "STC (Saudi Telecom Company)",
+          "note": "The largest and longest-established operator. Crowdsourced testing in 2025 gave it the least daily downtime of the three."
+        },
+        {
+          "name": "Mobily",
+          "note": "The brand of Etihad Etisalat. The same 2025 testing found it had the highest share of time spent on 5G and the lowest latency."
+        },
+        {
+          "name": "Zain KSA",
+          "note": "The third national operator, credited in that testing with the widest 5G reach among its users. It also runs the app-based Yaqoot brand."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Why mobile data matters more in Saudi Arabia",
+        "paragraphs": [
+          "Travel in the Kingdom is built around apps. Tickets for Riyadh Season zones, entry to Hegra, restaurant reservations and many museum visits are booked on your phone, often with a QR code you show at the gate. Getting around Riyadh or Jeddah usually means ride-hailing, and distances between sights are long, so being offline in a car park outside a venue is a real problem.",
+          "Hotel Wi-Fi covers your room. Everything else, from navigating the Riyadh Metro to finding fuel on a desert highway, relies on mobile data. That's why most visitors sort out connectivity before they board rather than after landing."
+        ]
+      },
+      {
+        "heading": "Choosing a data allowance for your Saudi trip",
+        "paragraphs": [
+          "Your allowance depends more on what you do than on how many days you stay. Use these ranges as a starting point:"
+        ],
+        "bullets": [
+          "Two or three days of business meetings, maps and email: 2–5 GB",
+          "A week split between Riyadh and Jeddah with social media and some video calls: 6–12 GB",
+          "A road trip to AlUla or along the coast, sharing a hotspot with passengers: 15 GB or more",
+          "Attending big events and posting video every night: choose the largest allowance you can, or plan to top up"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can tourists use an eSIM in Saudi Arabia?",
+        "a": "Yes. Saudi networks support eSIM and travel eSIM plans work across the Kingdom. Your handset has to be eSIM-capable and carrier-unlocked for it to work."
+      },
+      {
+        "q": "Do I need to register a travel eSIM with Absher?",
+        "a": "Local Saudi SIMs, including the visitor eSIMs sold by Saudi operators, must be registered and verified against your passport. A travel data eSIM bought from an international provider is set up through that provider instead, without a Saudi store visit. Check the plan details before you buy, and see our SIM registration guide for how local SIMs work."
+      },
+      {
+        "q": "Will I get a Saudi phone number?",
+        "a": "No. eTijwaal describes its plans as data-only, without a local number for calls or SMS. If you need a Saudi number, for example for local delivery apps that send codes by text, a local prepaid SIM is the better choice."
+      },
+      {
+        "q": "Do WhatsApp calls work in Saudi Arabia?",
+        "a": "WhatsApp messages, voice notes and media work normally. Voice and video calls on WhatsApp have been restricted for years, and reports of them working since 2025 have not been officially confirmed. FaceTime and several other apps were permitted in 2017. Our calling apps guide explains the options."
+      },
+      {
+        "q": "Can I buy a SIM card at Riyadh or Jeddah airport?",
+        "a": "Yes. Operator counters are found in the arrivals areas of the main airports. Bring your passport and expect identity checks, and allow extra time when several long-haul flights land together."
+      },
+      {
+        "q": "Does the plan work outside the big cities?",
+        "a": "It works wherever the local partner network has coverage. Coverage is strong in cities, towns and around major attractions such as AlUla, but there can be gaps on remote desert roads, so download offline maps before long drives."
+      },
+      {
+        "q": "When does my plan start counting days?",
+        "a": "According to eTijwaal, the eSIM activates once it connects to a supported network in your destination, and the validity period runs from that activation. You can install it days before you travel without losing time."
+      },
+      {
+        "q": "Is this the right plan for Umrah?",
+        "a": "A Saudi Arabia plan covers the whole Kingdom, including Makkah and Madinah. This site focuses on tourism, business and events; pilgrims will find dedicated advice on our sister site for Umrah travellers, umrah-esim.com."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "calling-apps-saudi-arabia",
+      "title": "Calling Apps in Saudi Arabia: WhatsApp, FaceTime & More",
+      "description": "Which calling apps work in Saudi Arabia? The real status of WhatsApp calls, what was permitted in 2017, and how visitors stay reachable on a data eSIM.",
+      "h1": "Making calls from Saudi Arabia: which apps actually connect",
+      "navLabel": "Calling apps",
+      "intro": "Messaging is easy in Saudi Arabia. Internet calling is less predictable. WhatsApp chats, voice notes and photos send as normal, but WhatsApp voice and video calls have been restricted for most of the past decade, while apps like FaceTime were permitted in 2017. Here's how to plan your calls before you land.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "A short history of VoIP rules in the Kingdom",
+          "paragraphs": [
+            "Saudi Arabia began restricting internet calling in 2013, when Viber was blocked for not meeting local regulatory requirements. In September 2017 the telecoms regulator, then called CITC and now the Communications, Space and Technology Commission (CST), announced that apps meeting its requirements could offer voice and video calls again. FaceTime, Skype, Snapchat, Line, Telegram and Tango were named as available.",
+            "WhatsApp calling was not part of that reopening, and local media reported it remained blocked. That has been the general picture ever since, with brief exceptions."
+          ]
+        },
+        {
+          "heading": "Where WhatsApp calls stand today",
+          "paragraphs": [
+            "In March 2024 the CST denied rumours that WhatsApp calls had been unblocked. In February 2025, and again in early 2026, users reported that voice and video calls were suddenly connecting. Neither the regulator nor WhatsApp confirmed a permanent change, and past activations have disappeared within days.",
+            "The honest answer is that WhatsApp calls may work for you on some networks at some times, but you shouldn't build your trip around them. Treat any working call as a bonus and have a second app ready."
+          ]
+        },
+        {
+          "heading": "Apps visitors rely on instead",
+          "paragraphs": [
+            "These options give you a better chance of a clear call:"
+          ],
+          "bullets": [
+            "FaceTime audio and video, for calling other Apple users",
+            "Telegram and Skype, both named in the 2017 announcement",
+            "Microsoft Teams, Zoom and Google Meet for work calls, which are widely used by companies in the Kingdom",
+            "Your home number over normal roaming for short, important calls, after checking your carrier's rates"
+          ]
+        },
+        {
+          "heading": "Does a travel eSIM change anything?",
+          "paragraphs": [
+            "A data eSIM gives you internet access; it does not override how apps are handled on the networks it uses. eTijwaal's general FAQ says its data plans can be used with apps such as WhatsApp or FaceTime, but it makes no specific promise about WhatsApp calling in Saudi Arabia. If calls are essential, ask eTijwaal support before you buy and run a test call on your first evening.",
+            "Messaging, voice notes and video messages work regardless, so many travellers simply switch to sending voice notes and keep live calls for FaceTime or a work platform."
+          ]
+        },
+        {
+          "heading": "A simple setup for staying in touch",
+          "paragraphs": [
+            "Before the trip, agree with family or colleagues which app you'll use for calls, and install it while you're still at home. Keep your own SIM switched on for incoming SMS and bank codes, with its data roaming turned off. Let the eSIM handle all data. On the first day, try a call over hotel Wi-Fi and another over mobile data so you know what to expect."
+          ]
+        },
+        {
+          "heading": "A word on VPNs",
+          "paragraphs": [
+            "Some guides suggest a VPN to get around calling restrictions. Saudi law on accessing blocked services is strict and the penalties under cybercrime rules can be serious, so we don't recommend it. Use the permitted apps above instead."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I send WhatsApp messages in Saudi Arabia?",
+          "a": "Yes. Text chats, voice notes, photos, videos and documents all send normally on any Saudi connection, including a travel data eSIM."
+        },
+        {
+          "q": "Does FaceTime work in Saudi Arabia?",
+          "a": "FaceTime was one of the apps the regulator listed as available when it lifted the internet calling ban in 2017, and it is commonly used by visitors with iPhones."
+        },
+        {
+          "q": "How do I receive normal calls on my own number?",
+          "a": "Keep your home SIM switched on in the phone alongside the eSIM. Calls and texts to your usual number still reach you, but your carrier may charge roaming rates for them, so check before you travel."
+        }
+      ]
+    },
+    {
+      "slug": "saudi-sim-registration-absher",
+      "title": "Saudi SIM Registration for Visitors: Passport & Absher",
+      "description": "How SIM registration works for tourists in Saudi Arabia: passport checks, fingerprints, verifying a SIM in Absher, and when a travel data eSIM is simpler.",
+      "h1": "SIM registration in Saudi Arabia: a visitor's guide",
+      "navLabel": "SIM registration",
+      "intro": "Every local mobile line in Saudi Arabia is tied to a verified identity. For visitors, that means a passport check and, until recently, fingerprints at a store. Newer digital options make it easier, but it still helps to know the steps before you choose between a local SIM and a travel eSIM.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Why registration is strict",
+          "paragraphs": [
+            "The Kingdom links each SIM to a named person, recorded through the national systems overseen by the Communications, Space and Technology Commission. Operators verify residents with their Iqama or national ID, and visitors with their passport and the border number issued when they enter the country. Saudi rules also limit how many lines a visitor can hold, and sources disagree on the exact number, so ask the operator if you plan to buy more than one."
+          ]
+        },
+        {
+          "heading": "Buying a SIM in person",
+          "paragraphs": [
+            "At an STC, Mobily or Zain counter you hand over your passport, staff check your entry details and the line is registered to you. Historically, operators also took fingerprints to complete verification for visitor SIMs, which meant visiting a staffed branch rather than a vending machine. Expect this process to take longer when a large flight has just landed.",
+            "Have these ready:"
+          ],
+          "bullets": [
+            "Your passport, with the visa or entry record from arrival",
+            "Your border number, if staff ask for it",
+            "A card or cash in Saudi riyals for the package",
+            "A phone that's unlocked, so the new SIM is accepted"
+          ]
+        },
+        {
+          "heading": "Verifying a SIM through Absher",
+          "paragraphs": [
+            "Absher is the Ministry of Interior's digital services platform. Visitors can create an account using their border number rather than an Iqama. In May 2025, Zain KSA's digital brand Yaqoot announced that arriving visitors could register and verify its SIMs and eSIMs through the authentication section of the Absher app, replacing the in-person fingerprint step.",
+            "Options like this change quickly and vary by operator, so check the current process on the operator's own app or website before relying on it."
+          ]
+        },
+        {
+          "heading": "Where a travel data eSIM fits",
+          "paragraphs": [
+            "A travel eSIM from an international provider such as eTijwaal is bought and installed through that provider before you leave home. There's no Saudi counter visit and no line in your name with a local operator, because the plan is data-only and you don't receive a Saudi number. You simply switch it on after landing.",
+            "The trade-off is that you can't receive SMS codes on a Saudi number. Some local delivery and banking apps want one; most tourist essentials, such as ride-hailing, maps and booking platforms, work with your home number or email."
+          ]
+        },
+        {
+          "heading": "Which route suits your trip",
+          "paragraphs": [
+            "Pick the option that matches how long you're staying:"
+          ],
+          "bullets": [
+            "A holiday, event trip or business visit of a few weeks: a travel data eSIM avoids registration altogether",
+            "A long stay where you'll order deliveries, open local accounts or be called on a Saudi number: a registered local SIM",
+            "Both: keep a travel eSIM for data from the moment you land, and add a local SIM later if you need a number"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a border number?",
+          "a": "It's the identifier Saudi immigration assigns to visitors when they enter the Kingdom. Operators and Absher use it, together with your passport, to identify you because tourists don't have an Iqama."
+        },
+        {
+          "q": "Do I need fingerprints for a Saudi tourist SIM?",
+          "a": "Operators have historically collected fingerprints from visitors at their branches. Some digital brands now let you verify through Absher instead. Requirements differ by operator, so ask in store."
+        },
+        {
+          "q": "Can I buy a local Saudi SIM before I arrive?",
+          "a": "Some operators let you order online, but you'll usually still need to verify your identity after entering the Kingdom, since that relies on your entry record."
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-jeddah-airport-sim-vs-esim",
+      "title": "Riyadh and Jeddah Airport SIM Cards vs a Travel eSIM",
+      "description": "Buying a SIM at RUH or JED arrivals, or installing an eSIM at home? Compare queues, ID checks and setup time for Riyadh and Jeddah airports.",
+      "h1": "Airport SIM at RUH and JED, or an eSIM before you fly?",
+      "navLabel": "Airport SIM vs eSIM",
+      "intro": "Most international visitors to Saudi Arabia arrive at King Khalid International in Riyadh (RUH) or King Abdulaziz International in Jeddah (JED). Both have operator counters in arrivals, and both get busy. Here's how buying a SIM on landing compares with installing an eSIM before you leave home.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "What you'll find in arrivals",
+          "paragraphs": [
+            "STC, Mobily and Zain all sell visitor packages at the main airports, though which operator has a desk in which terminal varies and changes over time. Travellers have reported, for example, that some operators are present in one Riyadh terminal but not another. If you're set on a particular network, check the airport's terminal information or the operator's store locator before you fly.",
+            "Prices at airport counters are set by the operators, but package choice can be narrower than in city stores."
+          ]
+        },
+        {
+          "heading": "The real cost: time after a long flight",
+          "paragraphs": [
+            "Buying a local SIM means a passport check, entering your details, often an identity verification step, then swapping the card and waiting for activation. When several wide-body flights land within an hour, queues at the counters can be long, and you'll be standing in them with luggage and possibly tired children.",
+            "If someone is collecting you or you've booked a ride, being offline at this point is the most stressful part of the journey. You can't message your driver or check where the pick-up point is."
+          ]
+        },
+        {
+          "heading": "How an eSIM changes the arrival",
+          "paragraphs": [
+            "With a travel eSIM installed at home, the steps after landing are all in your phone's settings: switch the eSIM line on, choose it for mobile data, and allow roaming on it. By the time you reach passport control you can usually open maps, message your hotel and book a car.",
+            "eTijwaal says its eSIM activates once it connects to a supported network in the destination, so the plan's days don't start while it sits unused on your phone at home."
+          ]
+        },
+        {
+          "heading": "Getting from the airport",
+          "paragraphs": [
+            "Ride-hailing is the usual way into both cities, and it relies on data. Careem and Uber operate in Riyadh and Jeddah, along with local apps such as Jeeny. In Riyadh, the metro network that opened in December 2024 gives another option, and its journey planner is easier to use with a live connection. At JED, airport taxis and ride-hailing pick-ups are signposted, but drivers will often message you through the app to confirm the exact door."
+          ]
+        },
+        {
+          "heading": "When the airport SIM is worth it",
+          "paragraphs": [
+            "Choose a local SIM at the airport if you:"
+          ],
+          "bullets": [
+            "Are staying for several months and need a Saudi number",
+            "Have a phone that doesn't support eSIM",
+            "Need to receive SMS verification codes from Saudi delivery or banking apps",
+            "Don't mind queueing and want to compare packages face to face"
+          ]
+        },
+        {
+          "heading": "A belt-and-braces plan",
+          "paragraphs": [
+            "Many frequent visitors do both: they land with an eSIM so they're online immediately, then pick up a local SIM in a city mall later if they discover they need a Saudi number. Malls in Riyadh and Jeddah have operator stores with shorter waits than the airport at peak times."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Are SIM counters at Riyadh airport open at night?",
+          "a": "Travellers report that operator desks at RUH serve late-night arrivals, but hours can vary by terminal and operator. An eSIM installed before you fly removes the dependency."
+        },
+        {
+          "q": "Is there free Wi-Fi at Jeddah and Riyadh airports?",
+          "a": "Both airports offer Wi-Fi in terminal areas, typically after a short sign-up. It's fine for messages, but it ends at the exit door, which is when you need data most."
+        },
+        {
+          "q": "Can I use the eSIM if I fly in to the Red Sea or AlUla airports?",
+          "a": "Yes. A Saudi Arabia plan isn't tied to an airport. Turn it on wherever you land, whether that's Red Sea International (RSI), AlUla (ULH) or Dammam."
+        }
+      ]
+    },
+    {
+      "slug": "alula-road-trip-data",
+      "title": "AlUla Road Trip: Mobile Coverage and Data You'll Need",
+      "description": "Planning a drive to AlUla and Hegra? What mobile coverage to expect on the way, how much data a desert road trip uses, and offline backups to prepare.",
+      "h1": "Staying connected on a road trip to AlUla",
+      "navLabel": "AlUla road trip",
+      "intro": "AlUla is one of Saudi Arabia's most rewarding destinations and one of its most remote. The town and its main sites have good mobile coverage, but getting there by road means long stretches of open desert. A little planning keeps your maps, bookings and family updates working the whole way.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "How far you'll be driving",
+          "paragraphs": [
+            "From Riyadh, the fastest road route runs through Qassim and Hail and covers roughly 1,040 km, which the roads authority puts at about 11 hours of driving. From Madinah it's much shorter: around 300 km, or about three hours, according to the official AlUla tourism site. Many visitors fly into AlUla's Prince Abdul Majeed bin Abdulaziz airport (ULH) and rent a car locally instead.",
+            "Either way, you'll spend time between towns where there's little more than road, sand and rock."
+          ]
+        },
+        {
+          "heading": "Coverage to expect",
+          "paragraphs": [
+            "Travellers consistently report solid 4G, and 5G in places, across AlUla town, the Old Town, the visitor centre and around Hegra. Coverage along main highways is generally good near towns and service stations, but expect weaker or no signal on remote stretches and inside deep canyons. Off-road trips with tour operators may take you completely out of range for a while."
+          ]
+        },
+        {
+          "heading": "What uses data on a road trip",
+          "paragraphs": [
+            "Navigation itself is light if you've saved offline maps. The heavy users are photos backing up to the cloud, video calls from the hotel, and passengers streaming on a shared hotspot. A rough plan for a five-day trip:"
+          ],
+          "bullets": [
+            "Driver's phone with offline maps, messaging and fuel-stop searches: 3–5 GB",
+            "Daily photo and video backups from the canyons and Hegra: 5–10 GB, or switch backups to Wi-Fi only",
+            "Hotspot for passengers' tablets on the long drive: add 5 GB or more",
+            "Booking and showing QR tickets for Hegra tours, Maraya events or Elephant Rock: a few hundred MB"
+          ]
+        },
+        {
+          "heading": "Offline backups to prepare",
+          "paragraphs": [
+            "Before you set out, do these while you still have strong signal or hotel Wi-Fi:"
+          ],
+          "bullets": [
+            "Download offline maps of the whole route and the AlUla area in Google Maps or a similar app",
+            "Screenshot your hotel address, tour confirmations and QR tickets",
+            "Save the rental company's breakdown number and your hotel's phone number",
+            "Tell someone your route and expected arrival time, and check in when you're back in coverage"
+          ]
+        },
+        {
+          "heading": "Phone tips for desert heat",
+          "paragraphs": [
+            "Phones overheat quickly on a dashboard in direct sun, and a hot phone throttles its signal and screen. Mount it near an air-conditioning vent, carry a car charger, and keep a power bank for days out at Hegra or the Sharaan reserve. Searching for signal in weak areas drains the battery too, so switch to airplane mode on long dead stretches if you're relying on offline maps."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is there mobile signal at Hegra?",
+          "a": "Travellers report good reception at the AlUla visitor centre and around the Hegra site. Remote canyons and off-road areas can be patchy, so keep your tickets saved offline."
+        },
+        {
+          "q": "Can I share my eSIM data with other passengers?",
+          "a": "Most phones can share mobile data as a personal hotspot. Check the plan details on the eTijwaal page to confirm hotspot use is included before you rely on it for the whole car."
+        },
+        {
+          "q": "Does the same plan work in Madinah and Tabuk on the way?",
+          "a": "Yes. A Saudi Arabia plan covers the whole country, so you don't need a separate plan for different regions on your route."
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-season-events-connectivity",
+      "title": "Riyadh Season & Saudi Events: Visitor Connectivity Guide",
+      "description": "Going to Riyadh Season, a big fight night or a festival in Saudi Arabia? How to keep tickets, rides and messages working in crowded venues with a data eSIM.",
+      "h1": "Getting online at Riyadh Season and other Saudi events",
+      "navLabel": "Riyadh Season",
+      "intro": "Saudi Arabia now hosts a packed calendar of concerts, sports and festivals, and almost all of them run on your phone. Riyadh Season 2026 opens on 21 October for around ten weeks. Here's how to make sure your tickets, rides home and messages work when tens of thousands of people are using the same network.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "What's on the calendar",
+          "paragraphs": [
+            "Riyadh Season, organised by the General Entertainment Authority, is the biggest. This year's edition, the seventh, runs under the slogan 'Big Time', with Boulevard World, Boulevard City, Wonder Garden and VIA Riyadh among the zones, alongside boxing, wrestling and UFC events and concerts. Exact event dates are announced through the season, so follow the official channels.",
+            "Beyond Riyadh Season, the Kingdom has hosted Formula 1 at the Jeddah Corniche Circuit, music festivals, esports tournaments and cultural seasons in Jeddah and AlUla. Whatever you're attending, the connectivity advice is the same."
+          ]
+        },
+        {
+          "heading": "Why your phone is your ticket",
+          "paragraphs": [
+            "Entry to most zones and events uses digital tickets with QR codes in an app or email. Many venues also expect you to book time slots, order food, and find your gate in an app. If your data fails at the entrance, you're stuck in a queue trying to find Wi-Fi."
+          ],
+          "bullets": [
+            "Download or add tickets to your phone's wallet before you leave the hotel",
+            "Take a screenshot of each QR code as a backup",
+            "Log in to the ticketing app in advance; one-time passcodes can be slow in crowds"
+          ]
+        },
+        {
+          "heading": "Coping with crowded networks",
+          "paragraphs": [
+            "When a stadium or festival site fills up, every phone competes for the same masts. Operators add capacity for major events, but upload speeds in particular can drop. Send videos after you leave rather than during the main act, turn off automatic cloud backup for the evening, and use messages instead of video calls to find your group."
+          ]
+        },
+        {
+          "heading": "Getting home after the show",
+          "paragraphs": [
+            "The end of a big event is the hardest moment to get a ride. Demand spikes, prices rise and drivers struggle to find you. Agree a meeting point that's a short walk from the main exit and share your live location there. In Riyadh, check whether a metro station is within walking distance; the network opened in December 2024 and can be quicker than waiting for a car. Keep your battery above 30% so you can book and track the ride."
+          ]
+        },
+        {
+          "heading": "How much data an event trip needs",
+          "paragraphs": [
+            "A long weekend of fight nights or concerts, with maps, ride-hailing, social posting and a few video uploads, typically uses 4–8 GB. If you post a lot of video or run a hotspot for friends, allow more, or plan to top up through your eSIM provider's app or website rather than buying a new plan."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "When does Riyadh Season 2026 start?",
+          "a": "The General Entertainment Authority announced that Riyadh Season 2026 begins on 21 October and runs for about ten weeks. Individual event dates are announced separately."
+        },
+        {
+          "q": "Is there Wi-Fi at Riyadh Season zones?",
+          "a": "Some zones and venues offer Wi-Fi, but it's often congested during peak hours. Mobile data on your own plan is more reliable for tickets and rides."
+        },
+        {
+          "q": "Can I top up if I run out of data during the trip?",
+          "a": "eTijwaal says you can top up by signing in to your account, selecting your active eSIM and choosing an available top-up package, without installing a new eSIM."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "heading": "About Saudi SIM",
+    "description": "Saudi SIM is an independent connectivity guide for tourists, business travellers and event visitors to Saudi Arabia. Featured eSIM plans are provided by eTijwaal.",
+    "paragraphs": [
+      "Saudi SIM helps visitors to the Kingdom work out how to stay online, whether they're in Riyadh for business, Jeddah for the coast, AlUla for its heritage sites or the Red Sea for a resort break. Our guides cover local networks, SIM registration, calling apps and practical data planning.",
+      "The Saudi Arabia eSIM plans featured on this site are sold, delivered and supported by eTijwaal, a travel eSIM provider. When you choose a plan, you're sent to etijwaal.com to complete your purchase, and any questions about orders, installation or refunds are handled by eTijwaal's support team.",
+      "Rules on SIM registration, internet calling and event schedules in Saudi Arabia change often. We check our guides regularly, but please confirm the details of your plan and the latest local requirements before you travel."
+    ]
+  }
+}

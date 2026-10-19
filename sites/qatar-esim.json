@@ -1,0 +1,632 @@
+{
+  "id": "qatar-esim",
+  "domain": "qatar-esim.com",
+  "aliases": [
+    "www.qatar-esim.com"
+  ],
+  "locale": "en",
+  "brand": {
+    "name": "Qatar eSIM",
+    "tagline": "Mobile data for Doha visits and Hamad Airport stopovers, installed before you board.",
+    "primary": "#8a1538",
+    "primaryInk": "#ffffff",
+    "accent": "#e9c46a"
+  },
+  "partner": {
+    "name": "eTijwaal",
+    "url": "https://etijwaal.com",
+    "supportUrl": "https://etijwaal.com/contactus",
+    "privacyUrl": "https://etijwaal.com/privacypolicy",
+    "termsUrl": "https://etijwaal.com/termsandconditions",
+    "disclosure": "Qatar eSIM data plans are sold and supported by"
+  },
+  "market": {
+    "country": "Qatar",
+    "countryCode": "QA",
+    "city": "Doha"
+  },
+  "cta": {
+    "url": "https://etijwaal.com/shop/Qatar-esim-travel-packages",
+    "label": "View Qatar eSIM plans",
+    "campaign": "qatar-esim"
+  },
+  "analytics": {},
+  "seo": {
+    "title": "Qatar eSIM for Travellers – Doha & Stopover Data",
+    "description": "Buy a Qatar eSIM before you fly to Doha. Prepaid 4G/5G data for city trips and Hamad Airport stopovers, set up by QR code with no SIM counter. See plans.",
+    "keywords": [
+      "qatar esim",
+      "esim qatar",
+      "doha esim",
+      "qatar sim card for tourists",
+      "esim for doha stopover",
+      "best esim for qatar",
+      "qatar travel data plan"
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Travel eSIM for Qatar",
+      "h1": "Qatar eSIM: data in Doha from the moment you touch down",
+      "subheading": "Whether you're visiting Doha for a week or breaking a long-haul journey at Hamad International, a prepaid data eSIM gets you online on a Qatari 4G/5G network without queueing at an arrivals booth.",
+      "bullets": [
+        "Install at home, switch on after landing at DOH",
+        "Your regular number stays in the phone",
+        "Sized for stopovers, city breaks or business trips",
+        "Top up from the app if you need more"
+      ],
+      "deviceLabel": "Doha · Qatar"
+    },
+    "stats": [
+      {
+        "value": "2",
+        "label": "National mobile operators"
+      },
+      {
+        "value": "4G / 5G",
+        "label": "Local network speeds"
+      },
+      {
+        "value": "~5 min",
+        "label": "To install by QR code"
+      },
+      {
+        "value": "DOH",
+        "label": "Ready from the arrivals hall"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "plane",
+        "title": "Made for Doha stopovers",
+        "body": "Hamad International is one of the world's busiest transfer hubs. If you head into the city between flights, a short plan keeps maps, ride-hailing and your airline app working once you leave the terminal Wi-Fi behind."
+      },
+      {
+        "icon": "bolt",
+        "title": "Online before the taxi rank",
+        "body": "The eSIM is already on your phone when the plane lands. Switch the line on as you walk to passport control and you can book a Karwa taxi or check the Metro Red Line before you reach the exit."
+      },
+      {
+        "icon": "wallet",
+        "title": "A price you know upfront",
+        "body": "You pay once for a set allowance. With roaming switched off on your home line, nothing else can quietly add charges while you explore Souq Waqif or Lusail."
+      },
+      {
+        "icon": "phone",
+        "title": "Your number still rings",
+        "body": "Leave your usual SIM in the phone for SMS codes from your bank and calls from home. The eSIM is added as a second line that only carries data."
+      },
+      {
+        "icon": "signal",
+        "title": "Qatari network coverage",
+        "body": "Travel eSIMs connect through local operator networks, which reach central Doha, West Bay, The Pearl and the main roads north and south of the capital."
+      },
+      {
+        "icon": "shield",
+        "title": "A private connection for work",
+        "body": "Hotel and mall Wi-Fi is shared with everyone around you. Mobile data is a more private way to open work email, sign documents or pay for bookings during a business trip."
+      }
+    ],
+    "howItWorks": [
+      {
+        "title": "Confirm your phone supports eSIM",
+        "body": "Dial *#06# and look for an EID number. The phone also needs to be unlocked, meaning it isn't tied to your home carrier."
+      },
+      {
+        "title": "Pick a Qatar plan",
+        "body": "Choose an allowance and validity that match your trip, from a single day between flights to several weeks in Doha."
+      },
+      {
+        "title": "Install it on Wi-Fi",
+        "body": "Scan the QR code you receive by email before you leave home. eTijwaal says you can install as soon as you get the activation details."
+      },
+      {
+        "title": "Turn it on in Qatar",
+        "body": "After landing, enable the eSIM line, select it for mobile data and allow data roaming on that line only."
+      }
+    ],
+    "comparison": {
+      "heading": "Travel eSIM, roaming or a Qatari SIM?",
+      "intro": "How the three common ways of getting online in Qatar stack up for a short visit or a stopover.",
+      "columns": [
+        "Travel eSIM",
+        "Home carrier roaming",
+        "Ooredoo / Vodafone SIM"
+      ],
+      "rows": [
+        {
+          "label": "Set up",
+          "values": [
+            "At home before departure",
+            "Nothing to do",
+            "Booth in the DOH arrivals hall or a shop"
+          ]
+        },
+        {
+          "label": "ID needed",
+          "values": [
+            "No counter check",
+            "No",
+            "Passport registration"
+          ]
+        },
+        {
+          "label": "Price",
+          "values": [
+            "Fixed, paid in advance",
+            "Daily pass or per MB, depending on carrier",
+            "Fixed, paid in advance"
+          ]
+        },
+        {
+          "label": "Qatari phone number",
+          "values": [
+            "No, data only",
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "label": "Works on a stopover",
+          "values": [
+            "Yes, short plans suit transit",
+            "Yes, if your plan includes Qatar",
+            "Only after you clear immigration"
+          ]
+        },
+        {
+          "label": "Best suited to",
+          "values": [
+            "Tourists, transit and business visitors",
+            "A few hours on an expensed trip",
+            "Long stays that need a local number"
+          ]
+        }
+      ]
+    },
+    "networks": {
+      "heading": "Mobile networks in Qatar",
+      "intro": "Qatar has two licensed mobile operators. Both run 4G and 5G, and a travel eSIM uses one of them through a roaming partnership. The plan page shows which network your eSIM connects to.",
+      "items": [
+        {
+          "name": "Ooredoo",
+          "note": "The incumbent operator, formerly Qtel. Ooredoo launched commercial 5G in 2018 and reported 5G coverage across more than 90% of populated areas by 2020."
+        },
+        {
+          "name": "Vodafone Qatar",
+          "note": "The second operator. It has publicised 5G at Hamad International Airport, Souq Waqif, Katara and Msheireb, and across most of Doha's districts."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Why mobile data matters in Qatar",
+        "paragraphs": [
+          "Doha is spread out and built for driving, and the summer heat makes long walks between sights uncomfortable. Visitors rely on their phones for Karwa and Uber rides, Metro journey planning, restaurant menus, museum tickets and directions along the Corniche. Wi-Fi is easy to find inside hotels, malls and the airport terminal, but not on the street, at the beach or out in the dunes.",
+          "A data eSIM fills those gaps. It's installed before you travel, so there's nothing to buy after a long flight, and your home SIM stays in place for calls and texts."
+        ]
+      },
+      {
+        "heading": "How much data should you buy for Qatar?",
+        "paragraphs": [
+          "Use these as starting points and add a little headroom if you plan to share a hotspot or upload a lot of video:"
+        ],
+        "bullets": [
+          "A stopover of a few hours to a day: 1 GB covers maps, a ride into the city and messaging",
+          "Three to five days in Doha with a desert tour: about 3–5 GB",
+          "A week or more, or a business trip with daily video meetings: 10 GB or more",
+          "Watching matches or concerts and posting lots of video: consider a larger or unlimited plan"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does a travel eSIM work in Qatar?",
+        "a": "Yes. Qatar's operators support eSIM, and a travel eSIM connects to a local 4G or 5G network as a roaming partner. You need a phone that supports eSIM and isn't locked to your home carrier."
+      },
+      {
+        "q": "Can I use a Qatar eSIM during a layover at Hamad International?",
+        "a": "Yes. It works airside and in the city. If you never leave the terminal, the free #HIAQatar Wi-Fi may be enough, but an eSIM is worth having if you plan to go into Doha between flights."
+      },
+      {
+        "q": "When does my plan's validity start?",
+        "a": "According to eTijwaal, a plan's validity period starts when the eSIM activates by connecting to a supported network in your destination, not on the day you install it. Check the plan details before you buy."
+      },
+      {
+        "q": "Do I get a Qatari phone number?",
+        "a": "No. eTijwaal describes its plans as mostly data-only, so there's no local number for regular calls or SMS. Your home SIM keeps your own number active alongside the eSIM."
+      },
+      {
+        "q": "Can I make WhatsApp or FaceTime calls in Qatar?",
+        "a": "Messaging works normally. Voice and video calls on several internet calling apps have a history of being unreliable or blocked on Qatari networks. Read our calling apps guide and test before you depend on any one app."
+      },
+      {
+        "q": "How do I add more data while I'm in Doha?",
+        "a": "eTijwaal says you can top up through its app or website by selecting your active eSIM and choosing a top-up package. Do it over hotel Wi-Fi if your data has already run out."
+      },
+      {
+        "q": "Will the eSIM work outside Doha, for example at Sealine or Al Zubarah?",
+        "a": "Coverage on Qatar's main roads and in towns such as Al Wakrah, Al Khor and Mesaieed is generally good. Signal can weaken in remote desert areas such as the Inland Sea, so download offline maps before a dune trip."
+      },
+      {
+        "q": "Is my phone compatible with eSIM?",
+        "a": "Most iPhones from the XS and XR onwards, Google Pixel 3 and later, and recent Samsung Galaxy flagships support eSIM. Dial *#06#: if an EID appears, your phone has an eSIM chip."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "doha-stopover-esim",
+      "title": "eSIM for a Doha Stopover: Hamad Airport Layover Data Guide",
+      "description": "Breaking your journey at Hamad International? When airport Wi-Fi is enough, when you need mobile data in Doha, and how to size a short layover eSIM.",
+      "h1": "Staying connected on a Doha layover",
+      "navLabel": "Doha stopovers",
+      "intro": "Millions of passengers change planes at Hamad International Airport (DOH) every year, and many turn a long connection into a short visit to Doha. Whether you need mobile data depends on one question: will you leave the terminal?",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "Staying airside: the free Wi-Fi may be enough",
+          "paragraphs": [
+            "If your connection is a few hours and you're staying in the transit area, start with the airport's own network. Hamad International offers free Wi-Fi throughout the passenger terminal on the #HIAQatar network, and there are free internet kiosks near the gates and at the terminal's activity nodes.",
+            "Terminal Wi-Fi is shared and public, so avoid entering banking details on it where possible. It's also only useful inside the building. Some travellers still install a small eSIM plan for a connection: it keeps the phone online between the gate, a lounge and a lost-baggage desk without logging in again."
+          ]
+        },
+        {
+          "heading": "Going into Doha: you'll want your own data",
+          "paragraphs": [
+            "Once you step outside the terminal, the airport Wi-Fi is gone. That's the moment you need to call a taxi, check how far Souq Waqif is from the Metro, or message your hotel. Many stopover visitors take the Doha Metro Red Line from the airport station into the city, or book a Karwa taxi or an Uber from the arrivals area.",
+            "With an eSIM already installed, you can do all of this on the walk out of arrivals. You don't need to find an operator booth or hand over your passport for SIM registration when your time in the country is measured in hours."
+          ]
+        },
+        {
+          "heading": "Check the entry rules for your stopover",
+          "paragraphs": [
+            "Leaving the airport means clearing immigration, so check whether your nationality needs a visa before you plan a trip into the city. Qatar Airways has offered a transit visa and stopover packages for eligible passengers, but the conditions, such as minimum connection time and ticket type, have changed over the years. Confirm the current rules on the Qatar Airways and official Qatari government websites before you travel, and leave plenty of time to get back through security."
+          ]
+        },
+        {
+          "heading": "How much data does a stopover use?",
+          "paragraphs": [
+            "Less than most people expect. Navigation, ride-hailing and messaging are light on data; video is what eats an allowance. For a typical stopover:"
+          ],
+          "bullets": [
+            "A 6–12 hour connection with a trip to the Corniche or the Museum of Islamic Art: under 1 GB",
+            "An overnight stopover with a hotel stay and a desert or city tour: 1–2 GB",
+            "A two- to four-day stopover package: 3 GB or more, depending on how much you post or stream"
+          ]
+        },
+        {
+          "heading": "Timing your eSIM around two flights",
+          "paragraphs": [
+            "Install the eSIM at home before your first flight and leave the line switched off. eTijwaal says its plans start their validity when the eSIM first connects to a supported network at the destination, so turning the line on only after landing in Doha helps you avoid starting the clock on the ground at home.",
+            "If Qatar is one leg of a longer itinerary, check whether a regional or multi-country plan would cover both your stopover and your final destination. That can save you from buying two separate eSIMs."
+          ]
+        },
+        {
+          "heading": "A quick layover checklist",
+          "paragraphs": [
+            "Before the first flight, run through this list:"
+          ],
+          "bullets": [
+            "eSIM installed and labelled, but switched off",
+            "Offline map of central Doha downloaded",
+            "Karwa and Uber apps installed and logged in",
+            "Your onward boarding pass saved to your phone",
+            "A note of the time you must be back at DOH, with a generous security buffer"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is there free Wi-Fi at Doha airport?",
+          "a": "Yes. Hamad International provides free Wi-Fi across the passenger terminal on the #HIAQatar network. You connect and sign in from your phone, tablet or laptop."
+        },
+        {
+          "q": "Can I buy a SIM card while in transit at DOH?",
+          "a": "The airport lists SIM card booths at the east and west ends of the Arrivals Hall, which is landside. Transit passengers who don't clear immigration won't pass them, which is one reason an eSIM installed before departure is convenient."
+        },
+        {
+          "q": "Will my Qatar eSIM work on the plane?",
+          "a": "No. A ground eSIM connects to mobile networks on the ground in Qatar. In-flight connectivity is sold separately by the airline."
+        }
+      ]
+    },
+    {
+      "slug": "ooredoo-vs-vodafone-qatar",
+      "title": "Ooredoo vs Vodafone Qatar: Network Coverage for Visitors",
+      "description": "Qatar's two mobile networks compared for visitors: 5G in Doha, coverage on desert trips, and what it means for the network your travel eSIM joins.",
+      "h1": "Ooredoo or Vodafone: how Qatar's networks compare",
+      "navLabel": "Ooredoo vs Vodafone",
+      "intro": "Qatar has just two licensed mobile operators, Ooredoo and Vodafone Qatar. For a visitor the differences are smaller than you might think, but knowing which one your eSIM uses helps when you head out of the city.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "The short version",
+          "paragraphs": [
+            "Both networks are modern, run 4G and 5G, and cover Doha well. In the capital, at the airport and in the main leisure districts, you're unlikely to notice which one you're on. Differences show up mainly in remote areas, inside large buildings and during big events when thousands of people are in one place."
+          ]
+        },
+        {
+          "heading": "Ooredoo",
+          "paragraphs": [
+            "Ooredoo, formerly Qtel, is the original national operator. It launched a commercial 5G service in 2018 and has said its 5G reached more than 90% of populated areas by 2020. It has also invested in coverage for desert camping areas such as Sealine during the winter season.",
+            "Ooredoo sells prepaid visitor lines and has offered online purchase for visitors who verify their identity with passport details."
+          ]
+        },
+        {
+          "heading": "Vodafone Qatar",
+          "paragraphs": [
+            "Vodafone Qatar is the second licensed operator. Its 5G rollout has focused on the places visitors spend time: it has publicised 5G at Hamad International Airport, Souq Waqif, Katara Cultural Village, Msheireb Downtown and Mall of Qatar, as well as residential districts such as Al Sadd, West Bay and Al Wakrah.",
+            "Like Ooredoo, it sells prepaid SIMs at the airport and in its stores. A passport is needed to register a line."
+          ]
+        },
+        {
+          "heading": "Which network does a travel eSIM use?",
+          "paragraphs": [
+            "A travel eSIM connects to a Qatari operator as a roaming partner. Depending on the plan, your phone may be locked to one network or allowed to pick whichever has the stronger signal. The plan details normally name the supported network, so check them before you buy if you have a preference.",
+            "Whether you'll get 5G or 4G depends on the plan and on local availability. eTijwaal says its eSIMs support 4G LTE in most countries and 5G in selected destinations, and that the plan details show which technologies apply."
+          ]
+        },
+        {
+          "heading": "Coverage beyond Doha",
+          "paragraphs": [
+            "Qatar is small, and the main highways to Al Khor, Dukhan, Mesaieed and the Saudi border are well covered. Things get patchier once you leave the tarmac. If you're booking a dune bash to Khor Al Adaid, the Inland Sea, or driving to the Al Zubarah fort in the north-west:"
+          ],
+          "bullets": [
+            "Download an offline map of Qatar before you set off",
+            "Share your live location with someone before you lose signal, not after",
+            "Expect slower speeds or brief gaps in the dunes, even if you have full bars in Sealine",
+            "Carry a power bank, because phones drain faster when hunting for signal and in high heat"
+          ]
+        },
+        {
+          "heading": "Choosing a network manually",
+          "paragraphs": [
+            "If your signal is weak, you can try forcing the phone onto the other network, provided your plan supports both. On iPhone, go to Settings > Mobile Data > your eSIM line > Network Selection and turn off Automatic. On Android, look under the SIM's settings for Mobile networks > Network operators. Pick Ooredoo or Vodafone and give it a minute to register."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Which is better in Qatar, Ooredoo or Vodafone?",
+          "a": "For most visitors, neither is clearly better. Both cover Doha with 4G and 5G. Ooredoo is the larger, longer-established operator, while Vodafone has strong 5G in the city's main visitor areas."
+        },
+        {
+          "q": "Is there 5G in Qatar?",
+          "a": "Yes. Both operators run 5G networks across much of Doha and other populated areas. Whether your travel eSIM can use 5G depends on the plan, so check its listed network technology."
+        },
+        {
+          "q": "Is there mobile signal in the Qatari desert?",
+          "a": "There is coverage in popular spots such as the Sealine area, but it can be weaker or intermittent deeper in the dunes and around the Inland Sea. Plan for offline maps."
+        }
+      ]
+    },
+    {
+      "slug": "calling-apps-voip-qatar",
+      "title": "Calling Apps in Qatar: WhatsApp, FaceTime & VoIP Explained",
+      "description": "Do WhatsApp and FaceTime calls work in Qatar? What travellers report, what Qatar's regulator says about VoIP, and reliable ways to stay in touch from Doha.",
+      "h1": "Internet calls in Qatar: what visitors should expect",
+      "navLabel": "Calling apps",
+      "intro": "Messaging apps work normally in Qatar. Voice and video calls over the internet are a different story, and plenty of visitors only find out when a call to home fails on their first evening in Doha.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "What works and what may not",
+          "paragraphs": [
+            "Text chats, voice notes, photos and file sharing on WhatsApp, Telegram and iMessage go through as normal in Qatar. The difficulty is voice and video calling. Since around 2017, residents and visitors have repeatedly reported that calls on popular free apps, including WhatsApp, FaceTime and Skype, fail to connect or drop on Qatari mobile networks. The situation has varied over time and between apps, so treat any single report, including this one, as a starting point rather than a guarantee."
+          ]
+        },
+        {
+          "heading": "What Qatar's regulator has said",
+          "paragraphs": [
+            "Qatar's Communications Regulatory Authority has stated that no law bans VoIP technology itself. What the 2006 Telecommunications Law does prohibit is providing telecom services to the public for a fee without a licence, and only Ooredoo and Vodafone Qatar hold those licences. In practice, that is why some third-party calling services have been restricted while messaging has not."
+          ]
+        },
+        {
+          "heading": "Does a travel eSIM change anything?",
+          "paragraphs": [
+            "A travel eSIM is a roaming connection on a Qatari network, so the traffic may be handled differently from a local prepaid SIM, but there's no promise that every calling app will work. eTijwaal's FAQ describes its plans as data-only and mentions apps such as WhatsApp and FaceTime as the way to call, without making a Qatar-specific promise. If calling home is important, ask eTijwaal support about the Qatar plan before you buy, and test calls on your first day."
+          ]
+        },
+        {
+          "heading": "Reliable ways to stay reachable",
+          "paragraphs": [
+            "Build in a backup rather than relying on one app:"
+          ],
+          "bullets": [
+            "Keep your home SIM switched on so you can receive normal calls and SMS, including bank verification codes. Check your carrier's roaming charges for calls first.",
+            "Send voice notes when a live call won't connect. They use the messaging side of the app, which works normally.",
+            "For work, try your company's meeting platform early. Business tools such as Microsoft Teams are widely used in Qatar, and Ooredoo even sells a Teams calling service to companies.",
+            "Agree a fallback with family, such as a scheduled call on your home number for anything urgent."
+          ]
+        },
+        {
+          "heading": "A note on VPNs",
+          "paragraphs": [
+            "You'll find plenty of articles recommending VPNs to get around call restrictions in Qatar. We don't recommend it. Rules on circumventing restrictions can be strict in Gulf countries and may change, and a business traveller in particular shouldn't take that risk on a work device. Stick to apps and connections that work without workarounds."
+          ]
+        },
+        {
+          "heading": "Test before it matters",
+          "paragraphs": [
+            "On arrival, make a short test call on each app you plan to use: once on hotel Wi-Fi and once on mobile data. That takes five minutes and tells you what to rely on for the rest of the trip, so you're not discovering a problem when you need to reach someone urgently."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Are WhatsApp messages blocked in Qatar?",
+          "a": "No. Sending messages, voice notes, photos and documents on WhatsApp works normally in Qatar. Reported problems relate to voice and video calls."
+        },
+        {
+          "q": "Does FaceTime work in Qatar?",
+          "a": "FaceTime audio and video calls have often been reported as unreliable or unavailable on Qatari networks, though results vary. iMessage texting works normally. Test it on arrival."
+        },
+        {
+          "q": "Is using VoIP illegal in Qatar?",
+          "a": "The regulator has said no law bans VoIP technology itself. Providing paid public voice services without a licence is prohibited, which is why some calling services have been restricted."
+        }
+      ]
+    },
+    {
+      "slug": "qatar-sim-card-esim-or-roaming",
+      "title": "Qatar Tourist SIM vs eSIM vs Roaming: Which Is Best in 2026?",
+      "description": "Arrivals-hall SIM at Hamad Airport, roaming from home or a travel eSIM? Compare cost, registration and convenience for Doha tourists and business visitors.",
+      "h1": "Getting online in Qatar: local SIM, roaming or eSIM",
+      "navLabel": "SIM vs eSIM",
+      "intro": "There are three realistic ways to get mobile data on a trip to Qatar. The right one depends on how long you're staying, whether you need a Qatari number and how much you trust your home carrier's roaming bill.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "A Qatari prepaid SIM",
+          "paragraphs": [
+            "Ooredoo and Vodafone Qatar both sell prepaid lines for visitors. At Hamad International, operator booths sit at the east and west ends of the Arrivals Hall, and both companies have stores around Doha. Every line has to be registered to you, which for a visitor means showing a passport.",
+            "Ooredoo has also offered visitors the option to buy an eSIM or a physical SIM online after verifying their passport details. Minimum recharge amounts and package names change, so check the operator's site for current terms. A local SIM is the right choice if you need a Qatari number, for example to receive delivery calls or register for local apps during a longer stay."
+          ]
+        },
+        {
+          "heading": "Roaming with your home carrier",
+          "paragraphs": [
+            "Roaming takes no effort at all: you land and your phone connects. The catch is cost. Many carriers charge a daily fee for the Gulf, and some still bill by the megabyte, which can turn a week in Doha into an expensive surprise. If your plan includes Qatar at no extra charge, roaming may be the simplest option. If it doesn't, compare the daily rate against a prepaid plan."
+          ]
+        },
+        {
+          "heading": "A travel data eSIM",
+          "paragraphs": [
+            "A travel eSIM sits between the two. You buy a fixed allowance before you fly, install it at home and activate it in Qatar. It uses a local network, your home SIM keeps working for calls and texts, and there's no booth or registration on arrival. The trade-off is that you don't get a Qatari phone number, since plans are data-only."
+          ]
+        },
+        {
+          "heading": "Which option fits your trip?",
+          "paragraphs": [
+            "Match the choice to how you're travelling:"
+          ],
+          "bullets": [
+            "Transit passenger with a few hours in Doha: a short eSIM plan, or airport Wi-Fi if you stay airside",
+            "Holiday of three days to two weeks: an eSIM sized to your usage",
+            "Business visitor attending meetings or a conference in Doha: an eSIM for data, with your home line kept on for important calls",
+            "Fan travelling for a match, race or festival: an eSIM installed before you fly, so you avoid arrivals-hall queues on busy event days",
+            "Resident-length stay or anyone needing a Qatari number: a local prepaid SIM"
+          ]
+        },
+        {
+          "heading": "Costs that catch people out",
+          "paragraphs": [
+            "Whichever route you take, check three things before you travel. First, what happens when your allowance runs out: some roaming passes fall back to pay-per-use rates, while prepaid plans usually stop until you top up. Second, whether hotspot sharing is allowed if you'll connect a laptop. Third, if you keep your home SIM switched on, make sure its data roaming is off, or your phone may quietly use it when the eSIM signal dips."
+          ]
+        },
+        {
+          "heading": "Our take",
+          "paragraphs": [
+            "For short visits, stopovers and business trips to Qatar, a data eSIM usually offers the best balance of price, convenience and predictability. Choose a local SIM when you genuinely need a Qatari number, and roaming only when your carrier already includes Qatar or your employer is paying."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Where can I buy a SIM card at Doha airport?",
+          "a": "Hamad International lists SIM card booths at the east and west ends of the Arrivals Hall, after immigration. Bring your passport for registration."
+        },
+        {
+          "q": "Do I need a passport to buy a SIM in Qatar?",
+          "a": "Yes. Mobile lines in Qatar must be registered to the user, and visitors register with their passport. A travel eSIM bought online doesn't require registration at a counter."
+        },
+        {
+          "q": "Can one eSIM cover Qatar and neighbouring Gulf countries?",
+          "a": "Regional plans exist that cover several GCC countries in one eSIM. If your trip combines Qatar with Saudi Arabia, the UAE or elsewhere in the Gulf, check which countries a plan includes before you buy."
+        }
+      ]
+    },
+    {
+      "slug": "set-up-esim-for-qatar",
+      "title": "Set Up an eSIM for Qatar: iPhone & Android Steps Before Doha",
+      "description": "Install your Qatar eSIM at home, then turn it on after landing at Hamad International. Settings for iPhone and Android, plus fixes for no signal in Doha.",
+      "h1": "Setting up your Qatar eSIM, step by step",
+      "navLabel": "Setup guide",
+      "intro": "Installing a travel eSIM is a five-minute job, but the order you do things in matters. Install at home, keep the line off for the flight, then switch it on once you're on the ground in Doha.",
+      "updated": "2026-10-20",
+      "sections": [
+        {
+          "heading": "The day before you fly",
+          "paragraphs": [
+            "Get these ready while you still have home Wi-Fi:"
+          ],
+          "bullets": [
+            "Check the phone supports eSIM: dial *#06# and look for an EID",
+            "Make sure it's carrier-unlocked, especially if it came on a contract",
+            "Update iOS or Android to the latest version",
+            "Open the eSIM QR code email on a second screen, such as a laptop, so you can scan it with the phone"
+          ]
+        },
+        {
+          "heading": "Installing on an iPhone",
+          "paragraphs": [
+            "Go to Settings > Mobile Data (called Cellular in some regions) > Add eSIM, then choose Use QR Code and scan it. When the phone asks you to name the new line, call it something obvious like 'Qatar'. Keep your home line as the default for calls, SMS and iMessage. When asked about mobile data, stay on your home line for now; you'll switch after landing.",
+            "Once installed, go back into the Qatar line's settings and turn it off until your trip. That stops it trying to connect before you arrive."
+          ]
+        },
+        {
+          "heading": "Installing on Android",
+          "paragraphs": [
+            "On a Samsung Galaxy, open Settings > Connections > SIM manager > Add eSIM and scan the code. On a Google Pixel, open Settings > Network & internet > SIMs, tap Add SIM and choose to download a SIM instead. Other brands use similar wording under their network or SIM settings. Label the new line 'Qatar' and switch it off until you travel."
+          ]
+        },
+        {
+          "heading": "After landing at Hamad International",
+          "paragraphs": [
+            "You can do this while taxiing to the gate or walking to immigration:"
+          ],
+          "bullets": [
+            "Turn the Qatar eSIM line on",
+            "Select it as the line for mobile data",
+            "Switch on Data Roaming for the Qatar line. It's a roaming connection, so it won't connect without this.",
+            "Turn Data Roaming off on your home line so it never uses roaming data",
+            "Give it a minute to register on Ooredoo or Vodafone, then open a map to confirm"
+          ]
+        },
+        {
+          "heading": "If it doesn't connect",
+          "paragraphs": [
+            "Most problems are fixed by one of these steps, tried in order:"
+          ],
+          "bullets": [
+            "Double-check Data Roaming is on for the eSIM line, not just your home line",
+            "Turn airplane mode on for ten seconds, then off",
+            "Open network selection, turn off Automatic and choose a Qatari network listed in your plan",
+            "Restart the phone",
+            "Connect to the #HIAQatar airport Wi-Fi and contact eTijwaal support from there"
+          ]
+        },
+        {
+          "heading": "Qatar-specific tips for the rest of your trip",
+          "paragraphs": [
+            "A few habits make the eSIM go further. Phones warm up quickly in Qatar's heat, and a hot phone may throttle or dim its screen, so keep it out of direct sun on a desert tour or a day at Katara Beach. Download offline maps before heading out of Doha. On iPhone, turn off 'Allow Mobile Data Switching' so the phone doesn't fall back to your home SIM when the signal dips in the dunes. And don't delete the eSIM until you're home, as most QR codes can only be installed once."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "When should I install my Qatar eSIM?",
+          "a": "Ideally a day or two before departure, on reliable Wi-Fi. eTijwaal says you can install it as soon as you receive the activation details, and the plan's validity begins when it connects in your destination."
+        },
+        {
+          "q": "Why do I have signal but no internet in Doha?",
+          "a": "Usually because Data Roaming is off on the eSIM line, or the phone is still using your home line for mobile data. Check both settings, then toggle airplane mode."
+        },
+        {
+          "q": "How do I check how much data I have left?",
+          "a": "Your remaining balance is shown in your eTijwaal account or app. Your phone also tracks usage per line under its mobile data settings, which you can reset when you land in Qatar."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "heading": "About Qatar eSIM",
+    "description": "Qatar eSIM is an independent connectivity guide for Doha visitors and Hamad Airport transit passengers. Plans featured here are sold by eTijwaal.",
+    "paragraphs": [
+      "Qatar eSIM is a travel connectivity guide for people visiting Doha, attending events in Qatar or changing planes at Hamad International Airport. We cover how eSIMs work on Qatari networks, how they compare with local SIMs and roaming, and what to know about calling apps before you go.",
+      "The eSIM data plans featured on this site are sold, delivered and supported by eTijwaal, a travel eSIM provider. When you choose a plan, you complete your purchase with eTijwaal on etijwaal.com or in the eTijwaal app, and eTijwaal handles activation, top-ups and customer support.",
+      "We update these guides regularly, but network coverage, app availability and entry rules in Qatar can change. Check your plan details and official sources before you travel."
+    ]
+  }
+}
