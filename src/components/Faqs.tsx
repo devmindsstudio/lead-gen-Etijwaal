@@ -4,18 +4,24 @@ import type { Faq } from "@/lib/schema";
 export function Faqs({ items, heading = "Frequently asked questions" }: { items: Faq[]; heading?: string }) {
   if (!items.length) return null;
   return (
-    <section id="faq" className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-      <h2 className="text-3xl font-bold tracking-tight">{heading}</h2>
-      <div className="mt-8 divide-y divide-line rounded-2xl border border-line bg-surface">
-        {items.map((f) => (
-          <details key={f.q} className="group px-5 py-4 sm:px-6">
-            <summary className="flex cursor-pointer items-center justify-between gap-4 text-left font-semibold">
+    <section id="faq" className="mx-auto grid max-w-6xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[0.75fr_1.25fr] lg:py-28">
+      <div className="lg:sticky lg:top-28 lg:self-start">
+        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-brand">FAQ</p>
+        <h2 className="mt-3 text-3xl leading-tight sm:text-[2.6rem]">{heading}</h2>
+        <p className="mt-4 text-muted">{items.length} quick answers before you travel.</p>
+      </div>
+      <div className="space-y-3">
+        {items.map((f, i) => (
+          <details key={f.q} className="frame group rounded-site px-5 py-1 transition open:shadow-lg sm:px-6" open={i === 0}>
+            <summary className="flex cursor-pointer items-center justify-between gap-4 py-4 text-left text-[1.0625rem] font-semibold">
               {f.q}
-              <svg viewBox="0 0 20 20" className="faq-chevron h-5 w-5 shrink-0 text-muted transition" fill="currentColor" aria-hidden="true">
-                <path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z" />
-              </svg>
+              <span className="faq-chevron grid h-8 w-8 shrink-0 place-items-center rounded-full bg-surface-2 text-brand transition">
+                <svg viewBox="0 0 20 20" className="h-4 w-4" fill="currentColor" aria-hidden="true">
+                  <path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z" />
+                </svg>
+              </span>
             </summary>
-            <p className="mt-3 leading-relaxed text-muted">{f.a}</p>
+            <p className="pb-5 leading-relaxed text-muted">{f.a}</p>
           </details>
         ))}
       </div>

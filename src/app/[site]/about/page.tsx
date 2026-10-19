@@ -19,7 +19,7 @@ export default async function About({ params }: PageProps<"/[site]/about">) {
   return (
     <>
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-        <h1 className="text-4xl font-extrabold tracking-tight">{site.about.heading}</h1>
+        <h1 className="text-4xl sm:text-5xl">{site.about.heading}</h1>
         <div className="prose-site">
           {site.about.paragraphs.map((p) => <p key={p.slice(0, 40)}>{p}</p>)}
         </div>

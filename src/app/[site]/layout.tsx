@@ -1,18 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import Script from "next/script";
 import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
 import { getSite, sites, siteUrl } from "@/lib/sites";
-import { Header, Footer } from "@/components/SiteChrome";
+import { Header, Footer, MobileCtaBar } from "@/components/SiteChrome";
+import { fontVariables } from "@/lib/fonts";
 import { JsonLd, websiteLd } from "@/components/JsonLd";
 import "../globals.css";
-
-const jakarta = Plus_Jakarta_Sans({
-  variable: "--font-jakarta",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 // Only the sites/guides defined in /sites are valid; everything else is a hard 404.
 export const dynamicParams = false;
@@ -62,12 +56,13 @@ export default async function SiteLayout({ children, params }: LayoutProps<"/[si
   const ga = site.analytics.ga4Id;
 
   return (
-    <html lang={site.locale} className={`${jakarta.variable} h-full antialiased`} style={theme}>
+    <html lang={site.locale} data-design={site.design} className={`${fontVariables} h-full antialiased`} style={theme}>
       <body className="flex min-h-full flex-col font-sans">
         <JsonLd data={websiteLd(site)} />
         <Header site={site} />
         <main className="flex-1">{children}</main>
         <Footer site={site} />
+        <MobileCtaBar site={site} />
         {ga && (
           <>
             <Script src={`https://www.googletagmanager.com/gtag/js?id=${ga}`} strategy="afterInteractive" />

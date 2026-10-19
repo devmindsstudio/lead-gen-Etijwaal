@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getSite } from "@/lib/sites";
-import { Hero } from "@/components/Hero";
+import { Hero } from "@/components/designs/Heroes";
 import {
   Benefits,
   Comparison,
@@ -9,7 +9,6 @@ import {
   HowItWorks,
   Networks,
   ProseSections,
-  Stats,
 } from "@/components/HomeSections";
 import { Faqs } from "@/components/Faqs";
 import { JsonLd, faqLd } from "@/components/JsonLd";
@@ -22,7 +21,6 @@ export default async function Home({ params }: PageProps<"/[site]">) {
     <>
       <JsonLd data={faqLd(site.home.faqs)} />
       <Hero site={site} />
-      <Stats site={site} />
       <Benefits site={site} />
       <HowItWorks site={site} />
       <Comparison site={site} />

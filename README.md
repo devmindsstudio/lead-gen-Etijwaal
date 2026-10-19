@@ -20,6 +20,7 @@ request: dubai-esim.com/whatsapp-calls-in-dubai
 | `src/lib/hosts.ts` | Domain → site map used by the proxy |
 | `scripts/sync-sites.mjs` | Generates the registry and domain map from `/sites` (runs before dev/build) |
 | `.claude/skills/build-landing-site/` | **The research-and-build skill**: researches a business and market, then writes a site |
+| `src/components/designs/` | The four design languages (skyline, geometric, boarding, arch): heroes, guide headers, decorative motifs. A site picks one with `design` in its JSON |
 | `src/app/[site]/` | Shared templates: home, `[slug]` guides, about, robots.txt, sitemap.xml, OG image, favicon |
 | `scripts/check-sites.mjs` | Pre-build lint: schema, unique domains, duplicate titles, thin pages, sentences copied between sites (`--online` also checks CTA URLs) |
 

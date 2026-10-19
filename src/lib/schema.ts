@@ -80,6 +80,12 @@ export const siteSchema = z.object({
     primaryInk: z.string().regex(/^#[0-9a-fA-F]{6}$/),
     accent: z.string().regex(/^#[0-9a-fA-F]{6}$/),
   }),
+  /**
+   * Visual design language. Each one has its own typography, layout, hero and section styles:
+   * skyline (dark luxury city), geometric (sand + star patterns, editorial), boarding (airline / boarding pass),
+   * arch (calm, centred, arch motifs).
+   */
+  design: z.enum(["skyline", "geometric", "boarding", "arch"]).default("skyline"),
   /** The business the site generates leads for. */
   partner: z.object({
     name: z.string(),
@@ -164,3 +170,4 @@ export type Site = z.infer<typeof siteSchema>;
 export type Guide = Site["guides"][number];
 export type Faq = z.infer<typeof faq>;
 export type IconName = z.infer<typeof iconName>;
+export type Design = Site["design"];

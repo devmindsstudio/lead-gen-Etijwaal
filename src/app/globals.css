@@ -1,15 +1,123 @@
 @import "tailwindcss";
 
-/* Per-site colours are injected on <html> by the root layout (see [site]/layout.tsx). */
+/*
+ * Two layers of tokens:
+ *  1. Brand colours (--brand, --brand-ink, --accent) are injected per site on <html> by [site]/layout.tsx.
+ *  2. Design tokens (type, shape, surfaces, chrome) come from the site's `design`, set as data-design on <html>.
+ */
 :root {
   --brand: #0f766e;
   --brand-ink: #ffffff;
   --accent: #f59e0b;
+
   --ink: #0f172a;
   --muted: #475569;
   --line: #e2e8f0;
   --surface: #ffffff;
   --surface-2: #f8fafc;
+  --night: #0b1220;
+  --night-ink: #ffffff;
+
+  --font-body-face: var(--font-jakarta);
+  --font-heading-face: var(--font-jakarta);
+  --heading-weight: 800;
+  --heading-tracking: -0.025em;
+  --r: 1rem;
+  --r-lg: 1.5rem;
+
+  --header-bg: rgb(255 255 255 / 0.85);
+  --header-ink: var(--ink);
+  --header-muted: var(--muted);
+  --header-line: var(--line);
+  --footer-bg: var(--surface-2);
+  --footer-ink: var(--ink);
+  --footer-muted: var(--muted);
+  --footer-line: var(--line);
+}
+
+/* Dubai: night-time luxury city. Geometric sans, glass, deep navy. */
+[data-design="skyline"] {
+  --ink: #0b1220;
+  --muted: #4b5567;
+  --line: #e3e8ef;
+  --surface: #ffffff;
+  --surface-2: #f3f6f9;
+  --night: #070d1a;
+  --font-heading-face: var(--font-sora);
+  --heading-weight: 700;
+  --heading-tracking: -0.035em;
+  --r: 1.25rem;
+  --r-lg: 2rem;
+  --header-bg: rgb(7 13 26 / 0.72);
+  --header-ink: #ffffff;
+  --header-muted: rgb(255 255 255 / 0.7);
+  --header-line: rgb(255 255 255 / 0.08);
+  --footer-bg: #070d1a;
+  --footer-ink: #ffffff;
+  --footer-muted: rgb(255 255 255 / 0.62);
+  --footer-line: rgb(255 255 255 / 0.1);
+}
+
+/* Saudi: desert sand, star geometry, bold editorial grotesque, sharp corners. */
+[data-design="geometric"] {
+  --ink: #1c1a16;
+  --muted: #5d564a;
+  --line: #e0d5bf;
+  --surface: #fbf7ee;
+  --surface-2: #f3eadb;
+  --night: #12311f;
+  --font-heading-face: var(--font-bricolage);
+  --heading-weight: 800;
+  --heading-tracking: -0.045em;
+  --r: 0.25rem;
+  --r-lg: 0.5rem;
+  --header-bg: rgb(251 247 238 / 0.9);
+  --header-line: #1c1a16;
+  --footer-bg: var(--brand);
+  --footer-ink: #ffffff;
+  --footer-muted: rgb(255 255 255 / 0.75);
+  --footer-line: rgb(255 255 255 / 0.18);
+}
+
+/* Qatar: airline & boarding-pass. Serif display, warm cream, perforations. */
+[data-design="boarding"] {
+  --ink: #23161a;
+  --muted: #6a5a5e;
+  --line: #eadcd3;
+  --surface: #fffcf8;
+  --surface-2: #f8f0e8;
+  --night: #23161a;
+  --font-body-face: var(--font-dm-sans);
+  --font-heading-face: var(--font-dm-serif);
+  --heading-weight: 400;
+  --heading-tracking: -0.015em;
+  --r: 1rem;
+  --r-lg: 1.5rem;
+  --header-bg: rgb(255 252 248 / 0.9);
+  --footer-bg: #23161a;
+  --footer-ink: #fff7ef;
+  --footer-muted: rgb(255 247 239 / 0.65);
+  --footer-line: rgb(255 247 239 / 0.12);
+}
+
+/* Umrah: calm, centred, arch motifs. Soft serif, ivory and indigo with gold. */
+[data-design="arch"] {
+  --ink: #161c38;
+  --muted: #565c74;
+  --line: #e6dfcd;
+  --surface: #fdfbf5;
+  --surface-2: #f5efe1;
+  --night: #161c38;
+  --font-heading-face: var(--font-fraunces);
+  --heading-weight: 600;
+  --heading-tracking: -0.02em;
+  --r: 1.25rem;
+  --r-lg: 2rem;
+  --header-bg: rgb(253 251 245 / 0.9);
+  --footer-bg: #161c38;
+  --footer-ink: #fdfbf5;
+  --footer-muted: rgb(253 251 245 / 0.65);
+  --footer-line: rgb(253 251 245 / 0.12);
 }
 
 @theme inline {
@@ -21,24 +129,48 @@
   --color-line: var(--line);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
-  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --color-night: var(--night);
+  --color-night-ink: var(--night-ink);
+  --font-sans: var(--font-body-face), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-heading-face), ui-serif, Georgia, serif;
+  --radius-site: var(--r);
+  --radius-site-lg: var(--r-lg);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background: var(--surface);
-  color: var(--ink);
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--surface);
+    color: var(--ink);
+  }
+  h1,
+  h2,
+  h3,
+  .heading {
+    font-family: var(--font-heading-face), ui-serif, Georgia, serif;
+    font-weight: var(--heading-weight);
+    letter-spacing: var(--heading-tracking);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 3px;
+  }
 }
 
 /* In a layer so utility classes can still override these. */
 @layer components {
   .prose-site p {
     margin-top: 1rem;
-    line-height: 1.75;
+    line-height: 1.8;
     color: var(--muted);
+    font-size: 1.0625rem;
   }
   .prose-site ul {
     margin-top: 1rem;
@@ -48,14 +180,102 @@ body {
   }
   .prose-site li {
     margin-top: 0.5rem;
-    line-height: 1.7;
+    line-height: 1.75;
+  }
+  .prose-site li::marker {
+    color: var(--brand);
   }
   .prose-site h2 {
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: -0.01em;
+    margin-top: 3rem;
+    font-size: 1.625rem;
+    line-height: 1.25;
     color: var(--ink);
+  }
+  .prose-site > :first-child > h2:first-child {
+    margin-top: 0;
+  }
+
+  /* Call-to-action buttons. */
+  .btn {
+    border-radius: 9999px;
+  }
+  .btn-solid {
+    background: var(--brand);
+    color: var(--brand-ink);
+    box-shadow: 0 10px 24px -10px color-mix(in srgb, var(--brand) 70%, transparent);
+  }
+  .btn-accent {
+    background: var(--accent);
+    color: #111;
+    box-shadow: 0 10px 30px -10px color-mix(in srgb, var(--accent) 80%, transparent);
+  }
+  .btn-light {
+    background: #fff;
+    color: var(--ink);
+  }
+  .btn:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+  }
+  [data-design="geometric"] .btn {
+    border-radius: 0.25rem;
+    border: 2px solid var(--ink);
+    box-shadow: 4px 4px 0 0 var(--ink);
+  }
+  [data-design="geometric"] .btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 6px 6px 0 0 var(--ink);
+  }
+  [data-design="geometric"] .btn-light {
+    border-color: #fff;
+    box-shadow: 4px 4px 0 0 rgb(0 0 0 / 0.35);
+  }
+
+  /* Card outline that follows the design: hairline by default, heavy ink rule for geometric. */
+  .frame {
+    border: 1px solid var(--line);
+    background: var(--surface);
+  }
+  [data-design="geometric"] .frame {
+    border: 2px solid var(--ink);
+  }
+  [data-design="skyline"] .frame {
+    box-shadow: 0 1px 2px rgb(11 18 32 / 0.04), 0 12px 32px -18px rgb(11 18 32 / 0.18);
+  }
+
+  /* Glass panel for dark sections. */
+  .glass {
+    background: rgb(255 255 255 / 0.06);
+    border: 1px solid rgb(255 255 255 / 0.12);
+    backdrop-filter: blur(14px);
+  }
+
+  /* Ticket perforation: a dashed rule with punched notches at each end. */
+  .perforation {
+    position: relative;
+    border-top: 2px dashed var(--line);
+  }
+  .perforation::before,
+  .perforation::after {
+    content: "";
+    position: absolute;
+    top: -13px;
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    background: var(--perf-bg, var(--surface-2));
+  }
+  .perforation::before {
+    left: -12px;
+  }
+  .perforation::after {
+    right: -12px;
+  }
+
+  /* Arch (mihrab-style) top. */
+  .arch-top {
+    border-top-left-radius: 999px 520px;
+    border-top-right-radius: 999px 520px;
   }
 }
 
@@ -68,8 +288,45 @@ details > summary::-webkit-details-marker {
 details[open] .faq-chevron {
   transform: rotate(180deg);
 }
+details[open] .menu-open-hide {
+  display: none;
+}
+details:not([open]) .menu-open-show {
+  display: none;
+}
 
-/* No extra gap above the first heading of an article body. */
-.prose-site > :first-child > h2:first-child {
-  margin-top: 0;
+/* Gentle entrance for hero content. Motion only, never opacity: text stays visible, so LCP isn't delayed. */
+@keyframes rise {
+  from {
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.rise {
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .float {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }

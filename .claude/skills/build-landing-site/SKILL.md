@@ -56,6 +56,13 @@ Rules the schema can't enforce:
 - **Depth:** each guide should be **450+ words** (intro + sections + FAQ answers), with 4–6 sections and 2–3 guide FAQs. The home page needs 6–8 FAQs. Answer first, then explain.
 - **Voice:** helpful travel-guide tone, in the second person. Use the partner's name only in the about/disclosure copy and attributed claims. Don't hard-sell in the guides; the templates add CTAs automatically.
 - **Honesty:** `about.paragraphs` must say plainly that the plans are sold and supported by the partner. Set `partner.disclosure` accordingly.
+- **Design:** set `design` to the layout language that fits the market, and prefer one that sibling sites aren't already using:
+  - `skyline`: dark night-city luxury, glass panels, bento grid (Dubai)
+  - `geometric`: desert sand, 8-point star patterns, bold editorial type, sharp corners (Saudi)
+  - `boarding`: airline and boarding-pass styling, serif display type, itinerary timeline (Qatar and transit hubs)
+  - `arch`: calm, centred layout with arch motifs and soft serif type (pilgrimage and heritage)
+
+  Each design changes typography, the hero, section layouts, buttons, header and footer. Content stays the same.
 - **Brand:** pick a `primary` colour distinct from the sibling sites (it drives the favicon, OG image and buttons). `primaryInk` must have ≥ 4.5:1 contrast on `primary` (white on a dark primary). `accent` is used for small highlights on dark backgrounds.
 - **CTA:** `cta.url` is the partner's target page with **no UTM parameters** (they're added automatically per button). Use `cta.campaign` = the site id.
 - **Non-eSIM niche?** Override the template microcopy in `copy` (`headerCta`, `benefitsEyebrow`, `benefitsHeading`, `howItWorksHeading`, `inlineCta`, `bannerHeading`, `bannerBody`, `deviceRows`). `{place}` expands to the city or country. eSIM defaults apply when `copy` is omitted.

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { copy, getSite, sites } from "@/lib/sites";
 import { CtaButton } from "@/components/CtaButton";
-import { CtaBanner, GuideCards } from "@/components/HomeSections";
+import { CtaBanner, GuideCards, readingMinutes } from "@/components/HomeSections";
+import { GuideHeader } from "@/components/designs/GuideHeader";
 import { Faqs } from "@/components/Faqs";
 import { JsonLd, articleLd, breadcrumbLd, faqLd } from "@/components/JsonLd";
 
@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: PageProps<"/[site]/[slug]">):
   };
 }
 
+const anchor = (heading: string) =>
+  heading.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
 export default async function GuidePage({ params }: PageProps<"/[site]/[slug]">) {
   const data = await load(params);
   if (!data) notFound();
@@ -46,39 +49,47 @@ export default async function GuidePage({ params }: PageProps<"/[site]/[slug]">)
     <>
       <JsonLd data={ld} />
       <article>
-        <header className="bg-surface-2">
-          <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
-            <nav aria-label="Breadcrumb" className="text-sm text-muted">
-              <Link href="/" className="hover:text-ink">{site.brand.name}</Link>
-              <span className="mx-2">/</span>
-              <span>Guides</span>
-            </nav>
-            <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">{guide.h1}</h1>
-            <p className="mt-5 text-lg leading-relaxed text-muted">{guide.intro}</p>
-            <p className="mt-6 text-sm text-muted">
-              Updated <time dateTime={guide.updated}>{formatDate(guide.updated)}</time>
-            </p>
-          </div>
-        </header>
+        <GuideHeader site={site} guide={guide} minutes={readingMinutes(guide)} updated={formatDate(guide.updated)} />
 
-        <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-          <div className="prose-site">
+        <div className="mx-auto grid max-w-6xl gap-12 px-4 py-14 sm:px-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
+          <div className="prose-site max-w-3xl">
             {guide.sections.map((s, i) => (
-              <section key={s.heading}>
+              <section key={s.heading} id={anchor(s.heading)} className="scroll-mt-24">
                 <h2>{s.heading}</h2>
                 {s.paragraphs.map((p) => <p key={p.slice(0, 40)}>{p}</p>)}
                 {s.bullets && <ul>{s.bullets.map((b) => <li key={b}>{b}</li>)}</ul>}
                 {i === 1 && (
-                  <aside className="not-prose my-10 flex flex-col items-start gap-4 rounded-2xl border border-line bg-surface-2 p-6 sm:flex-row sm:items-center sm:justify-between">
-                    <p className="font-semibold text-ink">
-                      {copy(site, "inlineCta")}
-                    </p>
+                  <aside className="frame my-10 flex flex-col items-start gap-4 rounded-site-lg p-6 sm:flex-row sm:items-center sm:justify-between lg:hidden">
+                    <p className="font-semibold text-ink">{copy(site, "inlineCta")}</p>
                     <CtaButton site={site} placement={`guide-${guide.slug}-inline`} size="sm" />
                   </aside>
                 )}
               </section>
             ))}
           </div>
+
+          <aside className="hidden lg:block">
+            <div className="sticky top-24 space-y-5">
+              <nav aria-label="On this page" className="frame rounded-site-lg p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">On this page</p>
+                <ol className="mt-3 space-y-1 text-sm">
+                  {guide.sections.map((s, i) => (
+                    <li key={s.heading}>
+                      <a href={`#${anchor(s.heading)}`} className="flex gap-2.5 rounded-site px-2 py-1.5 text-muted transition hover:bg-surface-2 hover:text-ink">
+                        <span className="font-semibold text-brand">{String(i + 1).padStart(2, "0")}</span>
+                        {s.heading}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </nav>
+              <div className="relative overflow-hidden rounded-site-lg bg-brand p-6 text-brand-ink">
+                <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-white/10" />
+                <p className="heading relative text-xl leading-snug">{copy(site, "inlineCta")}</p>
+                <CtaButton site={site} placement={`guide-${guide.slug}-sidebar`} size="sm" variant="light" className="relative mt-5" />
+              </div>
+            </div>
+          </aside>
         </div>
       </article>
       <Faqs items={guide.faqs} heading="Questions about this topic" />
