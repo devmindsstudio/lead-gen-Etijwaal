@@ -19,7 +19,9 @@
     "supportUrl": "https://etijwaal.com/contactus",
     "privacyUrl": "https://etijwaal.com/privacypolicy",
     "termsUrl": "https://etijwaal.com/termsandconditions",
-    "disclosure": "Qatar eSIM data plans are sold and supported by"
+    "disclosure": "Qatar eSIM data plans are sold and supported by",
+    "appStoreUrl": "https://apps.apple.com/app/etijwaal/id6477891978",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.etijwaalapp"
   },
   "market": {
     "country": "Qatar",
@@ -330,7 +332,13 @@
           "q": "Will my Qatar eSIM work on the plane?",
           "a": "No. A ground eSIM connects to mobile networks on the ground in Qatar. In-flight connectivity is sold separately by the airline."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/qatar-esim/guide-hamad-airport-stopover.webp",
+        "alt": "The indoor tropical garden under the glass roof of Hamad International Airport in Doha",
+        "credit": "Karim Mokalled / Unsplash",
+        "source": "https://unsplash.com/photos/the-inside-of-a-large-building-with-a-lot-of-trees-and-plants-VAKhIC-fRQE"
+      }
     },
     {
       "slug": "ooredoo-vs-vodafone-qatar",
@@ -400,7 +408,13 @@
           "q": "Is there mobile signal in the Qatari desert?",
           "a": "There is coverage in popular spots such as the Sealine area, but it can be weaker or intermittent deeper in the dunes and around the Inland Sea. Plan for offline maps."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/qatar-esim/guide-doha-network-coverage.webp",
+        "alt": "The West Bay towers of Doha seen across the turquoise water of Doha Bay on a clear day",
+        "credit": "Shot By Joe / Unsplash",
+        "source": "https://unsplash.com/photos/MFwttEM3ThU"
+      }
     },
     {
       "slug": "calling-apps-voip-qatar",
@@ -467,7 +481,13 @@
           "q": "Is using VoIP illegal in Qatar?",
           "a": "The regulator has said no law bans VoIP technology itself. Providing paid public voice services without a licence is prohibited, which is why some calling services have been restricted."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/qatar-esim/guide-calling-apps.webp",
+        "alt": "A traveller holding a smartphone sideways on a video call, the kind of app call covered for Qatar",
+        "credit": "Vitaly Gariev / Unsplash",
+        "source": "https://unsplash.com/photos/Ef5fyy55plw"
+      }
     },
     {
       "slug": "qatar-sim-card-esim-or-roaming",
@@ -536,7 +556,13 @@
           "q": "Can one eSIM cover Qatar and neighbouring Gulf countries?",
           "a": "Regional plans exist that cover several GCC countries in one eSIM. If your trip combines Qatar with Saudi Arabia, the UAE or elsewhere in the Gulf, check which countries a plan includes before you buy."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/qatar-esim/guide-sim-vs-esim.webp",
+        "alt": "Standard, micro and nano SIM card frames on a dark surface, compared with an eSIM for Qatar",
+        "credit": "User_Pascal / Unsplash",
+        "source": "https://unsplash.com/photos/sim-cards-and-their-adaptors-are-on-display-7qlXFeFNv14"
+      }
     },
     {
       "slug": "set-up-esim-for-qatar",
@@ -618,7 +644,13 @@
           "q": "How do I check how much data I have left?",
           "a": "Your remaining balance is shown in your eTijwaal account or app. Your phone also tracks usage per line under its mobile data settings, which you can reset when you land in Qatar."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/qatar-esim/guide-esim-setup.webp",
+        "alt": "A hand holding an Android phone with the quick settings panel open, ready to set up a Qatar eSIM",
+        "credit": "Andrey Matveev / Unsplash",
+        "source": "https://unsplash.com/photos/a-hand-holds-a-phone-with-on-screen-settings-7Mpp_ncy2js"
+      }
     }
   ],
   "about": {
@@ -628,6 +660,48 @@
       "Qatar eSIM is a travel connectivity guide for people visiting Doha, attending events in Qatar or changing planes at Hamad International Airport. We cover how eSIMs work on Qatari networks, how they compare with local SIMs and roaming, and what to know about calling apps before you go.",
       "The eSIM data plans featured on this site are sold, delivered and supported by eTijwaal, a travel eSIM provider. When you choose a plan, you complete your purchase with eTijwaal on etijwaal.com or in the eTijwaal app, and eTijwaal handles activation, top-ups and customer support.",
       "We update these guides regularly, but network coverage, app availability and entry rules in Qatar can change. Check your plan details and official sources before you travel."
+    ]
+  },
+  "images": {
+    "hero": {
+      "src": "/img/qatar-esim/hero.webp",
+      "alt": "Dhows on Doha Bay at golden hour, with the Museum of Islamic Art and the West Bay skyline behind",
+      "credit": "Hongbin / Unsplash",
+      "source": "https://unsplash.com/photos/dhow-boats-near-museum-of-islamic-art-1UF8ddEalwk"
+    },
+    "places": [
+      {
+        "src": "/img/qatar-esim/place-west-bay.webp",
+        "alt": "The West Bay skyline of Doha silhouetted against the setting sun over the sea",
+        "credit": "Ömer Evren / Unsplash",
+        "source": "https://unsplash.com/photos/q4xUkweamBY",
+        "label": "West Bay",
+        "caption": "Doha's skyline from the Corniche"
+      },
+      {
+        "src": "/img/qatar-esim/place-souq-waqif.webp",
+        "alt": "Hundreds of colourful hanging lamps in a shop at Souq Waqif, Doha's historic market",
+        "credit": "Visit Qatar / Unsplash",
+        "source": "https://unsplash.com/photos/a-room-filled-with-lots-of-hanging-lights-_jaQ7hZoBuQ",
+        "label": "Souq Waqif",
+        "caption": "Lamps, spices and old Doha"
+      },
+      {
+        "src": "/img/qatar-esim/place-islamic-art-museum.webp",
+        "alt": "The Museum of Islamic Art in Doha rising above the water on a clear day",
+        "credit": "Jimmy Hu / Unsplash",
+        "source": "https://unsplash.com/photos/a-building-that-is-next-to-a-body-of-water-GEHv29UeTIU",
+        "label": "Museum of Islamic Art",
+        "caption": "I. M. Pei's landmark on the bay"
+      },
+      {
+        "src": "/img/qatar-esim/place-lusail.webp",
+        "alt": "The crescent-shaped Katara Towers on the Lusail waterfront north of Doha, Qatar",
+        "credit": "Popup Agency / Unsplash",
+        "source": "https://unsplash.com/photos/jJtqDVzozQY",
+        "label": "Lusail",
+        "caption": "Katara Towers on the marina"
+      }
     ]
   }
 }

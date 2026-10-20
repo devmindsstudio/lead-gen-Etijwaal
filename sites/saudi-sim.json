@@ -19,7 +19,9 @@
     "supportUrl": "https://etijwaal.com/contactus",
     "privacyUrl": "https://etijwaal.com/privacypolicy",
     "termsUrl": "https://etijwaal.com/termsandconditions",
-    "disclosure": "Saudi Arabia eSIM plans are sold and supported by"
+    "disclosure": "Saudi Arabia eSIM plans are sold and supported by",
+    "appStoreUrl": "https://apps.apple.com/app/etijwaal/id6477891978",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.etijwaalapp"
   },
   "market": {
     "country": "Saudi Arabia",
@@ -328,7 +330,13 @@
           "q": "How do I receive normal calls on my own number?",
           "a": "Keep your home SIM switched on in the phone alongside the eSIM. Calls and texts to your usual number still reach you, but your carrier may charge roaming rates for them, so check before you travel."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/saudi-sim/guide-calling-apps.webp",
+        "alt": "Smartphone call screen with audio and FaceTime buttons, for calling apps that work in Saudi Arabia",
+        "credit": "Jay Openiano / Unsplash",
+        "source": "https://unsplash.com/photos/smartphone-screen-with-call-interface-_Ud30e6Z2SI"
+      }
     },
     {
       "slug": "saudi-sim-registration-absher",
@@ -397,7 +405,13 @@
           "q": "Can I buy a local Saudi SIM before I arrive?",
           "a": "Some operators let you order online, but you'll usually still need to verify your identity after entering the Kingdom, since that relies on your entry record."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/saudi-sim/guide-sim-registration.webp",
+        "alt": "Physical SIM card, SIM tray and eject pins laid out next to a smartphone, for Saudi SIM registration",
+        "credit": "Andrey Matveev / Unsplash",
+        "source": "https://unsplash.com/photos/a-cell-phone-with-a-sim-card-attached-to-it-TCyYbnFBIIw"
+      }
     },
     {
       "slug": "riyadh-jeddah-airport-sim-vs-esim",
@@ -467,7 +481,13 @@
           "q": "Can I use the eSIM if I fly in to the Red Sea or AlUla airports?",
           "a": "Yes. A Saudi Arabia plan isn't tied to an airport. Turn it on wherever you land, whether that's Red Sea International (RSI), AlUla (ULH) or Dammam."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/saudi-sim/guide-airport.webp",
+        "alt": "Gate 6 sign in Arabic inside the glass terminal at King Khalid International Airport, Riyadh",
+        "credit": "Ahmed Alghali / Unsplash",
+        "source": "https://unsplash.com/photos/modern-airport-interior-with-gate-6-sign-and-glass-walls-pzl-cVaY5Lc"
+      }
     },
     {
       "slug": "alula-road-trip-data",
@@ -535,7 +555,13 @@
           "q": "Does the same plan work in Madinah and Tabuk on the way?",
           "a": "Yes. A Saudi Arabia plan covers the whole country, so you don't need a separate plan for different regions on your route."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/saudi-sim/guide-alula-road-trip.webp",
+        "alt": "Empty desert highway running towards rugged mountains in north-west Saudi Arabia's Tabuk region",
+        "credit": "SALEH / Unsplash",
+        "source": "https://unsplash.com/photos/a-long-empty-desert-highway-stretches-towards-mountains--LOepD7fEu4"
+      }
     },
     {
       "slug": "riyadh-season-events-connectivity",
@@ -596,9 +622,57 @@
           "q": "Can I top up if I run out of data during the trip?",
           "a": "eTijwaal says you can top up by signing in to your account, selecting your active eSIM and choosing an available top-up package, without installing a new eSIM."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/saudi-sim/guide-riyadh-season.webp",
+        "alt": "Glowing green light installations at night at Boulevard Riyadh City, a Riyadh Season venue",
+        "credit": "MUHAMMAD KAMRAN KHAN / Unsplash",
+        "source": "https://unsplash.com/photos/modern-building-with-glowing-green-abstract-art-displays-at-night--BS0ht06X_c"
+      }
     }
   ],
+  "images": {
+    "hero": {
+      "src": "/img/saudi-sim/hero.webp",
+      "alt": "Qasr al-Farid, the great rock-cut Nabataean tomb at Hegra near AlUla, glowing in desert sunlight",
+      "credit": "Hatem Boukhit / Unsplash",
+      "source": "https://unsplash.com/photos/a-large-stone-structure-in-the-middle-of-a-desert-luqBzsjYXJg"
+    },
+    "places": [
+      {
+        "src": "/img/saudi-sim/place-riyadh.webp",
+        "alt": "Kingdom Centre tower rising over the Riyadh skyline against a warm orange evening sky",
+        "credit": "Ibrahim Abdullah / Unsplash",
+        "source": "https://unsplash.com/photos/kingdom-centre-skyscraper-in-riyadh-_UxsPARhtOg",
+        "label": "Riyadh",
+        "caption": "Kingdom Centre and the capital"
+      },
+      {
+        "src": "/img/saudi-sim/place-jeddah.webp",
+        "alt": "Coral-stone houses with wooden roshan balconies in Al-Balad, Jeddah's historic old town",
+        "credit": "fatma H / Unsplash",
+        "source": "https://unsplash.com/photos/a-narrow-street-with-a-building-and-a-sky-background-XKc_SRA5m1s",
+        "label": "Jeddah",
+        "caption": "Al-Balad old town"
+      },
+      {
+        "src": "/img/saudi-sim/place-alula.webp",
+        "alt": "Weathered sandstone outcrops rising from the desert at Hegra (Mada'in Salih), AlUla",
+        "credit": "Hatem Boukhit / Unsplash",
+        "source": "https://unsplash.com/photos/a-group-of-large-rocks-in-the-desert-To9moB6fyu0",
+        "label": "AlUla",
+        "caption": "Hegra and the sandstone desert"
+      },
+      {
+        "src": "/img/saudi-sim/place-edge-of-the-world.webp",
+        "alt": "Sheer limestone cliffs at the Edge of the World (Jebel Fihrayn) north-west of Riyadh",
+        "credit": "ohood Abdulaziz / Unsplash",
+        "source": "https://unsplash.com/photos/a-desert-landscape-with-a-cliff-and-cloudy-sky-tBb9BTpHnBM",
+        "label": "Edge of the World",
+        "caption": "Tuwaiq escarpment near Riyadh"
+      }
+    ]
+  },
   "about": {
     "heading": "About Saudi SIM",
     "description": "Saudi SIM is an independent connectivity guide for tourists, business travellers and event visitors to Saudi Arabia. Featured eSIM plans are provided by eTijwaal.",

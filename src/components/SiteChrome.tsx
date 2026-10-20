@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Site } from "@/lib/schema";
 import { CtaButton } from "./CtaButton";
+import { AppBadges } from "./Media";
 
 function LogoMark({ site }: { site: Site }) {
   const bars = (
@@ -168,6 +169,14 @@ export function Footer({ site }: { site: Site }) {
           <p className="mt-4 max-w-xs text-sm leading-relaxed" style={{ color: "var(--footer-muted)" }}>
             {site.brand.tagline}
           </p>
+          {(site.partner.appStoreUrl || site.partner.playStoreUrl) && (
+            <div className="mt-6">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.16em]" style={{ color: "var(--footer-muted)" }}>
+                Get the {site.partner.name} app
+              </p>
+              <AppBadges site={site} />
+            </div>
+          )}
         </div>
         <div>
           <h2 className="text-sm" style={footerHeading}>Guides</h2>

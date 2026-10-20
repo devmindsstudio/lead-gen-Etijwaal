@@ -5,6 +5,7 @@ import { CtaButton } from "@/components/CtaButton";
 import { CtaBanner, GuideCards, readingMinutes } from "@/components/HomeSections";
 import { GuideHeader } from "@/components/designs/GuideHeader";
 import { Faqs } from "@/components/Faqs";
+import { SitePhoto } from "@/components/Media";
 import { JsonLd, articleLd, breadcrumbLd, faqLd } from "@/components/JsonLd";
 
 // Only the sites/guides defined in /sites are valid; everything else is a hard 404.
@@ -50,6 +51,21 @@ export default async function GuidePage({ params }: PageProps<"/[site]/[slug]">)
       <JsonLd data={ld} />
       <article>
         <GuideHeader site={site} guide={guide} minutes={readingMinutes(guide)} updated={formatDate(guide.updated)} />
+        {guide.image && (
+          <div className="mx-auto max-w-6xl px-4 pt-10 sm:px-6">
+            <div
+              className={`relative aspect-[16/9] overflow-hidden sm:aspect-[21/9] ${
+                site.design === "geometric"
+                  ? "border-2 border-ink shadow-[8px_8px_0_0_var(--ink)]"
+                  : site.design === "arch"
+                    ? "arch-top"
+                    : "rounded-site-lg"
+              }`}
+            >
+              <SitePhoto photo={guide.image} sizes="(min-width:1152px) 1104px, 100vw" priority />
+            </div>
+          </div>
+        )}
 
         <div className="mx-auto grid max-w-6xl gap-12 px-4 py-14 sm:px-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
           <div className="prose-site max-w-3xl">

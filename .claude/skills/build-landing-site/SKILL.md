@@ -73,6 +73,22 @@ Rules the schema can't enforce:
 - `updated` dates are today's date (YYYY-MM-DD).
 - `aliases` normally holds just `www.<domain>`.
 
+## 4b. Photos (required)
+
+Real destination photos matter: established eSIM brands lead with them. Every site needs:
+- `images.hero`: one 16:10 landmark or landscape photo of the destination at golden or blue hour (`kind=hero`)
+- `images.places`: 4 photos at 4:5, each with a short `label` (the place) and an optional `caption` (≤ 40 characters) (`kind=place`)
+- `guides[].image`: one 16:9 cover per guide that matches its topic (an airport, a road, a phone in use, a cruise port…) (`kind=guide`)
+
+**Sources:** only Unsplash (free photos under the Unsplash License, **never Unsplash+ / "plus.unsplash.com"**) or Pexels (Pexels License). Both allow commercial use.
+1. Find candidates with WebSearch, e.g. `site:unsplash.com/photos burj khalifa sunset`. Unsplash's own search page is bot-protected, so don't scrape it.
+2. Open the photo page with WebFetch. Confirm it's free (not Unsplash+), that the location really is the place you need, the photographer's name, and the CDN URL (`https://images.unsplash.com/photo-…`, or `https://images.pexels.com/photos/…`).
+3. **Look before you use it:** download a small preview (`curl -s "<cdn>?w=600" -o <scratch>/p.jpg`) and view it with the Read tool. Reject photos that are blurry, watermarked, carry brand ads, or show identifiable people in close-up. Reject the wrong location. For religious sites, use respectful wide architectural shots and no close-ups of worshippers.
+4. Save it: `python scripts/add-photo.py "<cdn-url>?w=2400&q=85&fm=jpg" <site-id> <name> <hero|place|guide> [--focus x,y]`. For Pexels use `?auto=compress&w=2400`. Use `--focus` to keep the subject in frame.
+5. Write the JSON entry: `{ "src": "/img/<site>/<name>.webp", "alt": "<descriptive, mentions the place>", "credit": "<Name> / Unsplash", "source": "<photo page URL>" }`.
+
+Don't reuse a photo that another site in `/public/img` already uses.
+
 ## 5. Validate (all errors AND warnings must be fixed)
 
 ```bash

@@ -6,6 +6,7 @@ import { CtaButton } from "./CtaButton";
 import { ArchLines, BigStar, Skyline, StarPattern } from "./designs/Decor";
 import { CoastalBanner, CoastalBenefits, CoastalSteps } from "./designs/Coastal";
 import { NetworkBanner, NetworkBenefits, NetworkSteps } from "./designs/Network";
+import { Flag, SitePhoto, flagCode } from "./Media";
 
 export function SectionHeading({
   site,
@@ -278,6 +279,72 @@ export function HowItWorks({ site }: { site: Site }) {
   );
 }
 
+/* ─────────────────────────── Where it works (photo gallery) ─────────────────────────── */
+
+export function Places({ site }: { site: Site }) {
+  const items = site.images?.places;
+  if (!items?.length) return null;
+  const d = site.design;
+  const cols = items.length > 4 ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2 lg:grid-cols-4";
+  const sizes = items.length > 4 ? "(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" : "(min-width:1024px) 25vw, (min-width:640px) 50vw, 100vw";
+
+  const card = (p: (typeof items)[number], i: number) => {
+    const flag = <Flag code={flagCode(p.label)} className="h-7 w-7" />;
+    const caption = p.caption && <p className="mt-1 text-sm text-white/80">{p.caption}</p>;
+
+    if (d === "geometric")
+      return (
+        <figure key={p.src} className="relative aspect-[4/5] overflow-hidden border-2 border-ink shadow-[6px_6px_0_0_var(--ink)]">
+          <SitePhoto photo={p} sizes={sizes} />
+          <figcaption className="absolute bottom-0 left-0 m-3 border-2 border-ink bg-surface px-3 py-2">
+            <p className="heading text-lg leading-none">{p.label}</p>
+            {p.caption && <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-muted">{p.caption}</p>}
+          </figcaption>
+        </figure>
+      );
+
+    if (d === "coastal" || d === "boarding")
+      return (
+        <figure
+          key={p.src}
+          className={`frame rounded-site bg-white p-2.5 pb-4 transition hover:-translate-y-1 hover:rotate-0 ${i % 2 ? "rotate-1" : "-rotate-1"}`}
+        >
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[calc(var(--r)*0.6)]">
+            <SitePhoto photo={p} sizes={sizes} />
+          </div>
+          <figcaption className="px-1.5 pt-3">
+            <p className="heading text-xl leading-tight">{p.label}</p>
+            {p.caption && <p className="mt-0.5 text-sm text-muted">{p.caption}</p>}
+          </figcaption>
+        </figure>
+      );
+
+    return (
+      <figure
+        key={p.src}
+        className={`group relative aspect-[4/5] overflow-hidden ${d === "arch" ? "arch-top" : "rounded-site-lg"}`}
+      >
+        <SitePhoto photo={p} sizes={sizes} className="transition duration-700 group-hover:scale-105" />
+        <div className="absolute inset-0 bg-linear-to-t from-black/75 via-black/10 to-transparent" />
+        <figcaption className={`absolute inset-x-0 bottom-0 p-5 text-white ${d === "arch" ? "text-center" : ""}`}>
+          <div className={`flex items-center gap-2.5 ${d === "arch" ? "justify-center" : ""}`}>
+            {flag}
+            <p className="heading text-2xl leading-tight">{p.label}</p>
+          </div>
+          {d === "network" && p.caption ? <p className="mt-1 font-mono text-xs text-white/75">{p.caption}</p> : caption}
+        </figcaption>
+      </figure>
+    );
+  };
+
+  return (
+    <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:py-28">
+      <SectionHeading site={site} eyebrow="Where it works" title={copy(site, "placesHeading")} />
+      <div className={`mt-12 grid gap-6 ${cols}`}>{items.map(card)}</div>
+    </section>
+  );
+}
+
 /* ─────────────────────────── Shared sections (styled by tokens) ─────────────────────────── */
 
 export function Comparison({ site }: { site: Site }) {
@@ -378,10 +445,16 @@ export function GuideCards({ site, exclude }: { site: Site; exclude?: string }) 
           <Link
             key={g.slug}
             href={`/${g.slug}`}
-            className={`frame group flex flex-col rounded-site-lg p-6 transition hover:-translate-y-1 hover:shadow-xl ${
+            className={`frame group flex flex-col overflow-hidden rounded-site-lg transition hover:-translate-y-1 hover:shadow-xl ${
               site.design === "arch" ? "text-center" : ""
             }`}
           >
+            {g.image && (
+              <div className="relative aspect-[16/9] overflow-hidden">
+                <SitePhoto photo={g.image} sizes="(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw" className="transition duration-700 group-hover:scale-105" />
+              </div>
+            )}
+            <div className="flex flex-1 flex-col p-6">
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
               Guide {String(i + 1).padStart(2, "0")} · {readingMinutes(g)} min read
             </span>
@@ -390,6 +463,7 @@ export function GuideCards({ site, exclude }: { site: Site; exclude?: string }) 
             <span className="mt-auto inline-flex items-center gap-1 pt-6 text-sm font-semibold text-brand">
               Read guide <span className="transition group-hover:translate-x-1">→</span>
             </span>
+            </div>
           </Link>
         ))}
       </div>

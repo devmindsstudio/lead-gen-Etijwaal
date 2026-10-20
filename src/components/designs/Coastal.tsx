@@ -3,6 +3,7 @@ import { copy } from "@/lib/sites";
 import { CtaButton } from "../CtaButton";
 import { Icon } from "../Icon";
 import { Mountains, Waves } from "./Decor";
+import { SitePhoto, TrustRow } from "../Media";
 
 /* Coastal design: sea and mountains, postcards and stamps. Used by Oman. */
 
@@ -25,13 +26,22 @@ function Postcard({ site }: { site: Site }) {
     <div className="relative mx-auto w-full max-w-md rotate-2 transition hover:rotate-0" aria-hidden="true">
       <div className="rounded-site bg-white p-4 shadow-[0_30px_70px_-25px_rgb(12_42_59_/_0.45)] ring-1 ring-line sm:p-5">
         <div className="grid grid-cols-[1.1fr_1fr] gap-4">
-          <div className="relative h-60 overflow-hidden rounded-2xl bg-linear-to-b from-accent/70 via-brand/60 to-brand">
-            <span className="absolute right-6 top-6 h-12 w-12 rounded-full bg-white/80 blur-[1px]" />
-            <Mountains className="absolute inset-x-0 bottom-10 h-24 w-full text-[#0a2d42]/70" />
-            <Waves className="absolute inset-x-0 bottom-0 h-12 w-full text-white/80" />
+          <div className="relative h-72 overflow-hidden rounded-2xl bg-linear-to-b from-accent/70 via-brand/60 to-brand">
+            {site.images ? (
+              <>
+                <SitePhoto photo={site.images.hero} sizes="(min-width:1024px) 260px, 50vw" priority />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0a2d42]/80 via-transparent to-transparent" />
+              </>
+            ) : (
+              <>
+                <span className="absolute right-6 top-6 h-12 w-12 rounded-full bg-white/80 blur-[1px]" />
+                <Mountains className="absolute inset-x-0 bottom-10 h-24 w-full text-[#0a2d42]/70" />
+                <Waves className="absolute inset-x-0 bottom-0 h-12 w-full text-white/80" />
+              </>
+            )}
             <div className="absolute bottom-3 left-3 right-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#0a2d42]">Greetings from</p>
-              <p className="heading text-xl leading-tight text-[#0a2d42]">{h.deviceLabel}</p>
+              <p className={`text-[11px] font-semibold uppercase tracking-[0.2em] ${site.images ? "text-white/85" : "text-[#0a2d42]"}`}>Greetings from</p>
+              <p className={`heading text-xl leading-tight ${site.images ? "text-white" : "text-[#0a2d42]"}`}>{h.deviceLabel}</p>
             </div>
           </div>
           <div className="relative border-l-2 border-dashed border-line pl-4">
@@ -87,6 +97,7 @@ export function CoastalHero({ site }: { site: Site }) {
             <CtaButton site={site} placement="hero" />
             <a href="#how-it-works" className="text-sm font-semibold text-muted hover:text-ink">Plan your trip ↓</a>
           </div>
+          <TrustRow site={site} />
         </div>
         <div className="rise" style={{ ["--d" as string]: "200ms" }}>
           <Postcard site={site} />

@@ -19,7 +19,9 @@
     "supportUrl": "https://etijwaal.com/contactus",
     "privacyUrl": "https://etijwaal.com/privacypolicy",
     "termsUrl": "https://etijwaal.com/termsandconditions",
-    "disclosure": "Oman eSIM data plans are sold and supported by"
+    "disclosure": "Oman eSIM data plans are sold and supported by",
+    "appStoreUrl": "https://apps.apple.com/app/etijwaal/id6477891978",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.etijwaalapp"
   },
   "copy": {
     "signalLabel": "4G",
@@ -29,9 +31,18 @@
     "bannerHeading": "Start your {place} road trip already online",
     "bannerBody": "Choose a data plan, scan one QR code at home and turn it on when you land in Muscat or Salalah.",
     "deviceRows": [
-      ["eSIM", "Active"],
-      ["Data roaming", "On"],
-      ["Network", "Omani partner"]
+      [
+        "eSIM",
+        "Active"
+      ],
+      [
+        "Data roaming",
+        "On"
+      ],
+      [
+        "Network",
+        "Omani partner"
+      ]
     ]
   },
   "market": {
@@ -341,7 +352,13 @@
           "q": "Which network is best for remote areas of Oman?",
           "a": "Opensignal's January 2026 report gave Omantel the top Coverage Experience score, but all three operators cover the main tourist routes. Your eSIM's network is listed on the plan page."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/oman-esim/guide-road-trip.webp",
+        "alt": "A 4x4 driving across the dunes of the Wahiba Sands on an Oman road trip",
+        "credit": "Arisa S. / Unsplash",
+        "source": "https://unsplash.com/photos/gUvoYV7R2rg"
+      }
     },
     {
       "slug": "musandam-esim-from-uae",
@@ -404,7 +421,13 @@
           "q": "Is there signal on a Musandam dhow cruise?",
           "a": "Partly. Expect signal near Khasab and the fjord villages, and gaps between steep cliffs. Download maps and anything you want to read before boarding."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/oman-esim/guide-musandam.webp",
+        "alt": "A traditional dhow sailing through the fjords of Musandam, Oman",
+        "credit": "Julius Yls / Unsplash",
+        "source": "https://unsplash.com/photos/VNgMlJhRDM4"
+      }
     },
     {
       "slug": "salalah-khareef-connectivity",
@@ -467,7 +490,13 @@
           "q": "Is there signal at Wadi Darbat and Ain Razat?",
           "a": "Visitors generally find coverage at these popular sites, though it can dip in lower parts of the valleys. Save directions offline in case fog and weak signal coincide."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/oman-esim/guide-salalah.webp",
+        "alt": "Monsoon mist over green hills near Salalah in Dhofar during khareef season",
+        "credit": "Muhammad umar hayat Yahya / Unsplash",
+        "source": "https://unsplash.com/photos/FKKWFAtTyY8"
+      }
     },
     {
       "slug": "omantel-vs-ooredoo-vs-vodafone-oman",
@@ -530,7 +559,13 @@
           "q": "Is Vodafone Oman the same as Vodafone in my country?",
           "a": "It carries the Vodafone brand through a partnership, but it is a separate Omani operator. Check your own carrier's roaming terms rather than assuming Vodafone pricing applies."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/oman-esim/guide-operators.webp",
+        "alt": "Sunrise over the rooftops of Muttrah and the Muscat coastline, Oman",
+        "credit": "Sebastian S / Unsplash",
+        "source": "https://unsplash.com/photos/cityscape-at-sunrise-with-mountains-and-ocean-irhHAu-L7z8"
+      }
     },
     {
       "slug": "muscat-airport-sim-or-esim",
@@ -606,7 +641,13 @@
           "q": "Do I need to register an eSIM with my passport in Oman?",
           "a": "Local Omani SIMs and eSIMs bought from Omani operators require passport registration. A travel data eSIM from an international provider is bought online through that provider, without an Omani counter visit."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/oman-esim/guide-airport.webp",
+        "alt": "Aerial view over Muscat towards the Hajar Mountains, the view on arrival in Oman",
+        "credit": "Jeffry Surianto / Pexels",
+        "source": "https://www.pexels.com/photo/muscat-oman-in-birds-eye-view-18331886/"
+      }
     }
   ],
   "about": {
@@ -616,6 +657,48 @@
       "Oman eSIM helps visitors work out how to stay connected across the Sultanate, from a Muscat city break to a week of mountain roads, wadi hikes and desert camps, a khareef trip to Salalah or a boat into the Musandam fjords. We focus on the questions that come up on Omani roads: where coverage drops, which networks to expect and how to handle the border on the way to Musandam.",
       "The Oman eSIM data plans featured on this site are sold, delivered and supported by eTijwaal, a travel eSIM provider. When you choose a plan, you complete your purchase on etijwaal.com, and eTijwaal's support team handles any questions about orders, installation, top-ups or refunds.",
       "Network partners, border rules, calling-app access and festival dates in Oman can change. We review our guides regularly, but please check your plan details and the latest official guidance before you travel."
+    ]
+  },
+  "images": {
+    "hero": {
+      "src": "/img/oman-esim/hero.webp",
+      "alt": "Turquoise rock pool between pale limestone walls in Wadi Shab, Oman",
+      "credit": "Rafael Peier / Unsplash",
+      "source": "https://unsplash.com/photos/clear-blue-water-in-a-rocky-canyon-with-green-plants-7DW4XVANW3U"
+    },
+    "places": [
+      {
+        "src": "/img/oman-esim/place-muscat.webp",
+        "alt": "Al Lawatiya Mosque's blue-tiled dome and minaret on the Muttrah corniche in Muscat at dusk",
+        "credit": "Anfal Shamsudeen / Unsplash",
+        "source": "https://unsplash.com/photos/al-lawatiya-mosque-in-muscat-oman-dZd4XWMiM9g",
+        "label": "Muscat",
+        "caption": "Muttrah corniche"
+      },
+      {
+        "src": "/img/oman-esim/place-wahiba-sands.webp",
+        "alt": "A camel crossing the sand dunes of the Wahiba Sands desert in Oman",
+        "credit": "Arisa S. / Unsplash",
+        "source": "https://unsplash.com/photos/4JoctunuBgw",
+        "label": "Wahiba Sands",
+        "caption": "Sharqiyah desert dunes"
+      },
+      {
+        "src": "/img/oman-esim/place-jebel-shams.webp",
+        "alt": "Steep cliffs of the Wadi Ghul canyon below Jebel Shams in Oman's Hajar Mountains",
+        "credit": "Rafael Peier / Unsplash",
+        "source": "https://unsplash.com/photos/rocky-canyon-with-steep-cliffs-Umu7O28EpGc",
+        "label": "Jebel Shams",
+        "caption": "Hajar Mountains canyon rim"
+      },
+      {
+        "src": "/img/oman-esim/place-musandam.webp",
+        "alt": "Traditional wooden dhow on turquoise water near Khasab in Musandam, Oman",
+        "credit": "Musandam Dhow Tours / Unsplash",
+        "source": "https://unsplash.com/photos/mpAyw_RtiG4",
+        "label": "Musandam",
+        "caption": "Khasab dhow cruise"
+      }
     ]
   }
 }

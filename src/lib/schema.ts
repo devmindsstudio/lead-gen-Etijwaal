@@ -30,6 +30,16 @@ const iconName = z.enum([
   "clock",
 ]);
 
+/** A photo stored in /public/img/<site>/ (made by scripts/add-photo.py). Free-licence sources only. */
+const photo = z.object({
+  src: z.string().regex(/^\/img\/[a-z0-9-]+\/[a-z0-9-]+\.webp$/, "use scripts/add-photo.py output"),
+  alt: z.string().min(15).max(160),
+  /** e.g. "Jane Doe / Unsplash". Shown on the About page. */
+  credit: z.string(),
+  /** The photo's page on the source site, for licence traceability. */
+  source: z.url(),
+});
+
 const guide = z.object({
   slug: z
     .string()
@@ -43,6 +53,8 @@ const guide = z.object({
   updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   sections: z.array(section).min(2),
   faqs: z.array(faq).default([]),
+  /** 16:9 cover photo for guide cards and the guide header. */
+  image: photo.optional(),
 });
 
 /** Template microcopy. Defaults suit travel eSIM sites; override per site for other niches. "{place}" = city or country. */
@@ -54,6 +66,7 @@ const copy = z
     benefitsEyebrow: z.string().default("Why an eSIM"),
     benefitsHeading: z.string().default("Built for travellers to {place}"),
     howItWorksHeading: z.string().default("Online in minutes, before you land"),
+    placesHeading: z.string().default("Connected across {place}"),
     inlineCta: z.string().default("Need data in {place}? Get an eSIM before you fly."),
     bannerHeading: z.string().default("Land in {place} already connected"),
     bannerBody: z.string().default("Pick a data plan, scan the QR code and skip the airport SIM queue."),
@@ -95,6 +108,8 @@ export const siteSchema = z.object({
     termsUrl: z.url().optional(),
     /** Footer disclosure, e.g. "eSIM plans are sold and supported by". Partner name is appended as a link. */
     disclosure: z.string(),
+    appStoreUrl: z.url().optional(),
+    playStoreUrl: z.url().optional(),
   }),
   copy,
   market: z.object({
@@ -161,6 +176,14 @@ export const siteSchema = z.object({
     faqs: z.array(faq).min(4),
   }),
   guides: z.array(guide).default([]),
+  images: z
+    .object({
+      /** 16:10 destination photo used by the hero. */
+      hero: photo,
+      /** 4:5 photos for the "where it works" gallery. */
+      places: z.array(photo.extend({ label: z.string().max(24), caption: z.string().max(40).optional() })).min(3).max(6),
+    })
+    .optional(),
   about: z.object({
     heading: z.string(),
     description: z.string().min(70).max(170),
@@ -173,3 +196,4 @@ export type Guide = Site["guides"][number];
 export type Faq = z.infer<typeof faq>;
 export type IconName = z.infer<typeof iconName>;
 export type Design = Site["design"];
+export type Photo = z.infer<typeof photo>;

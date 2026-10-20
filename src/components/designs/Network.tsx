@@ -3,6 +3,7 @@ import { copy } from "@/lib/sites";
 import { CtaButton } from "../CtaButton";
 import { Icon } from "../Icon";
 import { RouteMap } from "./Decor";
+import { Flag, SitePhoto, TrustRow, flagCode } from "../Media";
 
 /* Network design: multi-country route maps, grid paper, monospace data labels. Used by the GCC site. */
 
@@ -35,9 +36,21 @@ export function NetworkHero({ site }: { site: Site }) {
             <CtaButton site={site} placement="hero" />
             <a href="#how-it-works" className="font-mono text-sm text-muted hover:text-ink">how_it_works ↓</a>
           </div>
+          <TrustRow site={site} />
+          <div className="mt-6 flex -space-x-2">
+            {list.map((p) => (
+              <Flag key={p} code={flagCode(p)} className="h-8 w-8" />
+            ))}
+          </div>
         </div>
 
-        <div className="rise frame overflow-hidden rounded-site-lg shadow-[0_30px_60px_-30px_rgb(15_18_34_/_0.35)]" style={{ ["--d" as string]: "200ms" }} aria-hidden="true">
+        <div className="relative">
+        {site.images && (
+          <div className="absolute -right-2 -top-12 hidden aspect-[4/5] w-60 rotate-6 overflow-hidden rounded-site-lg shadow-2xl ring-4 ring-white sm:block lg:-right-6">
+            <SitePhoto photo={site.images.hero} sizes="240px" priority />
+          </div>
+        )}
+        <div className="rise frame relative overflow-hidden rounded-site-lg shadow-[0_30px_60px_-30px_rgb(15_18_34_/_0.35)] sm:mr-36 sm:mt-24" style={{ ["--d" as string]: "200ms" }} aria-hidden="true">
           <div className="flex items-center justify-between border-b border-line bg-surface-2 px-4 py-2.5 font-mono text-xs text-muted">
             <span className="flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full bg-accent" />
@@ -56,6 +69,7 @@ export function NetworkHero({ site }: { site: Site }) {
               </div>
             ))}
           </dl>
+        </div>
         </div>
       </div>
       {site.home.stats.length > 0 && (

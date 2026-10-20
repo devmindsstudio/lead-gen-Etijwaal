@@ -19,7 +19,9 @@
     "supportUrl": "https://etijwaal.com/contactus",
     "privacyUrl": "https://etijwaal.com/privacypolicy",
     "termsUrl": "https://etijwaal.com/termsandconditions",
-    "disclosure": "GCC regional eSIM plans are sold and supported by"
+    "disclosure": "GCC regional eSIM plans are sold and supported by",
+    "appStoreUrl": "https://apps.apple.com/app/etijwaal/id6477891978",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.etijwaalapp"
   },
   "copy": {
     "headerCta": "See GCC plans",
@@ -30,15 +32,31 @@
     "bannerHeading": "Six countries, one eSIM, no swapping at the border",
     "bannerBody": "Install a GCC data plan before you leave home and keep it on from Dubai to Doha, Muscat, Manama and beyond.",
     "deviceRows": [
-      ["Coverage", "6 countries"],
-      ["Data roaming", "On"],
-      ["Network", "Auto per country"]
+      [
+        "Coverage",
+        "6 countries"
+      ],
+      [
+        "Data roaming",
+        "On"
+      ],
+      [
+        "Network",
+        "Auto per country"
+      ]
     ]
   },
   "market": {
     "country": "the GCC",
     "countryCode": "GC",
-    "places": ["UAE", "Saudi Arabia", "Qatar", "Oman", "Kuwait", "Bahrain"]
+    "places": [
+      "UAE",
+      "Saudi Arabia",
+      "Qatar",
+      "Oman",
+      "Kuwait",
+      "Bahrain"
+    ]
   },
   "cta": {
     "url": "https://etijwaal.com/region/GCC-esim-travel-packages",
@@ -363,7 +381,13 @@
           "q": "Does an unused regional allowance carry over to my next trip?",
           "a": "A plan ends when its validity period runs out, even if data is left. Choose a validity that covers the full trip, and buy a fresh plan for the next one."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/gcc-esim/guide-regional.webp",
+        "alt": "Close-up of a world map showing the Arabian Peninsula and the Gulf states",
+        "credit": "Emin Huric / Unsplash",
+        "source": "https://unsplash.com/photos/MeME21VDU3A"
+      }
     },
     {
       "slug": "crossing-gulf-borders-mobile-data",
@@ -434,7 +458,13 @@
           "q": "Is there mobile signal on the King Fahd Causeway?",
           "a": "The causeway is a busy, populated route and travellers generally report coverage across it, but expect a short gap as the phone moves from a Saudi network to a Bahraini one."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/gcc-esim/guide-borders.webp",
+        "alt": "The King Fahd Causeway stretching across the sea between Bahrain and Saudi Arabia",
+        "credit": "Jeff Lanuza / Pexels",
+        "source": "https://www.pexels.com/photo/body-of-water-951962/"
+      }
     },
     {
       "slug": "gulf-cruise-esim",
@@ -508,7 +538,13 @@
           "q": "Is ship Wi-Fi or an eSIM better for video calls home?",
           "a": "At sea, ship Wi-Fi is your only realistic option. In port, mobile data is usually faster and more private, though which calling apps connect depends on the country you're in."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/gcc-esim/guide-cruise.webp",
+        "alt": "The QE2 ocean liner moored at Port Rashid in Dubai at sunset",
+        "credit": "Datingscout / Unsplash",
+        "source": "https://unsplash.com/photos/a-cruise-ship-in-the-water-at-sunset-K7FRV2U1mFs"
+      }
     },
     {
       "slug": "gcc-business-travel-calling-apps",
@@ -579,7 +615,13 @@
           "q": "Does a travel eSIM bypass local calling restrictions?",
           "a": "No. A travel eSIM connects through local partner networks, so local rules on internet calling apply to it in the same way as to a local SIM."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/gcc-esim/guide-business.webp",
+        "alt": "Business traveller in silhouette on a phone call by a high-rise window in Dubai",
+        "credit": "Alex Boyd / Unsplash",
+        "source": "https://unsplash.com/photos/man-in-suit-talking-on-phone-by-large-window-ji5BAZsMnDE"
+      }
     },
     {
       "slug": "kuwait-bahrain-esim",
@@ -644,7 +686,13 @@
           "q": "Can I use the same eSIM driving from Saudi Arabia into Bahrain?",
           "a": "Yes, if your plan covers both countries, which the six-country GCC packages do. The phone switches from the Saudi partner network to Zain Bahrain as you cross the causeway."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/gcc-esim/guide-kuwait-bahrain.webp",
+        "alt": "The tiled spheres of Kuwait Towers in Kuwait City against a blue sky",
+        "credit": "khalid mardini / Unsplash",
+        "source": "https://unsplash.com/photos/white-and-green-concrete-building-under-blue-sky-during-daytime-8mrnss4VcPE"
+      }
     }
   ],
   "about": {
@@ -654,6 +702,64 @@
       "GCC eSIM is an independent site for travellers whose plans cross more than one Gulf border, whether by road, cruise ship or a string of short flights. We write practical guides on regional data, border crossings, calling apps and the local networks in each country.",
       "We don't sell eSIMs ourselves. The regional plans we link to are sold and supported by eTijwaal, a travel eSIM provider. You complete your purchase with eTijwaal on etijwaal.com or in its app, and eTijwaal handles activation, top-ups and customer support under its own terms and privacy policy.",
       "Plan details such as covered countries, partner networks and hotspot support are checked against eTijwaal's published plan information at the time of writing. Rules on calling apps, visas and border crossings are set by each government and can change, so confirm anything important with official sources before you travel."
+    ]
+  },
+  "images": {
+    "hero": {
+      "src": "/img/gcc-esim/hero.webp",
+      "alt": "Manama skyline reflected in calm water at dusk, seen from Muharraq in Bahrain",
+      "credit": "Charles-Adrien Fournier / Unsplash",
+      "source": "https://unsplash.com/photos/lDxs85UO7lU"
+    },
+    "places": [
+      {
+        "src": "/img/gcc-esim/place-uae.webp",
+        "alt": "Sheikh Zayed Grand Mosque in Abu Dhabi lit up and reflected in its pools at blue hour",
+        "credit": "David Rodrigo / Unsplash",
+        "source": "https://unsplash.com/photos/kZ1zThg6G40",
+        "label": "UAE",
+        "caption": "Sheikh Zayed Grand Mosque, Abu Dhabi"
+      },
+      {
+        "src": "/img/gcc-esim/place-saudi-arabia.webp",
+        "alt": "Al Faisaliah Tower rising over King Fahd Road in central Riyadh, Saudi Arabia",
+        "credit": "Tati Odintsova / Unsplash",
+        "source": "https://unsplash.com/photos/kZ5nwgLVjqQ",
+        "label": "Saudi Arabia",
+        "caption": "Riyadh"
+      },
+      {
+        "src": "/img/gcc-esim/place-qatar.webp",
+        "alt": "Doha's West Bay towers across the bay from the Corniche, with dhows moored in Qatar",
+        "credit": "AMAL JASI / Unsplash",
+        "source": "https://unsplash.com/photos/a-view-of-a-city-skyline-with-boats-in-the-water-jO9coNVZ9Js",
+        "label": "Qatar",
+        "caption": "Doha Corniche"
+      },
+      {
+        "src": "/img/gcc-esim/place-oman.webp",
+        "alt": "Sultan Qaboos Grand Mosque in Muscat, Oman, with its minarets and the Hajar Mountains behind",
+        "credit": "Daniel P / Pexels",
+        "source": "https://www.pexels.com/photo/sultan-qaboos-grand-mosque-27222917/",
+        "label": "Oman",
+        "caption": "Sultan Qaboos Grand Mosque, Muscat"
+      },
+      {
+        "src": "/img/gcc-esim/place-kuwait.webp",
+        "alt": "Kuwait Towers on the Arabian Gulf shoreline of Kuwait City under a clear blue sky",
+        "credit": "Masrur Rahman / Unsplash",
+        "source": "https://unsplash.com/photos/cn-tower-near-ocean-RvBN5Maxg5c",
+        "label": "Kuwait",
+        "caption": "Kuwait Towers, Kuwait City"
+      },
+      {
+        "src": "/img/gcc-esim/place-bahrain.webp",
+        "alt": "The twin sails of the Bahrain World Trade Center in Manama illuminated at night",
+        "credit": "Previn Samuel / Unsplash",
+        "source": "https://unsplash.com/photos/the-illuminated-bahrain-world-trade-center-at-night-7QwpquDuXE0",
+        "label": "Bahrain",
+        "caption": "Bahrain World Trade Center, Manama"
+      }
     ]
   }
 }

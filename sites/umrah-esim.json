@@ -19,7 +19,9 @@
     "supportUrl": "https://etijwaal.com/contactus",
     "privacyUrl": "https://etijwaal.com/privacypolicy",
     "termsUrl": "https://etijwaal.com/termsandconditions",
-    "disclosure": "Umrah and Hajj eSIM plans are sold and supported by"
+    "disclosure": "Umrah and Hajj eSIM plans are sold and supported by",
+    "appStoreUrl": "https://apps.apple.com/app/etijwaal/id6477891978",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.etijwaalapp"
   },
   "copy": {
     "headerCta": "Get Umrah eSIM",
@@ -355,7 +357,13 @@
           "q": "Can I use these apps on hotel Wi-Fi only?",
           "a": "You can, but you will lose access the moment you leave the hotel. Permits, train times and ride-hailing are often needed on the street, which is why most pilgrims carry mobile data."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/umrah-esim/guide-pilgrim-apps.webp",
+        "alt": "Hand holding a smartphone showing its home screen of apps, for the apps Umrah pilgrims install",
+        "credit": "Frederik Lipfert / Unsplash",
+        "source": "https://unsplash.com/photos/a-person-holding-an-iphone-in-their-hand-tJr0BZ-9tTo"
+      }
     },
     {
       "slug": "phone-signal-in-masjid-al-haram",
@@ -419,7 +427,13 @@
           "q": "What should I do if I lose my group and can't call?",
           "a": "Go to the meeting point you agreed in advance and send a text message, which is more likely to get through than a call. Inside the mosque, look for the guidance points for lost persons or ask staff for help."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/umrah-esim/guide-haram-signal.webp",
+        "alt": "Wide view of the Kaaba and the crowded white marble courtyard of Masjid al-Haram in Makkah",
+        "credit": "Sam Riz / Unsplash",
+        "source": "https://unsplash.com/photos/kaaba-at-masjid-al-haram-in-mecca-ceNCWYqL8DY"
+      }
     },
     {
       "slug": "umrah-family-location-sharing",
@@ -481,7 +495,13 @@
           "q": "Can I share my eSIM data with my parents' phones?",
           "a": "If your plan allows hotspot use, you can share data with phones close to you. eTijwaal's Umrah plan listings indicate hotspot is supported, but check the plan details before you buy."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/umrah-esim/guide-family-location.webp",
+        "alt": "Hand holding a smartphone with a map and location pins, for sharing family location during Umrah",
+        "credit": "henry perks / Unsplash",
+        "source": "https://unsplash.com/photos/person-holding-black-smartphone-BJXAxQ1L7dI"
+      }
     },
     {
       "slug": "umrah-sim-card-airport-or-esim",
@@ -546,7 +566,13 @@
           "q": "Will my phone work in Saudi Arabia without changing SIM?",
           "a": "Yes, through roaming on your home plan, but roaming charges can be high. Turn off data roaming on your home SIM if you use an eSIM for data."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/umrah-esim/guide-airport-arrivals.webp",
+        "alt": "Travellers with suitcases crossing an airport arrivals hall, as pilgrims do on landing for Umrah",
+        "credit": "CHUTTERSNAP / Unsplash",
+        "source": "https://unsplash.com/photos/travelers-with-luggage-in-airport-terminal-qhNutmNU1pE"
+      }
     },
     {
       "slug": "how-much-data-for-umrah",
@@ -623,7 +649,13 @@
           "q": "Can I add more data if I extend my stay?",
           "a": "Yes. eTijwaal states that its Umrah plans can be topped up in the app, so you don't need to install a new eSIM if you stay longer."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/umrah-esim/guide-data-amount.webp",
+        "alt": "Hand holding a smartphone showing usage charts and a data dashboard, for planning Umrah data",
+        "credit": "Balázs Kétyi / Unsplash",
+        "source": "https://unsplash.com/photos/smartphone-displaying-environmental-data-dashboard-sScmok4Iq1o"
+      }
     },
     {
       "slug": "hajj-esim-connectivity-tips",
@@ -690,9 +722,57 @@
           "q": "Can I rely on the digital Nusuk card alone?",
           "a": "Keep the physical card with you. The digital version in Nusuk and Tawakkalna is a useful backup, but it depends on a working phone."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/umrah-esim/guide-hajj-arafat.webp",
+        "alt": "Wide view of pilgrims in white gathered on Jabal ar-Rahmah at Mount Arafat during Hajj",
+        "credit": "ekrem osmanoglu / Unsplash",
+        "source": "https://unsplash.com/photos/a-large-group-of-people-sitting-on-top-of-a-rocky-hill-niyRP-FxL7s"
+      }
     }
   ],
+  "images": {
+    "hero": {
+      "src": "/img/umrah-esim/hero.webp",
+      "alt": "Masjid an-Nabawi in Madinah, its minarets and Green Dome lit by warm low evening sun",
+      "credit": "Sulthan Auliya / Unsplash",
+      "source": "https://unsplash.com/photos/rzzS0_pMsD0"
+    },
+    "places": [
+      {
+        "src": "/img/umrah-esim/place-makkah.webp",
+        "alt": "The Kaaba at Masjid al-Haram in Makkah at sunset, framed by an ornate arched window",
+        "credit": "Hushaan / Unsplash",
+        "source": "https://unsplash.com/photos/kaaba-in-makkah-al-mukarramah-EWtprB5HAL0",
+        "label": "Makkah",
+        "caption": "Masjid al-Haram"
+      },
+      {
+        "src": "/img/umrah-esim/place-madinah.webp",
+        "alt": "Shade umbrellas and white minarets in the courtyard of Masjid an-Nabawi, Madinah",
+        "credit": "Mutiara Salsabila Irawan / Unsplash",
+        "source": "https://unsplash.com/photos/chwGvmlwQlA",
+        "label": "Madinah",
+        "caption": "Masjid an-Nabawi courtyard"
+      },
+      {
+        "src": "/img/umrah-esim/place-jeddah.webp",
+        "alt": "White mosque on the waterfront of the Jeddah Corniche beside the Red Sea, framed by palm trees",
+        "credit": "Maher Helmi / Unsplash",
+        "source": "https://unsplash.com/photos/white-concrete-building-near-body-of-water-during-daytime-1DN4FB82tPs",
+        "label": "Jeddah",
+        "caption": "Corniche and Red Sea gateway"
+      },
+      {
+        "src": "/img/umrah-esim/place-arafat.webp",
+        "alt": "Mount Arafat rising above the plain outside Makkah under a clear blue sky",
+        "credit": "Sulthan Auliya / Unsplash",
+        "source": "https://unsplash.com/photos/brown-mountain-under-blue-sky-during-daytime-USZ3Rb41yxA",
+        "label": "Arafat",
+        "caption": "Mount Arafat, outside Makkah"
+      }
+    ]
+  },
   "about": {
     "heading": "About Umrah eSIM",
     "description": "Umrah eSIM is a connectivity guide for pilgrims to Makkah and Madinah. The Umrah and Hajj data plans featured on this site are provided by eTijwaal.",

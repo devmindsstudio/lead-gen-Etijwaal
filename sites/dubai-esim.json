@@ -19,7 +19,9 @@
     "supportUrl": "https://etijwaal.com/contactus",
     "privacyUrl": "https://etijwaal.com/privacypolicy",
     "termsUrl": "https://etijwaal.com/termsandconditions",
-    "disclosure": "eSIM plans are sold and supported by"
+    "disclosure": "eSIM plans are sold and supported by",
+    "appStoreUrl": "https://apps.apple.com/app/etijwaal/id6477891978",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.etijwaalapp"
   },
   "market": {
     "country": "United Arab Emirates",
@@ -324,7 +326,13 @@
           "q": "Can I receive normal phone calls in Dubai with a data eSIM?",
           "a": "A data eSIM doesn't come with a phone number. To receive normal calls and SMS on your usual number, keep your home SIM switched on alongside the eSIM. Your home carrier may charge roaming fees for calls."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/dubai-esim/guide-whatsapp-calls.webp",
+        "alt": "A hand holding an iPhone with the WhatsApp quick-action menu open, as used for messaging in Dubai",
+        "credit": "Dimitri Karastelev / Unsplash",
+        "source": "https://unsplash.com/photos/person-holding-black-android-smartphone-ynJaWgrwSlM"
+      }
     },
     {
       "slug": "how-to-install-esim-for-dubai",
@@ -416,7 +424,13 @@
           "q": "Do I need to remove my physical SIM?",
           "a": "No. Leave your home SIM in the phone. The eSIM is added as a second line, and you choose which line handles mobile data."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/dubai-esim/guide-install-esim.webp",
+        "alt": "A traveller holding out a smartphone showing a QR code, the way a Dubai eSIM is installed",
+        "credit": "Claudio Schwarz / Unsplash",
+        "source": "https://unsplash.com/photos/a-person-holding-a-cell-phone-VaeGMpaSlck"
+      }
     },
     {
       "slug": "dubai-sim-card-for-tourists",
@@ -484,7 +498,13 @@
           "q": "Can I use one eSIM for Dubai and other Gulf countries?",
           "a": "Yes. Regional GCC eSIM plans cover several Gulf countries, such as the UAE, Saudi Arabia, Qatar, Oman, Bahrain and Kuwait, in one plan. Check which countries are included before you buy."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/dubai-esim/guide-dubai-airport-arrivals.webp",
+        "alt": "An A380 taxiing at Dubai International Airport with Terminal 3 and the city skyline behind",
+        "credit": "Mohd Atir / Pexels",
+        "source": "https://www.pexels.com/photo/airplane-on-tarmac-at-dubai-international-airport-38593294/"
+      }
     },
     {
       "slug": "esim-compatible-phones",
@@ -564,7 +584,13 @@
           "q": "Does a smartwatch or iPad work with a Dubai eSIM?",
           "a": "Cellular iPads with eSIM support can usually install a travel data eSIM just like a phone. Smartwatch eSIMs are different: they normally share your phone carrier's number and generally can't use a separate travel data plan."
         }
-      ]
+      ],
+      "image": {
+        "src": "/img/dubai-esim/guide-compatible-phones.webp",
+        "alt": "Close-up of a phone's empty SIM tray beside the handset, a reminder to check eSIM support before a UAE trip",
+        "credit": "Andrey Matveev / Unsplash",
+        "source": "https://unsplash.com/photos/zs29-jZrAQo"
+      }
     }
   ],
   "about": {
@@ -574,6 +600,48 @@
       "Dubai eSIM is a travel connectivity guide for visitors to the United Arab Emirates. We explain how eSIMs work in the UAE, how they compare with local SIMs and roaming, and how to get set up before your trip.",
       "eSIM data plans featured on this site are sold, delivered and supported by eTijwaal, a global travel eSIM provider. When you click through to buy a plan, you'll complete your purchase on etijwaal.com or in the eTijwaal app.",
       "We review our guides regularly, but network policies and app availability in the UAE can change. Always check the details of your plan before you travel."
+    ]
+  },
+  "images": {
+    "hero": {
+      "src": "/img/dubai-esim/hero.webp",
+      "alt": "Downtown Dubai at night with the Burj Khalifa above the glowing lights of Sheikh Zayed Road",
+      "credit": "Daniel Zacatenco / Unsplash",
+      "source": "https://unsplash.com/photos/a-view-of-a-city-at-night-from-a-high-rise-QDsa_5uXCYw"
+    },
+    "places": [
+      {
+        "src": "/img/dubai-esim/place-downtown.webp",
+        "alt": "The Dubai Fountain lit up at night beneath the Burj Khalifa and The Address Downtown",
+        "credit": "K T / Unsplash",
+        "source": "https://unsplash.com/photos/city-skyline-during-night-time-BHFP2Ty52yw",
+        "label": "Downtown Dubai",
+        "caption": "Burj Khalifa and the Dubai Fountain"
+      },
+      {
+        "src": "/img/dubai-esim/place-marina.webp",
+        "alt": "An illuminated dhow cruising past the lit towers of Dubai Marina at night",
+        "credit": "Anubhav Sonker / Unsplash",
+        "source": "https://unsplash.com/photos/a-traditional-dhow-boat-sails-past-illuminated-skyscrapers-at-night-MhnUXgtsiD0",
+        "label": "Dubai Marina",
+        "caption": "Dhow cruises and waterfront towers"
+      },
+      {
+        "src": "/img/dubai-esim/place-desert.webp",
+        "alt": "A sweeping golden sand dune in the Arabian Desert outside Dubai",
+        "credit": "Mike Iukhtenko / Unsplash",
+        "source": "https://unsplash.com/photos/sand-dune-zuueig1w8WI",
+        "label": "Desert safari",
+        "caption": "Dune drives east of the city"
+      },
+      {
+        "src": "/img/dubai-esim/place-grand-mosque.webp",
+        "alt": "Sheikh Zayed Grand Mosque in Abu Dhabi lit in blue at night, with its minaret and white domes",
+        "credit": "Alim / Unsplash",
+        "source": "https://unsplash.com/photos/a-large-blue-building-with-a-clock-on-its-side-JW5kVbbLJ2c",
+        "label": "Abu Dhabi",
+        "caption": "Sheikh Zayed Grand Mosque"
+      }
     ]
   }
 }

@@ -8,6 +8,7 @@ import {
   GuideCards,
   HowItWorks,
   Networks,
+  Places,
   ProseSections,
 } from "@/components/HomeSections";
 import { Faqs } from "@/components/Faqs";
@@ -22,6 +23,7 @@ export default async function Home({ params }: PageProps<"/[site]">) {
       <JsonLd data={faqLd(site.home.faqs)} />
       <Hero site={site} />
       <Benefits site={site} />
+      <Places site={site} />
       <HowItWorks site={site} />
       <Comparison site={site} />
       <Networks site={site} />

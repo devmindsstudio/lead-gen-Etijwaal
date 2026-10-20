@@ -66,6 +66,18 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
       else sentences.set(norm, `${s.id}:${p.path}`);
     }
   }
+  // Every referenced photo must exist on disk.
+  const photos = [s.images?.hero, ...(s.images?.places ?? []), ...s.guides.map((g) => g.image)].filter(Boolean);
+  for (const ph of photos) {
+    try {
+      readFileSync(join(root, "public", ph.src));
+    } catch {
+      err(id, `missing image file public${ph.src}`);
+    }
+  }
+  if (!s.images) warn(id, "no images: add a hero photo and place photos (see SKILL.md, Photos)");
+  for (const g of s.guides) if (!g.image) warn(id, `/${g.slug} has no cover image`);
+
   if (s.guides.length < 4) warn(id, `only ${s.guides.length} guides, aim for 4+ for topical depth`);
 
   if (online) {

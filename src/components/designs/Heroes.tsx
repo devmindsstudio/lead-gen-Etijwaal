@@ -1,6 +1,7 @@
 import type { Site } from "@/lib/schema";
 import { CtaButton } from "../CtaButton";
 import { ArchLines, Barcode, BigStar, Skyline, StarPattern, Stars } from "./Decor";
+import { FloatChip, SitePhoto, TrustRow } from "../Media";
 import { CoastalHero } from "./Coastal";
 import { NetworkHero } from "./Network";
 
@@ -59,8 +60,18 @@ function SkylineHero({ site }: { site: Site }) {
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <div className="absolute -left-40 top-0 h-[36rem] w-[36rem] rounded-full bg-brand opacity-40 blur-[120px]" />
         <div className="absolute -right-32 top-24 h-[28rem] w-[28rem] rounded-full bg-accent opacity-20 blur-[120px]" />
-        <Stars count={60} className="absolute inset-x-0 top-0 h-2/3 w-full" />
-        <Skyline className="absolute inset-x-0 bottom-0 h-56 w-full text-white/[0.06] sm:h-72" />
+        {site.images ? (
+          <>
+            <SitePhoto photo={site.images.hero} sizes="100vw" priority className="opacity-90" />
+            <div className="absolute inset-0 bg-linear-to-r from-night via-night/70 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-night via-night/60 to-transparent" />
+          </>
+        ) : (
+          <>
+            <Stars count={60} className="absolute inset-x-0 top-0 h-2/3 w-full" />
+            <Skyline className="absolute inset-x-0 bottom-0 h-56 w-full text-white/[0.06] sm:h-72" />
+          </>
+        )}
       </div>
       <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-4 pb-10 pt-16 sm:px-6 lg:grid-cols-[1.15fr_0.85fr] lg:pb-16 lg:pt-24">
         <div>
@@ -86,9 +97,12 @@ function SkylineHero({ site }: { site: Site }) {
             <CtaButton site={site} placement="hero" variant="accent" />
             <a href="#how-it-works" className="text-sm font-semibold text-white/70 hover:text-white">How it works ↓</a>
           </div>
+          <TrustRow site={site} tone="dark" />
         </div>
         <div className="relative">
           <div className="absolute inset-0 -z-0 m-auto h-72 w-72 rounded-full bg-brand/50 blur-3xl" />
+          <FloatChip icon="bolt" label="Scan the QR, done" className="left-0 top-16 hidden sm:flex lg:-left-6" />
+          <FloatChip icon="signal" label={`${site.copy.signalLabel} on arrival`} className="bottom-20 right-0 hidden sm:flex lg:-right-4" />
           <PhoneMock site={site} className="float" />
         </div>
       </div>
@@ -131,10 +145,21 @@ function GeometricHero({ site }: { site: Site }) {
             <CtaButton site={site} placement="hero" />
             <a href="#how-it-works" className="border-b-2 border-ink pb-0.5 text-sm font-bold">How it works</a>
           </div>
+          <TrustRow site={site} />
         </div>
 
         <div className="rise relative" style={{ ["--d" as string]: "200ms" }}>
-          <div className="relative overflow-hidden border-2 border-ink bg-brand p-7 text-brand-ink shadow-[10px_10px_0_0_var(--ink)]">
+          {site.images && (
+            <div className="relative aspect-[5/4] overflow-hidden border-2 border-ink">
+              <SitePhoto photo={site.images.hero} sizes="(min-width:1024px) 40vw, 100vw" priority />
+              <BigStar className="absolute -right-10 -top-10 h-40 w-40 text-white/40" />
+            </div>
+          )}
+          <div
+            className={`relative overflow-hidden border-2 border-ink bg-brand p-7 text-brand-ink shadow-[10px_10px_0_0_var(--ink)] ${
+              site.images ? "-mt-14 ml-10 sm:ml-24" : ""
+            }`}
+          >
             <BigStar className="absolute -right-16 -top-16 h-64 w-64 text-white/15" />
             <p className="relative text-xs font-bold uppercase tracking-[0.18em] text-white/70">Connected · {site.copy.signalLabel}</p>
             <p className="heading relative mt-2 text-3xl">{h.deviceLabel}</p>
@@ -254,9 +279,23 @@ function BoardingHero({ site }: { site: Site }) {
             <CtaButton site={site} placement="hero" />
             <a href="#how-it-works" className="text-sm font-semibold text-muted hover:text-ink">Your itinerary ↓</a>
           </div>
+          <TrustRow site={site} />
         </div>
-        <div className="rise" style={{ ["--d" as string]: "200ms" }}>
-          <BoardingPass site={site} />
+        <div className="rise relative" style={{ ["--d" as string]: "200ms" }}>
+          {site.images ? (
+            <>
+              <div className="relative ml-auto aspect-[4/3] w-[88%] overflow-hidden rounded-site-lg shadow-xl lg:aspect-[4/5]">
+                <SitePhoto photo={site.images.hero} sizes="(min-width:1024px) 40vw, 90vw" priority />
+                <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent" />
+                <FloatChip icon="plane" label="Ready when you land" className="right-4 top-4" />
+              </div>
+              <div className="relative -mt-28 w-[94%] sm:-mt-40 lg:-mt-48">
+                <BoardingPass site={site} />
+              </div>
+            </>
+          ) : (
+            <BoardingPass site={site} />
+          )}
         </div>
       </div>
       {site.home.stats.length > 0 && (
@@ -300,7 +339,8 @@ function ArchHero({ site }: { site: Site }) {
           <CtaButton site={site} placement="hero" />
           <a href="#how-it-works" className="text-sm font-semibold text-muted hover:text-ink">How it works ↓</a>
         </div>
-        <ul className="rise mx-auto mt-10 flex max-w-3xl flex-wrap justify-center gap-x-6 gap-y-3" style={{ ["--d" as string]: "320ms" }}>
+        <TrustRow site={site} className="justify-center" />
+        <ul className="rise mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-x-6 gap-y-3" style={{ ["--d" as string]: "320ms" }}>
           {h.bullets.map((b) => (
             <li key={b} className="flex items-center gap-2 text-sm font-medium text-ink/80">
               <span className="h-1.5 w-1.5 rotate-45 bg-accent" />
@@ -310,15 +350,17 @@ function ArchHero({ site }: { site: Site }) {
         </ul>
       </div>
 
-      <div className="rise relative mx-auto mt-6 max-w-sm px-4" style={{ ["--d" as string]: "380ms" }} aria-hidden="true">
-        <div className="arch-top relative overflow-hidden bg-brand px-8 pb-8 pt-24 text-center text-brand-ink shadow-2xl">
-          <ArchLines className="absolute left-1/2 top-3 h-[120%] -translate-x-1/2 text-white/15" />
+      <div className="rise relative mx-auto mt-6 max-w-md px-4" style={{ ["--d" as string]: "380ms" }} aria-hidden="true">
+        <div className="arch-top relative flex h-[32rem] flex-col justify-end overflow-hidden bg-brand px-8 pb-8 text-center text-brand-ink shadow-2xl ring-8 ring-surface-2 sm:h-[36rem]">
+          {site.images && <SitePhoto photo={site.images.hero} sizes="(min-width:640px) 448px, 100vw" priority />}
+          <div className="absolute inset-x-0 bottom-0 h-3/5 bg-linear-to-t from-night via-night/75 to-transparent" />
+          <ArchLines className="absolute left-1/2 top-3 h-[120%] -translate-x-1/2 text-white/25" />
           <p className="relative text-xs uppercase tracking-[0.25em] text-white/70">Connected · {site.copy.signalLabel}</p>
           <p className="heading relative mt-2 text-3xl">{h.deviceLabel}</p>
           <div className="relative mt-7 space-y-2.5 text-left">
             {site.copy.deviceRows.map(([k, v]) => (
-              <div key={k} className="flex justify-between rounded-full bg-white/10 px-4 py-2.5 text-xs">
-                <span className="text-white/70">{k}</span>
+              <div key={k} className="flex justify-between rounded-full bg-white/15 px-4 py-2.5 text-xs backdrop-blur">
+                <span className="text-white/75">{k}</span>
                 <span className="font-semibold">{v}</span>
               </div>
             ))}
